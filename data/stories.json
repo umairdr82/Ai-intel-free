@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-09T20:33:29.570681+00:00",
+  "updated_at": "2026-10-09T21:32:20.543015+00:00",
   "stories": [
+    {
+      "id": "4da66c44561719697fb6",
+      "title": "v3.28.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.28.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-09T20:49:22+00:00",
+      "summary": "3.28.0 (2026-10-09)\nFeatures\n\napi: add agent environment suspension and expiration (#4046) (6aa25a9)\n\nChores\n\ndeps: bump astral-sh/setup-uv from 10.1.0 to 10.2.0 (#4026) (8bfffd4)\ndeps: bump CodeQL init and analyze to 4.38.2 (#4025) (4f5e618)\ndeps: update PyJWT security constraint to 2.14.0 (#3991) (aaed2a7)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "36f74a1165945d075a5f",
       "title": "v1.13.0",
