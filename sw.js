@@ -1,0 +1,1 @@
+self.addEventListener('install',e=>{e.waitUntil(caches.open('aiintel-v1').then(c=>c.addAll(['./','./index.html'])));self.skipWaiting()});self.addEventListener('fetch',e=>{if(e.request.url.includes('data/stories.json'))return;e.respondWith(fetch(e.request).catch(()=>caches.match(e.request)))});
