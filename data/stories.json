@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T22:29:55.947748+00:00",
+  "updated_at": "2026-10-10T23:29:16.642476+00:00",
   "stories": [
     {
       "id": "04a3afe8fc92fa04289a",
@@ -284,6 +284,17 @@
       "source_type": "Release",
       "published_at": "2026-10-09T20:49:22+00:00",
       "summary": "3.28.0 (2026-10-09)\nFeatures\n\napi: add agent environment suspension and expiration (#4046) (6aa25a9)\n\nChores\n\ndeps: bump astral-sh/setup-uv from 10.1.0 to 10.2.0 (#4026) (8bfffd4)\ndeps: bump CodeQL init and analyze to 4.38.2 (#4025) (4f5e618)\ndeps: update PyJWT security constraint to 2.14.0 (#3991) (aaed2a7)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "fada9b8ec938f910e1ba",
+      "title": "v0.40.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-09T17:36:11+00:00",
+      "summary": "server: skip local model compatibility migration (#18908)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
