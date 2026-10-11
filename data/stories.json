@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T06:38:35.819331+00:00",
+  "updated_at": "2026-10-11T07:32:49.841421+00:00",
   "stories": [
     {
       "id": "de32d3b9322608aa8c64",
@@ -7,8 +7,8 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-11T06:32:54+00:00",
-      "summary": "What's Changed\n\nollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878\nollama launch codex no longer warns about service tiers by @hoyyeva in #18879\nPaused background model upgrades, which added overhead to every request in high-volume use such as embeddings, by @jmorganca in #18908\n\nFull Changelog: v0.40.2...v0.40.3",
+      "published_at": "2026-10-11T06:40:39+00:00",
+      "summary": "What's Changed\n\nollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878\nollama launch codex no longer warns about service tiers by @hoyyeva in #18879\nPaused background model upgrade for embedding and other request performance, by @jmorganca in #18908\n\nFull Changelog: v0.40.2...v0.40.3",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
