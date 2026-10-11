@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-11T03:34:01.638680+00:00",
+  "updated_at": "2026-10-11T04:33:16.718607+00:00",
   "stories": [
     {
-      "id": "fada9b8ec938f910e1ba",
+      "id": "de32d3b9322608aa8c64",
       "title": "v0.40.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-11T01:40:01+00:00",
+      "published_at": "2026-10-11T04:24:55+00:00",
       "summary": "What's Changed\n\nollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878\nollama launch codex no longer warns about service tiers by @hoyyeva in #18879\nPaused background model upgrades, which added overhead to every request in high-volume use such as embeddings, by @jmorganca in #18908\n\nFull Changelog: v0.40.2...v0.40.3-rc0",
       "importance": 3,
       "status": "PRIMARY SOURCE"
@@ -295,6 +295,17 @@
       "source_type": "Release",
       "published_at": "2026-10-09T20:49:22+00:00",
       "summary": "3.28.0 (2026-10-09)\nFeatures\n\napi: add agent environment suspension and expiration (#4046) (6aa25a9)\n\nChores\n\ndeps: bump astral-sh/setup-uv from 10.1.0 to 10.2.0 (#4026) (8bfffd4)\ndeps: bump CodeQL init and analyze to 4.38.2 (#4025) (4f5e618)\ndeps: update PyJWT security constraint to 2.14.0 (#3991) (aaed2a7)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "fada9b8ec938f910e1ba",
+      "title": "v0.40.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-09T17:36:11+00:00",
+      "summary": "server: skip local model compatibility migration (#18908)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -1993,5 +2004,5 @@
       "status": "PRIMARY SOURCE"
     }
   ],
-  "sources_checked": 13
+  "sources_checked": 12
 }
