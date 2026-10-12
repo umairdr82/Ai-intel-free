@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-12T18:38:51.833713+00:00",
+  "updated_at": "2026-10-12T19:33:17.460593+00:00",
   "stories": [
     {
       "id": "62bd2b4c042758daf6fa",
-      "title": "v0.40.4-rc0",
+      "title": "v0.40.4",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-12T18:01:37+00:00",
-      "summary": "MLX, MLX-C: version bump (#18956)",
+      "published_at": "2026-10-12T19:00:12+00:00",
+      "summary": "What's Changed\n\nllama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917\nserver: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947\nmlx: compact restored recurrent state after speculative rollback by @dhiltgen in #18955\nlaunch: include installed models in Codex /model picker by @ParthSareen in #18887\nMLX, MLX-C: version bump by @dhiltgen in #18956\n\nFull Changelog: v0.40.3...v0.40.4-rc0",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
