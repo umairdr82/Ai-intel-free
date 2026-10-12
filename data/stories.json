@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T16:34:50.036395+00:00",
+  "updated_at": "2026-10-12T17:34:31.355257+00:00",
   "stories": [
     {
       "id": "e3ff286dbca97504a483",
@@ -2185,7 +2185,7 @@
       "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
       "source": "Google Research",
       "source_type": "Official",
-      "published_at": "2026-08-31T17:19:40+00:00",
+      "published_at": "2026-08-31T17:19:00+00:00",
       "summary": "Data Management",
       "importance": 4,
       "status": "PRIMARY SOURCE"
