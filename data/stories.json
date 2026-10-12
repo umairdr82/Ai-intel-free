@@ -1,6 +1,281 @@
 {
-  "updated_at": "2026-10-12T03:37:57.287296+00:00",
+  "updated_at": "2026-10-12T04:36:44.747132+00:00",
   "stories": [
+    {
+      "id": "5633ac0815d3b59e4394",
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "url": "https://arxiv.org/abs/2610.12493",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failure of this objective, instead promoting overreliance on incorrect predictions, which can subsequently lead to algorithmic aversion. Rather, XAI appears to function primarily as a debugging tool, useful for obtaining anecdotal insights into, for example, features learned by the model. One of the main issues underlying this limit",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "be23a3f6c27fbe895a84",
+      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+      "url": "https://arxiv.org/abs/2610.12536",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12536v1 Announce Type: new \nAbstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated across ten independently initialized searches. Candidate-score medians rose between the first and final generations in all six tasks, and selected-winner search-score medians rose in five. In CartPole-v1, t",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "efb0e73fb923584ab288",
+      "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+      "url": "https://arxiv.org/abs/2610.12542",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12542v1 Announce Type: new \nAbstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart list scheduler with no search tree as the control; and a textbook-UCT MCTS arm as a registered follow-up on the same domain. The analysis plan was lo",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "f515c352b2b1e0ca5293",
+      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+      "url": "https://arxiv.org/abs/2610.12593",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12593v1 Announce Type: new \nAbstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning value for the current task agent. Existing methods increasingly incorporate environment feedback, data validation, or learner failures, but still face a feedback-to-decision gap: observed weaknesses do not directly specify how future synthesis should change, or whether they can be represented by the current synthesis space. To address this gap, we ",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "4e1d9d23d49d980baef0",
+      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+      "url": "https://arxiv.org/abs/2610.12596",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12596v1 Announce Type: new \nAbstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human player but remain far behind experts. This gap wi",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "5e67eaf20784dd128440",
+      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+      "url": "https://arxiv.org/abs/2610.12598",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12598v1 Announce Type: new \nAbstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investigate whether the current policy can judge its own trajectories and use these judgments to improve task performance without a separately trained reward model. To this end, we introduce Behavioral Self-Rewarding (BSR), a reward-refinement method that reuses the policy to compare observable debugging behavior among trajectories from the same task wit",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "a1f07204653975b51b41",
+      "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+      "url": "https://arxiv.org/abs/2610.12655",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12655v1 Announce Type: new \nAbstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet clarification is useful only when the agent can turn the answer into better decisions. As training changes how the agent handles incomplete information and uses additional answers, the same clarification can become more or less useful. We introduce CLEAT (CLarification through valuE-guided Agent co-Training), a framework that co-trains a clarifica",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "e56efa2c114e5c2800f6",
+      "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
+      "url": "https://arxiv.org/abs/2610.12659",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12659v1 Announce Type: new \nAbstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of effective RLVR data, we experimentally characterize dataset effectiveness as a function of its problems, the target policy, and the training rollout budget. Under this characterization, we show that a large open-source math corpus pooled from widely used RLVR datasets falls almost entirely into a zero-advantage trap: for a fixed target policy and rollou",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "6eb954742c5d07358a11",
+      "title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2610.12762",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12762v1 Announce Type: new \nAbstract: Hardware datasheets contain engineering specifications essential for component selection, system integration, and hardware compatibility verification. However, manual inspection is tedious and error-prone because datasheets are lengthy and heterogeneous, with dense information fragmented across tables, figures, and text. Although large language models (LLMs) can automate this process, na\\\"ive one-shot processing omits relevant specifications even when the document fits within the model's context window.\n  We present an automated LLM-driven pipeline that transforms hardware datasheets into gener",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "21e39efdd240830c71d2",
+      "title": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
+      "url": "https://arxiv.org/abs/2610.12781",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12781v1 Announce Type: new \nAbstract: Aligning two independently pretrained unimodal encoders typically demands millions of paired examples. In this paper, we study the regime where only $N \\sim 100$--$500$ pairs are available, while unpaired data on either side is abundant. Our method expresses every representation by its similarities to the $N$ paired anchors, which places both modalities in a common coordinate system; matches the two point clouds with a single entropic optimal transport problem solved over the entire pool, whose marginal constraints counteract the hubness that defeats nearest-neighbor matching; and distills the ",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "dc5079437446d0d598b3",
+      "title": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+      "url": "https://arxiv.org/abs/2610.12789",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12789v1 Announce Type: new \nAbstract: Self-evolving LLM agents typically improve how they act through accumulated experience, reflection, or skills. Yet even procedurally capable agents can fail when their beliefs about environment dynamics are incomplete, incorrect, or outdated. We study a complementary axis of self-evolution: evolving those beliefs during deployment. Such beliefs can support multiple tasks, but incorrect ones can also propagate across them. We introduce EvoBelief, a self-evolving world model that represents environment knowledge as falsifiable hypotheses. Unexpected outcomes and decision-relevant unknowns trigger",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "a458a7a32accc47148a4",
+      "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+      "url": "https://arxiv.org/abs/2610.12813",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12813v1 Announce Type: new \nAbstract: LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and security risks. Runtime guardrails should therefore make inspectable, reproducible, and deterministic allow or refuse decisions before potentially irreversible agent actions are executed. However, safety and security requirements are rarely complete before deployment, so guardrails need to keep adapting as new risks emerge. Existing adaptive guardrails learn from deployment experience, but they usually apply safety policies through LLM inference, whi",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "a4dd90d6140c3ef216a2",
+      "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
+      "url": "https://arxiv.org/abs/2610.12822",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12822v1 Announce Type: new \nAbstract: Multi-agent systems are increasingly used to solve coding tasks by coordinating agents that share code and plans. These agents are often optimized with reinforcement learning (RL) using automated evaluators, but bypassing evaluation can earn reward without producing a genuine solution. Prior work has largely treated reward hacking as a single-agent failure. In this work, we show that a reward-hacking strategy elicited in one agent can propagate to others and affect system coordination. Across four open-weight backbones, coding RL elicits and amplifies reward hacking in two settings: explicit me",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "2cd54cd01a9dda181dad",
+      "title": "Neural networks are more modular than single neurons suggest",
+      "url": "https://arxiv.org/abs/2610.12842",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12842v1 Announce Type: new \nAbstract: Neural networks routinely develop representations in which individual neurons contribute to multiple distinct functions, leading to the widespread view that such networks lack modular organization. We challenge this conclusion by introducing a formally nested hierarchy of modularity: unit-level, which requires distinct computations to occupy disjoint neurons; orthogonal, which asks whether a rotation reveals functionally independent subspaces; and linear, which asks whether a bounded linear map can separate task-relevant computations into independent subspaces. We develop a unified framework fo",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "c44cddece3f785e8b6a2",
+      "title": "Towards Defining, Measuring, and Leveraging Creativity in AI Applications",
+      "url": "https://arxiv.org/abs/2610.12845",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12845v1 Announce Type: new \nAbstract: Despite extensive research, computational creativity still lacks a conceptually grounded, practically relevant, and empirically applicable formal definition across contexts such as art, scientific research, and games. Existing approaches to creativity often focus on proposing informal conceptual definitions without providing formal computational concepts. Alternatively, they propose formal definitions without carefully examining their underlying assumptions or providing validation of these definitions by testing their performance in specific application settings. To address these problems, this",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "d2dabc55598a631b9ee2",
+      "title": "Mitigating Capability Degradation in LLM Self-Improvement via Representation Geometry Regularization",
+      "url": "https://arxiv.org/abs/2610.12855",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12855v1 Announce Type: new \nAbstract: On-Policy Self-distillation is a self-improvement paradigm that enables large language models (LLMs) to improve their capabilities by leveraging the same model as both teacher and student under different conditioning contexts. However, we find that OPSD methods can progressively degrade previously acquired capabilities: queries that are correctly responded at earlier training stages may become incorrectly responded as optimization proceeds, even the overall performance continues to improve. Further analysis reveals that this degradation coincides with a deterioration of the geometry of hidden r",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "5d8272b33ddc1af4bd0a",
+      "title": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
+      "url": "https://arxiv.org/abs/2610.12872",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12872v1 Announce Type: new \nAbstract: Large language models (LLMs) demonstrate strong individual task performance, yet still struggle to collaborate with users over extended, multi-turn interactions, for example by attempting solutions before understanding the user's needs or by failing to revise mistaken assumptions after receiving feedback. We propose Collaborative Theory of Mind (CToM), a framework that addresses these challenges by explicitly training LLMs to anticipate user responses and to use those predictions to improve their own behavior. CToM drafts a response, predicts how the user will respond, and uses this prediction ",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "cddd38274975085ddd37",
+      "title": "One-Step Text Generation by Seq-Drifting",
+      "url": "https://arxiv.org/abs/2610.12879",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12879v1 Announce Type: new \nAbstract: Diffusion language models generate tokens in parallel, but still require multiple sampling steps to produce high-quality text. In this paper, we investigate whether a model can learn to generate an entire sequence in a single forward pass. We propose Seq-Drifting, a framework that applies drifting to sequences of continuous token representations and directly learns a map from Gaussian noise to text. Unlike existing DLMs that derive the supervision at each position directly from the observed token in a training sequence, Seq-Drifting builds a drift field whose position-wise targets adapt to the ",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "000fc968bb43e92480cb",
+      "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+      "url": "https://arxiv.org/abs/2610.12881",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12881v1 Announce Type: new \nAbstract: Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models. However, existing evaluations of multimodal large language models (MLLMs) for spatial reasoning rely predominantly on static question-answering (QA) over small-scale or synthetic scenes, rarely probing whether models can modify spatial configurations while satisfying explicit geometric constraints. We introduce GeoSpatialBench, a benchmark designed to evaluate an escalating progression of spatial cognition, ranging from spatial relation under",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "44ca12e19a40f7fcc672",
+      "title": "OGPO: Offline Goal-conditioned Policy Optimization for Recoverable Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2610.12914",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12914v1 Announce Type: new \nAbstract: Vision-language-action (VLA) models have shown strong promise in robotic manipulation, yet their post-training still predominantly relies on trajectory-level supervised imitation over robot demonstrations. While effective for learning feasible actions, this paradigm supervises policies to reproduce expert actions at each step, biasing them toward demonstration-specific action paths and providing limited guidance for recovering toward task-progress states once execution deviates from demonstrated trajectories. To address this limitation, we propose OGPO, an Offline Goal-conditioned Policy Optimi",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "ef0706f3d0161a7692c1",
+      "title": "DeFiRank: Federated Pairwise Ranking for Governance in Decentralized Financial Networks",
+      "url": "https://arxiv.org/abs/2610.12916",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12916v1 Announce Type: new \nAbstract: Existing governance approaches in decentralized financial networks rely on manual review processes conducted by human committees, which introduces subjective bias, creates a scalability bottleneck under high network volume, and fails to capture complex behavioural patterns and evolving network dynamics. To address these limitations, we propose \\name, a federated learning-based pairwise ranking framework in which multiple institutions collaboratively train a ranking model without sharing their private transaction data. This collaborative learning enables the model to capture network-wide behavio",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "f14628c7e101ae1887d8",
+      "title": "AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization",
+      "url": "https://arxiv.org/abs/2610.12917",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12917v1 Announce Type: new \nAbstract: AI shopping assistants increasingly influence which products consumers consider. We study retail assortment planning under AI mediation, where a retailer chooses a catalog, an AI intermediary forms a customer-facing shortlist, and the customer chooses from that shortlist according to a multinomial logit model. We consider both deterministic mediation, in which the AI follows a fixed segment-specific ranking, and stochastic mediation based on the Plackett-Luce model.\n  Empirically, we construct a dataset of product rankings from leading AI models, estimate Plackett-Luce ranking models, and evalu",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "c26ae049a2a52761b212",
+      "title": "Teaching neural decoders with language",
+      "url": "https://arxiv.org/abs/2610.12921",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12921v1 Announce Type: new \nAbstract: Brain-computer interfaces decode neural activity, yet class-label supervision (CLS) leaves relationships among classes implicit. We propose Language as Supervision (LaS), which aligns neural features with natural-language class descriptions through learned projections and predicts classes using candidate text prototypes. We evaluate seven encoder architectures with independently trained models for visual, motor, and speech decoding from scalp and intracranial recordings. LaS improves speech-decoding accuracy by up to 17.15~pp over matched CLS baselines. Its representations support candidate-set",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "0fcd4629093f8692e4cc",
+      "title": "Collaborative Learning and Reasoning over Model Slices",
+      "url": "https://arxiv.org/abs/2610.12927",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12927v1 Announce Type: new \nAbstract: Large language models (LLMs) excel across diverse tasks, benefiting from knowledge priors, in-context reasoning, and test-time computation. Despite these strengths, single-model reasoning remains vulnerable to error propagation, as later steps depend on the model's earlier outputs, leaving reasoning blind spots difficult to independently reassess. To address this limitation, we develop \\textit{collaborative learning}, encompassing the construction of heterogeneous collaborators and the learning of effective cross-model collaboration. Specifically, \\textit{model slicing} replaces a large model w",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "8df6df601655f17ef834",
+      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+      "url": "https://arxiv.org/abs/2610.12933",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12933v1 Announce Type: new \nAbstract: Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can substantially increase training cost without proportional performance gains. In this study, we therefore ask: how far can reasoning supervision be compressed without sacrificing capability? To this end, we propose an uncertainty-guided progressive contraction framework that concentrates supervision and optimization on the reasoning trajectories most valuable for learning. Specifically, rather than treating a teacher-generated chain-of-thought (CoT) ",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
     {
       "id": "69d3bdce5fc6a4e84ed5",
       "title": "v3.29.0",
@@ -2015,5 +2290,5 @@
       "status": "PRIMARY SOURCE"
     }
   ],
-  "sources_checked": 12
+  "sources_checked": 13
 }
