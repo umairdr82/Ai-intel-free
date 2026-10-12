@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-12T15:36:54.796894+00:00",
+  "updated_at": "2026-10-12T16:34:50.036395+00:00",
   "stories": [
+    {
+      "id": "e3ff286dbca97504a483",
+      "title": "Simulating student learning for better AI tutoring",
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-10-12T16:00:00+00:00",
+      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics.\nThe post Simulating student learning for better AI tutoring appeared first on Microsoft Research.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "5633ac0815d3b59e4394",
       "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
