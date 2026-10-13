@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-13T20:49:24.849998+00:00",
+  "updated_at": "2026-10-13T21:44:39.893087+00:00",
   "stories": [
+    {
+      "id": "ebde56fe0030c1c198cf",
+      "title": "v0.40.4-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-13T21:23:05+00:00",
+      "summary": "launch: allow usage credits without upgrading (#18985)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "8b1ab1df41ac00d8450a",
       "title": "Developing Gemini 4 Argon responsibly and safely",
