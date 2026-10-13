@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-13T21:44:39.893087+00:00",
+  "updated_at": "2026-10-13T22:44:50.280670+00:00",
   "stories": [
     {
       "id": "ebde56fe0030c1c198cf",
-      "title": "v0.40.4-rc2",
+      "title": "v0.40.4",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-13T21:23:05+00:00",
-      "summary": "launch: allow usage credits without upgrading (#18985)",
+      "published_at": "2026-10-13T22:03:22+00:00",
+      "summary": "What's Changed\n\nllama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917\nserver: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947\nmlx: compact restored recurrent state after speculative rollback by @dhiltgen in #18955\nlaunch: include installed models in Codex /model picker by @ParthSareen in #18887\nMLX, MLX-C: version bump by @dhiltgen in #18956\n\nFull Changelog: v0.40.3...v0.40.4-rc1",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -91,12 +91,12 @@
     },
     {
       "id": "f486bca1d4d81e147c06",
-      "title": "v0.40.4",
+      "title": "v0.40.4-rc1: Add Kev decision scoring to MLX (#18976)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-13T05:26:17+00:00",
-      "summary": "What's Changed\n\nllama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917\nserver: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947\nmlx: compact restored recurrent state after speculative rollback by @dhiltgen in #18955\nlaunch: include installed models in Codex /model picker by @ParthSareen in #18887\nMLX, MLX-C: version bump by @dhiltgen in #18956\n\nFull Changelog: v0.40.3...v0.40.4-rc1",
+      "published_at": "2026-10-13T04:50:41+00:00",
+      "summary": "Add Kev decision scoring to MLX\n\nLoad Kev models with their FP32 decision head and release metadata.\nSupport System One scoring with shared-state caching and Kev-specific limits.\n\naddress comments",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
