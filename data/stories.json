@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-13T15:37:54.098552+00:00",
+  "updated_at": "2026-10-13T16:37:11.840100+00:00",
   "stories": [
+    {
+      "id": "94cc08977f17740f09c1",
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-10-13T16:01:58+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "851107eacfc8ba0f286d",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-10-13T16:01:52+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "74c9e10c02543c499970",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-10-13T16:00:00+00:00",
+      "summary": "TBD",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "f486bca1d4d81e147c06",
       "title": "v0.40.4",
