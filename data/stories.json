@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-13T18:42:52.129852+00:00",
+  "updated_at": "2026-10-13T19:46:58.700882+00:00",
   "stories": [
+    {
+      "id": "8b1ab1df41ac00d8450a",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-10-13T19:43:07+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "7a679d710e8c186b4153",
       "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
@@ -54,6 +65,17 @@
       "published_at": "2026-10-13T16:00:00+00:00",
       "summary": "TBD",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8d45898e533e591d4241",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-13T12:00:00+00:00",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
