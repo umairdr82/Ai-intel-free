@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-13T17:34:57.511943+00:00",
+  "updated_at": "2026-10-13T18:42:52.129852+00:00",
   "stories": [
+    {
+      "id": "7a679d710e8c186b4153",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "source": "GitHub AI",
+      "source_type": "Official",
+      "published_at": "2026-10-13T17:56:33+00:00",
+      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.\nThe post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "53911f98c21c784fce1a",
       "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
