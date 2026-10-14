@@ -1,14 +1,25 @@
 {
-  "updated_at": "2026-10-13T23:41:36.355677+00:00",
+  "updated_at": "2026-10-14T00:58:36.108666+00:00",
   "stories": [
     {
-      "id": "ebde56fe0030c1c198cf",
+      "id": "2fbafa8be8d3a6c95283",
       "title": "v0.40.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-14T00:53:28+00:00",
+      "summary": "What's Changed\n\nllama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917\nserver: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947\nmlx: compact restored recurrent state after speculative rollback by @dhiltgen in #18955\nlaunch: include installed models in Codex /model picker by @ParthSareen in #18887\nMLX, MLX-C: version bump by @dhiltgen in #18956\n\nFull Changelog: v0.40.3...v0.40.4-rc1",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "ebde56fe0030c1c198cf",
+      "title": "v0.40.4-rc2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-13T22:03:22+00:00",
-      "summary": "What's Changed\n\nllama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917\nserver: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947\nmlx: compact restored recurrent state after speculative rollback by @dhiltgen in #18955\nlaunch: include installed models in Codex /model picker by @ParthSareen in #18887\nMLX, MLX-C: version bump by @dhiltgen in #18956\n\nFull Changelog: v0.40.3...v0.40.4-rc1",
+      "published_at": "2026-10-13T21:23:05+00:00",
+      "summary": "launch: allow usage credits without upgrading (#18985)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
