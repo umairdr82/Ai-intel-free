@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-14T18:57:15.851223+00:00",
+  "updated_at": "2026-10-14T19:46:34.461375+00:00",
   "stories": [
     {
       "id": "c93c3e8d8c8dfb19f8dd",
-      "title": "v0.40.5-rc0",
+      "title": "v0.40.5",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-14T18:27:53+00:00",
-      "summary": "MLX: version bump (#18993)",
+      "published_at": "2026-10-14T19:45:22+00:00",
+      "summary": "What's Changed\n\nmlx: port the Metal custom kernels to CUDA by @dhiltgen in #18657\ndocs: model recs and language standardization by @anra8571 in #18981\nopenai: accept custom tool calls in Responses history by @hoyyeva in #18911\napp: clarify cloud payment errors by @willietran in #18986\nMLX: version bump by @dhiltgen in #18993\n\nNew Contributors\n\n@willietran made their first contribution in #18986\n\nFull Changelog: v0.40.4...v0.40.5-rc0",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
