@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-14T03:47:52.849401+00:00",
+  "updated_at": "2026-10-14T04:48:49.314726+00:00",
   "stories": [
+    {
+      "id": "867ed6f1560d08ef6bb4",
+      "title": "v3.30.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.30.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-14T04:00:19+00:00",
+      "summary": "3.30.0 (2026-10-14)\nFeatures\n\napi: add beta session spending limits (#4058) (b570279)\napi: add OCI external-storage provider support (#4060) (9eb83fe)\napi: add organization Decisions usage reporting (#4062) (5e7a23e)\napi: expose image tool error and moderation details (#4072) (c5452af)\napi: support image URLs and detailed safety alert explanations (#4061) (3c50399)\napi: support updating project API key expiry (#4066) (1f05e33)\n\nBug Fixes\n\nstreaming: restore async HTTP/1.1 connection reuse (#4041) (1f6cfe1)\n\nChores\n\napi: clarify agent tool limits and environment pagination (#4065) (0f73f1d)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "2fbafa8be8d3a6c95283",
       "title": "v0.40.4",
