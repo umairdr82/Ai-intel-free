@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14T16:50:13.055501+00:00",
+  "updated_at": "2026-10-14T17:46:48.341460+00:00",
   "stories": [
     {
-      "id": "4c456e668ef45cba83b5",
-      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
-      "source": "Google Research",
-      "source_type": "Official",
-      "published_at": "2026-10-14T16:14:38+00:00",
-      "summary": "Earth AI",
-      "importance": 4,
+      "id": "4842199aacb89864a058",
+      "title": "v1.14.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-14T17:13:08+00:00",
+      "summary": "Features\n\napi: add execution_identity to Managed Agents agents\napi: add organization_type_not_supported error to spend limit lists\napi: add telemetry destination test endpoint\napi: add telemetry destinations to the Admin API\nclient: add OpenTelemetry tracing for API calls, streaming and tool runs\n\nBug Fixes\n\napi: rename telemetry destination test response model\nclient: close dropped streams without waiting for the collector\nstreaming: pass unknown event types through the message stream helpers\nstreaming: stop raising \"Unexpected event order\" for an event before message_start\n\nChores\n\ndocs: correct prefill, thinking, fallback and model descrip",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -21,6 +21,17 @@
       "published_at": "2026-10-14T16:14:34+00:00",
       "summary": "General Science",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "4c456e668ef45cba83b5",
+      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "summary": "Earth AI",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -43,6 +54,17 @@
       "published_at": "2026-10-14T16:12:42+00:00",
       "summary": "",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "57c3309db5bedcdec4e0",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
