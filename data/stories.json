@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-14T14:48:13.575206+00:00",
+  "updated_at": "2026-10-14T15:52:49.985686+00:00",
   "stories": [
+    {
+      "id": "a8b8c31de898145e14c8",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-14T07:00:00+00:00",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "f1d896ad43916b00f3f5",
       "title": "v3.31.0",
