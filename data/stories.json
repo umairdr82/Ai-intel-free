@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-10-14T15:52:49.985686+00:00",
+  "updated_at": "2026-10-14T16:50:13.055501+00:00",
   "stories": [
+    {
+      "id": "4c456e668ef45cba83b5",
+      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-10-14T16:14:38+00:00",
+      "summary": "Earth AI",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "f366508f96854306126f",
+      "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+      "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-10-14T16:14:34+00:00",
+      "summary": "General Science",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "6c3fa003d587daac7dd7",
+      "title": "Analyzing technical documents with Deep Review",
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "summary": "General Science",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "504a28fcb44d1a3d50f6",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-14T16:12:42+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "a8b8c31de898145e14c8",
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
