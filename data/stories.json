@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-15T15:49:59.321692+00:00",
+  "updated_at": "2026-10-15T16:49:18.330917+00:00",
   "stories": [
+    {
+      "id": "ed0e38dfc7378c4e97cc",
+      "title": "v0.40.5-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-15T16:11:12+00:00",
+      "summary": "llama.cpp: version bump b11669 (#19032)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "ad09b0946a60b7ff505a",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-10-15T16:08:03+00:00",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "2b0a4f23c4eeb155767a",
+      "title": "Proof-based general-purpose computing with Magnetar",
+      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-10-15T16:00:00+00:00",
+      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security.\nThe post Proof-based general-purpose computing with Magnetar appeared first on Microsoft Research.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "c382892319c647d5502c",
       "title": "v0.40.5",
