@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T13:00:29.146490+00:00",
+  "updated_at": "2026-10-15T13:55:03.636060+00:00",
   "stories": [
     {
       "id": "4842199aacb89864a058",
@@ -10,6 +10,17 @@
       "published_at": "2026-10-15T09:48:10+00:00",
       "summary": "Features\n\n\napi: add execution_identity to Managed Agents agents\n\n\napi: add organization_type_not_supported error to spend limit lists\n\n\napi: add telemetry destination test endpoint\n\n\napi: add telemetry destinations to the Admin API\n\n\nclient: add native support for OpenTelemetry tracing\nIf your app registers a global tracer provider, the SDK will create spans with it after upgrading, and they'll be exported with the rest of your traces. Requests will also get trace context headers from the global propagator. To disable, pass open_telemetry=False to the client or set ANTHROPIC_OPEN_TELEMETRY=false. Learn more in the documentation.\n\n\nBug Fixes\n\n",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "39052ad94a8a76cc68a2",
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-15T09:08:45+00:00",
+      "summary": "",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
