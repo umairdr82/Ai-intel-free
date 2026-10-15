@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-15T13:55:03.636060+00:00",
+  "updated_at": "2026-10-15T14:49:06.045591+00:00",
   "stories": [
+    {
+      "id": "c382892319c647d5502c",
+      "title": "v0.40.5-rc1: New model... (#19030)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-15T14:28:26+00:00",
+      "summary": "ci: shorten Windows Vulkan build path\n\nKeep the nested shader-generator compiler probes below Windows path limits in checkouts with longer repository names.\n\nmlx: fix Nemotron bugs and support global scales\n\nAccept published Nemotron layer names while retaining legacy aliases, and\nfix layer-count inference and detached MTP quantization. Stabilize Mamba\nsoftplus, preserve FP32 vision normalization, and compile Mamba gate and\nnorm scaling.\nSupport per-expert F32 global scales and preserve activation-scale\ncompanions in ModelOpt and compressed-tensors NVFP4 imports. Normalize\nreciprocal globals and reject invalid scales. Keep activation scales\ns",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a60f4a701f887ae8f46b",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-15T13:00:00+00:00",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "4842199aacb89864a058",
       "title": "v1.14.0",
