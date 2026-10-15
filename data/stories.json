@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-15T19:43:46.328540+00:00",
+  "updated_at": "2026-10-15T20:46:57.985513+00:00",
   "stories": [
+    {
+      "id": "d330643595776f9f542e",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-15T20:34:01+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "6212408fa949e8ab5e59",
+      "title": "v1.15.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-15T19:45:15+00:00",
+      "summary": "Features\n\napi: add between_tools to thinking types in model capabilities\napi: add the speed parameter and usage.speed to Messages\napi: return a Console organization's usage-tier spend cap as a read-only spend limit\n\nChores\n\nci: speed up breaking change detection\ndocs: describe headers on Managed Agents and telemetry endpoints\ninternal: simplify the script that formats code blocks in docs\ntests: cover OpenTelemetry options and method default timeouts\n\nDocumentation\n\napi: note that some models need a beta header to use speed",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "7da99f40f855b50457e2",
       "title": "v0.40.5",
