@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-15T09:47:53.661479+00:00",
+  "updated_at": "2026-10-15T10:49:04.002651+00:00",
   "stories": [
+    {
+      "id": "4842199aacb89864a058",
+      "title": "v1.14.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-15T09:48:10+00:00",
+      "summary": "Features\n\n\napi: add execution_identity to Managed Agents agents\n\n\napi: add organization_type_not_supported error to spend limit lists\n\n\napi: add telemetry destination test endpoint\n\n\napi: add telemetry destinations to the Admin API\n\n\nclient: add native support for OpenTelemetry tracing\nIf your app registers a global tracer provider, the SDK will create spans with it after upgrading, and they'll be exported with the rest of your traces. Requests will also get trace context headers from the global propagator. To disable, pass open_telemetry=False to the client or set ANTHROPIC_OPEN_TELEMETRY=false. Learn more in the documentation.\n\n\nBug Fixes\n\n",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "c9d380c0b10dcf2109ca",
       "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
@@ -284,17 +295,6 @@
       "source_type": "Release",
       "published_at": "2026-10-14T19:45:22+00:00",
       "summary": "What's Changed\n\nmlx: port the Metal custom kernels to CUDA by @dhiltgen in #18657\ndocs: model recs and language standardization by @anra8571 in #18981\nopenai: accept custom tool calls in Responses history by @hoyyeva in #18911\napp: clarify cloud payment errors by @willietran in #18986\nMLX: version bump by @dhiltgen in #18993\n\nNew Contributors\n\n@willietran made their first contribution in #18986\n\nFull Changelog: v0.40.4...v0.40.5-rc0",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "4842199aacb89864a058",
-      "title": "v1.14.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0",
-      "source": "Anthropic SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-14T17:13:08+00:00",
-      "summary": "Features\n\napi: add execution_identity to Managed Agents agents\napi: add organization_type_not_supported error to spend limit lists\napi: add telemetry destination test endpoint\napi: add telemetry destinations to the Admin API\nclient: add OpenTelemetry tracing for API calls, streaming and tool runs\n\nBug Fixes\n\napi: rename telemetry destination test response model\nclient: close dropped streams without waiting for the collector\nstreaming: pass unknown event types through the message stream helpers\nstreaming: stop raising \"Unexpected event order\" for an event before message_start\n\nChores\n\ndocs: correct prefill, thinking, fallback and model descrip",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
