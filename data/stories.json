@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-15T14:49:06.045591+00:00",
+  "updated_at": "2026-10-15T15:49:59.321692+00:00",
   "stories": [
     {
       "id": "c382892319c647d5502c",
-      "title": "v0.40.5-rc1: New model... (#19030)",
+      "title": "v0.40.5",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-15T14:28:26+00:00",
-      "summary": "ci: shorten Windows Vulkan build path\n\nKeep the nested shader-generator compiler probes below Windows path limits in checkouts with longer repository names.\n\nmlx: fix Nemotron bugs and support global scales\n\nAccept published Nemotron layer names while retaining legacy aliases, and\nfix layer-count inference and detached MTP quantization. Stabilize Mamba\nsoftplus, preserve FP32 vision normalization, and compile Mamba gate and\nnorm scaling.\nSupport per-expert F32 global scales and preserve activation-scale\ncompanions in ModelOpt and compressed-tensors NVFP4 imports. Normalize\nreciprocal globals and reject invalid scales. Keep activation scales\ns",
-      "importance": 4,
+      "published_at": "2026-10-15T15:07:44+00:00",
+      "summary": "What's Changed\n\nmlx: port the Metal custom kernels to CUDA by @dhiltgen in #18657\ndocs: model recs and language standardization by @anra8571 in #18981\nopenai: accept custom tool calls in Responses history by @hoyyeva in #18911\napp: clarify cloud payment errors by @willietran in #18986\nMLX: version bump by @dhiltgen in #18993\n\nNew Contributors\n\n@willietran made their first contribution in #18986\n\nFull Changelog: v0.40.4...v0.40.5-rc0",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -321,13 +321,24 @@
       "status": "PREPRINT"
     },
     {
+      "id": "eb67409897ed2136a753",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "c93c3e8d8c8dfb19f8dd",
-      "title": "v0.40.5",
+      "title": "v0.40.5-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-14T19:45:22+00:00",
-      "summary": "What's Changed\n\nmlx: port the Metal custom kernels to CUDA by @dhiltgen in #18657\ndocs: model recs and language standardization by @anra8571 in #18981\nopenai: accept custom tool calls in Responses history by @hoyyeva in #18911\napp: clarify cloud payment errors by @willietran in #18986\nMLX: version bump by @dhiltgen in #18993\n\nNew Contributors\n\n@willietran made their first contribution in #18986\n\nFull Changelog: v0.40.4...v0.40.5-rc0",
+      "published_at": "2026-10-14T18:27:53+00:00",
+      "summary": "MLX: version bump (#18993)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
