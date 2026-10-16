@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T22:45:00.599066+00:00",
+  "updated_at": "2026-10-16T23:39:43.185601+00:00",
   "stories": [
     {
       "id": "960b79ede6c466dc76b0",
@@ -20,6 +20,17 @@
       "source_type": "Release",
       "published_at": "2026-10-16T20:17:26+00:00",
       "summary": "3.32.0 (2026-10-16)\nFeatures\n\napi: add cache settings and key options [2/2] (#4087) (325da45)\napi: add prompt-based voice creation (#4091) (2e39db7)\napi: add regional processing residency options (#4081) (21ce0c2)\napi: add response error diagnostics and model notices (#4086) (e71d781)\napi: support audio fixture playback in Live sessions (#4085) (9998c1a)\napi: support Decisions in Live sessions (#4088) (230a923)\n\nBug Fixes\n\napi: declare Realtime response error messages (#4083) (95dbee9)\n\nChores\n\napi: clarify Decisions request and response fields (#4079) (d42accb)\n\nRefactors\n\nshare WebSocket connection handling (#4084) (70d4738)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9732b2763df5a67ab945",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
