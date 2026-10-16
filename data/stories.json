@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T23:41:08.809606+00:00",
+  "updated_at": "2026-10-16T00:55:36.433782+00:00",
   "stories": [
     {
       "id": "d330643595776f9f542e",
@@ -428,6 +428,17 @@
       "published_at": "2026-10-15T00:00:00+00:00",
       "summary": "",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "94eadcab22c41e356a1d",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
