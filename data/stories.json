@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-16T12:59:31.959557+00:00",
+  "updated_at": "2026-10-16T13:52:35.293222+00:00",
   "stories": [
     {
       "id": "ad81c0b4930729b94c5b",
-      "title": "v5.20.1",
+      "title": "Release v5.20.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
       "source": "Transformers",
       "source_type": "Release",
-      "published_at": "2026-10-16T12:45:10+00:00",
-      "summary": "Add tag v5.20.1",
-      "importance": 3,
+      "published_at": "2026-10-16T13:02:29+00:00",
+      "summary": "Release v5.20.1\nSpecial surprise including the new model Beam from Reflection AI 🥳\n\nBeam is a token-efficient, frontier-scale model focused on coding and agentic use cases. It is built for teams that want to run a powerful model on their own hardware, infrastructure, or cloud, and customize it to their specific needs.\nLinks: Documentation\n\nFix small bug in auto mappings (#49664) by @yonigozlan in #49664\n\nSome real patch fixes\nWe broke loading models on older torch versions 😢 should be fixed now. But here is the full list of fixes\n\nFix HunYuan-VL image assignment during batched generation (#49557) by @Arnav66692\nFix DeepGEMM Mega MoE under exp",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -296,6 +296,17 @@
       "published_at": "2026-10-16T01:44:47+00:00",
       "summary": "",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c9a6184923cc1a5837b4",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
