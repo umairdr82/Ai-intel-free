@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-16T17:44:32.239775+00:00",
+  "updated_at": "2026-10-16T18:52:17.804954+00:00",
   "stories": [
+    {
+      "id": "dd1029b4b030aba3c24c",
+      "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "summary": "General Science",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "ad81c0b4930729b94c5b",
       "title": "Release v5.20.1",
