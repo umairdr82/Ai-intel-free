@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-16T21:44:48.485153+00:00",
+  "updated_at": "2026-10-16T22:45:00.599066+00:00",
   "stories": [
+    {
+      "id": "960b79ede6c466dc76b0",
+      "title": "v0.40.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-16T22:43:31+00:00",
+      "summary": "What's Changed\n\nwin: prevent orphaned runners by @dhiltgen in #18500\ngguf: add the q2_0 tensor and file types by @jmorganca in #18967\nLaunch clef in Ollama's cloud by @jberg5 in #19036\nuse identifiers for --ask mode question keys by @jberg5 in #19041\n\nFull Changelog: v0.40.5...v0.40.6-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "f2bbffb158fe86350611",
       "title": "v3.32.0",
