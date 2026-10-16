@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-16T11:46:52.667564+00:00",
+  "updated_at": "2026-10-16T12:59:31.959557+00:00",
   "stories": [
+    {
+      "id": "ad81c0b4930729b94c5b",
+      "title": "v5.20.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-10-16T12:45:10+00:00",
+      "summary": "Add tag v5.20.1",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "a828bd7f7dff23d55597",
       "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
