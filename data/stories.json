@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T20:46:46.755686+00:00",
+  "updated_at": "2026-10-16T21:44:48.485153+00:00",
   "stories": [
     {
       "id": "f2bbffb158fe86350611",
@@ -317,6 +317,17 @@
       "source_type": "Official",
       "published_at": "2026-10-16T01:44:47+00:00",
       "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "52c93fcf6b24dbf372a9",
+      "title": "v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-16T01:09:41+00:00",
+      "summary": "use identifiers for --ask mode question keys",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
