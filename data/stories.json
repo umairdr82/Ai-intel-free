@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-16T19:43:32.754192+00:00",
+  "updated_at": "2026-10-16T20:46:46.755686+00:00",
   "stories": [
+    {
+      "id": "f2bbffb158fe86350611",
+      "title": "v3.32.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.32.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-16T20:17:26+00:00",
+      "summary": "3.32.0 (2026-10-16)\nFeatures\n\napi: add cache settings and key options [2/2] (#4087) (325da45)\napi: add prompt-based voice creation (#4091) (2e39db7)\napi: add regional processing residency options (#4081) (21ce0c2)\napi: add response error diagnostics and model notices (#4086) (e71d781)\napi: support audio fixture playback in Live sessions (#4085) (9998c1a)\napi: support Decisions in Live sessions (#4088) (230a923)\n\nBug Fixes\n\napi: declare Realtime response error messages (#4083) (95dbee9)\n\nChores\n\napi: clarify Decisions request and response fields (#4079) (d42accb)\n\nRefactors\n\nshare WebSocket connection handling (#4084) (70d4738)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "dd1029b4b030aba3c24c",
       "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
