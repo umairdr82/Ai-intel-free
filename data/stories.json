@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T18:52:17.804954+00:00",
+  "updated_at": "2026-10-16T19:43:32.754192+00:00",
   "stories": [
     {
       "id": "dd1029b4b030aba3c24c",
@@ -317,6 +317,17 @@
       "source_type": "Official",
       "published_at": "2026-10-16T00:00:00+00:00",
       "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9e63539289a31c8631b6",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
