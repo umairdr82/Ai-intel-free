@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-17T22:39:53.652124+00:00",
+  "updated_at": "2026-10-17T23:35:37.529851+00:00",
   "stories": [
+    {
+      "id": "87525bd1d9561d5fdc46",
+      "title": "v3.35.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.35.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-17T23:13:52+00:00",
+      "summary": "3.35.0 (2026-10-17)\nFeatures\n\napi: add typed Live sideband events (#4099) (8d5cbf0)\napi: add ultrafast service tier for Agents (#4101) (100bf8f)\n\nBug Fixes\n\nrealtime: preserve byte receives with websockets 13 (#4098) (309916e)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "2434881791854a653a12",
+      "title": "v0.40.7-rc0: mlx: add PPLX Decider v1.2 support (#19072)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-17T21:45:55+00:00",
+      "summary": "Implement the Qwen3.5-backed decision scorer with noncausal attention,\nthe publisher readout, image handling, and System One prompt encoding.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "12b904c1ef68ba4e866e",
       "title": "v3.34.0",
