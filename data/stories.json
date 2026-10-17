@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-17T19:37:50.296357+00:00",
+  "updated_at": "2026-10-17T20:41:46.236045+00:00",
   "stories": [
+    {
+      "id": "12b904c1ef68ba4e866e",
+      "title": "v3.34.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-17T20:34:04+00:00",
+      "summary": "3.34.0 (2026-10-17)\nFeatures\n\napi: add degraded external storage status (#4097) (b216cb2)\napi: add Realtime Translation WebSocket sessions (#4095) (bfada50)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "630ca87cf322b200196e",
       "title": "v0.40.6",
