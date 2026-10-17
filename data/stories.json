@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-16T23:39:43.185601+00:00",
+  "updated_at": "2026-10-17T00:57:18.503283+00:00",
   "stories": [
+    {
+      "id": "38a5c87a8693fe60d99f",
+      "title": "v3.33.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.33.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-17T00:29:04+00:00",
+      "summary": "3.33.0 (2026-10-16)\nFeatures\n\napi: add safety identifiers to image requests and responses (#4093) (c969e32)\napi: share Decisions cache breakpoint parameter type (#4092) (f7cefda)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "630ca87cf322b200196e",
+      "title": "v0.40.6: docs: add model grouping to cloud usage (#19069)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-16T23:01:01+00:00",
+      "summary": "docs: add model grouping to cloud usage\n\nDocument group_by=model in the cloud usage guide and OpenAPI schema.\nExplain group selection and remainder, and show responses with multiple\nmodels across time buckets.\n\nUpdate docs/api/cloud-usage.mdx\n\nCo-authored-by: Bruce MacDonald brucewmacdonald@gmail.com\n\nCo-authored-by: Bruce MacDonald brucewmacdonald@gmail.com",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "960b79ede6c466dc76b0",
       "title": "v0.40.6",
