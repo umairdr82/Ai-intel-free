@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-17T14:42:20.285843+00:00",
+  "updated_at": "2026-10-17T15:42:00.894122+00:00",
   "stories": [
+    {
+      "id": "630ca87cf322b200196e",
+      "title": "v0.40.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-17T15:29:04+00:00",
+      "summary": "What's Changed\n\nwin: prevent orphaned runners by @dhiltgen in #18500\ngguf: add the q2_0 tensor and file types by @jmorganca in #18967\nLaunch clef in Ollama's cloud by @jberg5 in #19036\nuse identifiers for --ask mode question keys by @jberg5 in #19041\n\nFull Changelog: v0.40.5...v0.40.6-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "a828bd7f7dff23d55597",
       "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
@@ -275,17 +286,6 @@
       "summary": "arXiv:2610.20960v1 Announce Type: new \nAbstract: Safety in agentic systems is inherently sequential: whether an action is safe depends on prior actions, tool outputs, information disclosures, and interactions among agents. Recent work has shifted agent safety guardrails from post-hoc trajectory-level assessment toward step-level action diagnosis and proactive risk prediction, yet existing training objectives provide limited supervision for how step evidence accumulates over time and when it becomes sufficient to justify intervention. We propose \\methodlong~(ASPO): a training framework for step-level timely intervention. Pre-fix level stage al",
       "importance": 2,
       "status": "PREPRINT"
-    },
-    {
-      "id": "630ca87cf322b200196e",
-      "title": "v0.40.6",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-17T00:58:39+00:00",
-      "summary": "What's Changed\n\nwin: prevent orphaned runners by @dhiltgen in #18500\ngguf: add the q2_0 tensor and file types by @jmorganca in #18967\nLaunch clef in Ollama's cloud by @jberg5 in #19036\nuse identifiers for --ask mode question keys by @jberg5 in #19041\n\nFull Changelog: v0.40.5...v0.40.6-rc0",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     },
     {
       "id": "38a5c87a8693fe60d99f",
