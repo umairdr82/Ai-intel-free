@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-17T00:57:18.503283+00:00",
+  "updated_at": "2026-10-17T01:42:55.430002+00:00",
   "stories": [
+    {
+      "id": "630ca87cf322b200196e",
+      "title": "v0.40.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-17T00:58:39+00:00",
+      "summary": "What's Changed\n\nwin: prevent orphaned runners by @dhiltgen in #18500\ngguf: add the q2_0 tensor and file types by @jmorganca in #18967\nLaunch clef in Ollama's cloud by @jberg5 in #19036\nuse identifiers for --ask mode question keys by @jberg5 in #19041\n\nFull Changelog: v0.40.5...v0.40.6-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "38a5c87a8693fe60d99f",
       "title": "v3.33.0",
@@ -13,24 +24,13 @@
       "status": "PRIMARY SOURCE"
     },
     {
-      "id": "630ca87cf322b200196e",
-      "title": "v0.40.6: docs: add model grouping to cloud usage (#19069)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-16T23:01:01+00:00",
-      "summary": "docs: add model grouping to cloud usage\n\nDocument group_by=model in the cloud usage guide and OpenAPI schema.\nExplain group selection and remainder, and show responses with multiple\nmodels across time buckets.\n\nUpdate docs/api/cloud-usage.mdx\n\nCo-authored-by: Bruce MacDonald brucewmacdonald@gmail.com\n\nCo-authored-by: Bruce MacDonald brucewmacdonald@gmail.com",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
       "id": "960b79ede6c466dc76b0",
-      "title": "v0.40.6",
+      "title": "v0.40.6-rc1: transfer: support proxies on registry redirect targets (#19065)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-16T22:43:31+00:00",
-      "summary": "What's Changed\n\nwin: prevent orphaned runners by @dhiltgen in #18500\ngguf: add the q2_0 tensor and file types by @jmorganca in #18967\nLaunch clef in Ollama's cloud by @jberg5 in #19036\nuse identifiers for --ask mode question keys by @jberg5 in #19041\n\nFull Changelog: v0.40.5...v0.40.6-rc0",
+      "published_at": "2026-10-16T22:00:17+00:00",
+      "summary": "Behind a proxy, defer redirect-target DNS to the proxy; without one, keep the resolve-and-pin path. Trust default-registry/CDN hostnames with no local DNS. Fix a nil CancelFunc crash in blobDownload.release.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
