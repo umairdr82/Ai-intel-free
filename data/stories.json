@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-18T00:57:29.625445+00:00",
+  "updated_at": "2026-10-18T01:43:20.582862+00:00",
   "stories": [
+    {
+      "id": "ddb992ee87d6c82ddadf",
+      "title": "v3.35.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.35.1",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-18T01:05:46+00:00",
+      "summary": "3.35.1 (2026-10-18)\nBug Fixes\n\npreserve beta Realtime byte reads on websockets 13 (#4102) (5766349)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "2434881791854a653a12",
       "title": "v0.40.7",
