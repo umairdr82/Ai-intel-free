@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-19T16:50:37.800319+00:00",
+  "updated_at": "2026-10-19T17:44:56.094015+00:00",
   "stories": [
+    {
+      "id": "7613bbebfcfc0377de3b",
+      "title": "v5.20.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-10-19T17:37:58+00:00",
+      "summary": "Add tag v5.20.2",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "ddb992ee87d6c82ddadf",
       "title": "v3.35.1",
