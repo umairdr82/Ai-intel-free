@@ -1,6 +1,281 @@
 {
-  "updated_at": "2026-10-20T03:48:31.578954+00:00",
+  "updated_at": "2026-10-20T04:46:35.010473+00:00",
   "stories": [
+    {
+      "id": "f1d2125c10ab9bae35bc",
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "url": "https://arxiv.org/abs/2610.23866",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.23866v1 Announce Type: new \nAbstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model is",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "4f25073757678c55c046",
+      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+      "url": "https://arxiv.org/abs/2610.23921",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.23921v1 Announce Type: new \nAbstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares s",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "fcd28ec43c43c4649f18",
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "url": "https://arxiv.org/abs/2610.23962",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.23962v1 Announce Type: new \nAbstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow produces more consistent, evidence-grounded and traceable diagnoses than the same LLM without structured workflow guidance.",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "bd2e7ce0c5344719b3aa",
+      "title": "What Social Media Teaches Us About Accumulative AI Risks",
+      "url": "https://arxiv.org/abs/2610.24006",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24006v1 Announce Type: new \nAbstract: Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gra",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "c8995f7fb2daa49f58e7",
+      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
+      "url": "https://arxiv.org/abs/2610.24010",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24010v1 Announce Type: new \nAbstract: Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, however, may be vague, latent, or recognizable only after seeing concrete visual possibilities. We propose a human-AI co-creation paradigm beyond explicit intent expression. By expanding model exploration, we expose artists to diverse visual possibilities, allowing them to identify previously unarticulated preferences through observation, comparison, and selection. We",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "4a6eaefef3476f2174ae",
+      "title": "Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis",
+      "url": "https://arxiv.org/abs/2610.24024",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24024v1 Announce Type: new \nAbstract: Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge. Artificial intelligence (AI) has progressively advanced RD diagnostics, from symbolic methods and deep learning to large language model (LLM)-based systems. However, each paradigm carries structural limitations: symbolic methods are bounded by knowledge completeness, neural models sacrifice interpretability, and LLM-based systems are vulnerable to evaluation biases like data leakage. In this study, we",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "69b7a7c67931d147d7e6",
+      "title": "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
+      "url": "https://arxiv.org/abs/2610.24051",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24051v1 Announce Type: new \nAbstract: Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts. Alongside this progress, numerous benchmarks have been developed to evaluate capabilities such as attribute binding, numeracy, spatial reasoning, and commonsense reasoning. In this work, we propose a new perspective on T2I evaluation by casting it as a constraint-satisfaction problem. We introduce a logical framework that formally specifies the benchmark domain, including objects, attributes, and relations, alongside the constraints that generated images must sat",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "d87cdce41fccff997adb",
+      "title": "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
+      "url": "https://arxiv.org/abs/2610.24061",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24061v1 Announce Type: new \nAbstract: As teams of AI agents take on larger projects and long-standing open problems, agent collaboration offers another dimension for scaling inference-time compute. To understand what makes such collaboration effective and scalable, we develop Software World, a framework for simulating multi-agent coworking in realistic software ecosystems. It comes with a pipeline to create environments of real, interdependent Python packages of different topics, sizes, and dependency structures, which we call software worlds. In a simulation, agents maintain packages in the world with a high-level goal of improvin",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "b4fd50c40a26b4ce18be",
+      "title": "Persistent Memory and Iterative Improvement in an LLM Agent for Chinese-Character Drawing",
+      "url": "https://arxiv.org/abs/2610.24090",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24090v1 Announce Type: new \nAbstract: Does persistent memory accumulated from previous attempts help an LLM agent solve new problems, and does memory design affect that benefit? We study programmatic Chinese-character drawing across five agent conditions attempting the same 668 items. Accumulated memory produces modest aggregate gains despite substantial growth in the memory stores: free-form notes improve first-attempt success by 4.6 percentage points, while a design combining free-form memory with reusable code improves it by 2.8 points. The two designs do not differ significantly overall, but the code bank shows a suggestive adv",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "861108697538269fc2da",
+      "title": "Cache2LoRA: Understanding and Improving Context Internalization",
+      "url": "https://arxiv.org/abs/2610.24107",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24107v1 Announce Type: new \nAbstract: Context-to-LoRA methods encode documents as low-rank parameter updates, allowing language models to answer without retaining the source text in their decoding context. How reliably do these updates preserve facts and support their use under different instructions? Controlled diagnosis of existing context-to-LoRA methods separates fact discrimination, target retention, and response adaptation. Competing sources influence answers, while target-only construction and memory-state optimization improve recovery at fixed update size. Recovering facts also does not ensure that answers follow response i",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "03edfbf4ceca2aded8e0",
+      "title": "Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins",
+      "url": "https://arxiv.org/abs/2610.24108",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24108v1 Announce Type: new \nAbstract: Jointly pretrained multimodal encoders are a common way to combine modalities, while alternatives integrate their information during downstream training or inference. When does each approach win? We compare three paradigms, instantiated with public checkpoints, across 16 paired datasets in five domains and multiple training-label budgets. JOINT trains a fusion head on frozen, jointly pretrained encoders. DECOUPLED trains a fusion head on frozen, independently pretrained encoders. AGENT gives a frozen LLM task instructions, labelled examples, available sample text, and supervised unimodal readou",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "7c2e98f772c31d3353dd",
+      "title": "A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt",
+      "url": "https://arxiv.org/abs/2610.24133",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24133v1 Announce Type: new \nAbstract: We ask how much an autoregressive transformer retains of its prompt after generating $t$ tokens. Consider two different prompts followed by the same continuation text, so that any difference in their hidden states comes from the prompt alone, and we find that the distance between their hidden states decays approximately as a power law $t^{-\\alpha}$, where $\\alpha=1$ is the rate at which a fixed prompt's share of uniform attention shrinks and smaller values mean longer memory. Trained models forget fast ($\\alpha\\approx0.55$--$0.7$), untrained ones slowly ($\\alpha\\approx0.2$--$0.5$). We prove tha",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "1767ea3194797808039e",
+      "title": "TorchTPU - A Hybrid Eager/Compiled Architecture for Native PyTorch Execution on TPU",
+      "url": "https://arxiv.org/abs/2610.24161",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24161v1 Announce Type: new \nAbstract: TorchTPU is an open-source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU migration while delivering industry-competitive inference and training performance through eager execution optimizations, torch.compile integration, and native hardware acceleration.",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "b395bc3523fd2898f878",
+      "title": "Self-Improving Video-to-Action Models",
+      "url": "https://arxiv.org/abs/2610.24177",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24177v1 Announce Type: new \nAbstract: Video generative models are an emerging tool for embodied agents: they can serve as scalable visual planners, generating videos that depict how to complete previously unseen tasks. However, executing these plans typically requires a video-to-action or \"inverse dynamics\" model trained on large, human-collected video-action datasets, severely limiting scalability. We introduce Mirror, a self-supervised approach that learns video-to-action mappings through environment interactions, without prior action data or hand-crafted rewards. Mirror learns by attempting to follow a visual plan by executing i",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "a45c736e22b4ec6f9e70",
+      "title": "Agents' Last Doubt: Knowing When to Act and When to Step Back in Tool-Using Agents",
+      "url": "https://arxiv.org/abs/2610.24194",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24194v1 Announce Type: new \nAbstract: Tool-using LLM agents repeatedly face decision points under uncertainty, choosing between autonomous action, additional information gathering, and human escalation. These decisions require balancing task success against interaction cost and the risk of irreversible errors. Learning to make these trade-offs is challenging because existing interaction trajectories record only the outcomes of actions taken, leaving the consequences of alternative actions unobserved. To address this gap, we construct a counterfactual dataset containing 3,115 action outcomes from 1,036 decision points in ToolSandbox",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "b66790a1bcb034024be4",
+      "title": "Distillation, Self-Training, and the Fragility of Learned Chemical Reasoning",
+      "url": "https://arxiv.org/abs/2610.24199",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24199v1 Announce Type: new \nAbstract: Automating synthesis planning for small-molecule drug design requires chemical reasoners that are accurate as well as open to inspection and adaptation, yet frontier language models remain unreliable at predicting reaction outcomes and difficult to deploy, while small open-weight models lack the necessary domain reasoning. We show that frontier supervision can serve as a one-time bootstrap for open models on forward reaction prediction. Our models, Resonance, distill an open-weight teacher's reasoning traces and then learn from their own verified outputs, turning a small base model with near-ze",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "adb32b2049620263fa7b",
+      "title": "Training-Free Prompt Selection for Efficient Reinforcement Learning With Partial Rollouts",
+      "url": "https://arxiv.org/abs/2610.24229",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24229v1 Announce Type: new \nAbstract: Reinforcement learning with verifiable rewards (RLVR) has emerged as a prominent paradigm for training reasoning models, but its computational cost makes efficient data selection increasingly important. Since training examples contribute unequally to learning, selecting a small, informative subset can offer a more efficient alternative to using the entire data pool. The training-free selection method estimates prompt value with hidden states from complete greedy rollouts. However, in our datasets, $26$--$32\\%$ of these rollouts fail to terminate within the generation budget. We introduce LIFT, ",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "b57eb7af2c4b5a25df85",
+      "title": "Probing Ambiguity: Adversarial Intent Resolution for Robust Text-to-SQL",
+      "url": "https://arxiv.org/abs/2610.24248",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24248v1 Announce Type: new \nAbstract: Text-to-SQL systems typically assume a one-to-one mapping between natural-language queries and correct SQL translations. In practice, however, many queries are inherently ambiguous, admitting multiple valid interpretations that yield distinct outputs. We introduce Adversarial Intent Resolution (AIR), a multi-agent framework that actively probes and resolves such ambiguity without any task-specific training. AIR first constructs competing interpretations, verifies through SQL execution that they produce genuinely different results, and generates targeted clarification questions grounded in the o",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "ab8c49d9c840b4492ab5",
+      "title": "Cortex: A Fixed-Point Theory of Governed Coding Agents - Technical Report",
+      "url": "https://arxiv.org/abs/2610.24255",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24255v1 Announce Type: new \nAbstract: A coding agent combines a large language model (LLM) with a harness that plans, edits, and executes code. We study Cortex, a supervisory layer for pre-execution governance, requirement tracking, and iterative validation and repair. We formalize requirement closure on a finite lattice. For a fixed requirement set and a sound, monotone validation rule with persistent evidence, exhaustive iteration reaches the least fixed point with no more strict increases than there are requirements. Fair consequence scheduling reaches the same closure. A separate stochastic model bounds expected completion time",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "6992246778e3c420f942",
+      "title": "AM-Bench: A Unified Taxonomy and Evaluation Suite for Agentic Misalignment",
+      "url": "https://arxiv.org/abs/2610.24264",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24264v1 Announce Type: new \nAbstract: As LLM-based agents are deployed with increasing autonomy in real-world environments, a critical failure mode emerges: agentic misalignment, where agents choose harmful actions over failure. However, existing safety benchmarks primarily evaluate whether agents comply with explicitly harmful instructions, leaving the conditions that cause agents to choose harmful actions poorly understood. To address this limitation, we propose AM-Bench, a unified taxonomy and 35 scenario evaluation benchmark spanning seven industries for agentic misalignment grounded in the fraud triangle, a well-established cr",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "94f85c0986ca57e7a965",
+      "title": "Can Compact Open-Weight Large Language Models Recover Mobility Events from Incomplete Trajectories? A Controlled Evaluation Using Air Trips",
+      "url": "https://arxiv.org/abs/2610.24266",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24266v1 Announce Type: new \nAbstract: Incomplete mobility trajectories can obscure the observations needed to identify important travel events and their endpoints. This study evaluates whether compact, locally deployed large language models (LLMs) can recover missing mobility information from incomplete trajectories, using high-confidence air trips as a controlled test case, and whether more explicit prompts can compensate for the loss of endpoint evidence. Using nationwide location-based services (LBS) data from the United States in January 2022 and airport reference data, thirty high-confidence air trips were converted into three",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "9aef0e907ffac318f4de",
+      "title": "From SEC Filings to Financial Signals: Evaluating LLMs on Stock Market Reactions and Analyst Forecasts",
+      "url": "https://arxiv.org/abs/2610.24268",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24268v1 Announce Type: new \nAbstract: Form 10-Q MD&amp;A sections combine long-form management narrative with accounting and forward-looking information. Benchmarks for financial filings commonly evaluate question answering or numerical reasoning, leaving unclear whether outputs from large language models (LLMs) align with market and analyst outcomes. We evaluate prompted, zero-shot outputs from 13 general-purpose and finance-specialized LLMs on 45,964 Form 10-Q filing events from 2001 to 2024, linking MD&amp;A text to cross-sectional fundamental ranks, pre-filing analyst forecasts, and realized abnormal returns. The evaluation cov",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "b40ae7e623658513c635",
+      "title": "SteerSearch: Interactive Search Reasoning with Mid-Response Steering",
+      "url": "https://arxiv.org/abs/2610.24287",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24287v1 Announce Type: new \nAbstract: Search-augmented language models increasingly serve as long-horizon research agents, yet most open training methods assume a fixed user goal throughout search. We study mid-response steering, where users redirect a model during ongoing reasoning or retrieval. We identify answer-target anchoring, a failure mode in which fixed-query search agents retrieve evidence for the updated request but still answer an earlier question. We introduce SteerSearch, an RL framework that trains on interactive search trajectories with injected interventions to enable context-preserving target reassignment, and Ste",
+      "importance": 2,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "838a0b986037a7ef88c1",
+      "title": "Not Every User Says It All: Training Tool-Using Agents Beyond Ideal Simulated Users",
+      "url": "https://arxiv.org/abs/2610.24294",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24294v1 Announce Type: new \nAbstract: Tool-using agents are trained and evaluated almost exclusively with strong simulated users who state every detail clearly, yet real users are often weaker. We construct weak users by masking sentences of a simulated user's replies, holding the task and the user's knowledge fixed, and cross-evaluate agents trained with strong and weak users on tau2-bench and ToolWOZ. Weak users lower the success of every policy, and training with them does not help: no policy trained with weak users, through fixed masks, mixtures or a curriculum, serves weak users better than the strong-trained policy beyond run",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
+    {
+      "id": "52ba79c8c338783c0662",
+      "title": "Who Speaks, Who Authorizes, Who Acts? Understanding Trust Boundaries in Multi-Agent LLMs",
+      "url": "https://arxiv.org/abs/2610.24298",
+      "source": "arXiv AI",
+      "source_type": "Preprint",
+      "published_at": "2026-10-20T04:00:00+00:00",
+      "summary": "arXiv:2610.24298v1 Announce Type: new \nAbstract: Multi-agent LLM systems exchange messages before acting through tools, but message delivery, signing authority, and tool-side enforcement are separate trust boundaries. We represent them as communication, authorization, and execution structures, and use the authority cut to characterize the smallest independently compromised signer coalition that can construct a policy-valid false-claim proof under stated assumptions. Controlled paired hidden-state studies reveal four distinctions. First, no fixed-message routing contrast across four models meets the prespecified large-effect criterion; when re",
+      "importance": 3,
+      "status": "PREPRINT"
+    },
     {
       "id": "5e09805dda87945da37a",
       "title": "How to continue a GitHub Copilot app session in VS Code",
@@ -3797,5 +4072,5 @@
       "status": "PRIMARY SOURCE"
     }
   ],
-  "sources_checked": 12
+  "sources_checked": 13
 }
