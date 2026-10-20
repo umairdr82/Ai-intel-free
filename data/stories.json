@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-20T20:49:11.546415+00:00",
+  "updated_at": "2026-10-20T21:46:53.429449+00:00",
   "stories": [
+    {
+      "id": "d2ace7e9d2436a978a3a",
+      "title": "v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-20T21:15:15+00:00",
+      "summary": "Deduplicate MLX CUDA runtime payloads\n\nMove CUDA libraries shared by the GGML and MLX backends into the sibling CUDA payload, and teach in-process and subprocess MLX loading to resolve that packaged dependency directory.\nKeep MLX-private libraries and JIT headers in the MLX overlay, include the full OpenBLAS Fortran runtime closure, and verify those dependencies in release packaging.\n\naddress comments",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "e8a8161ff83426ef4f6b",
       "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
