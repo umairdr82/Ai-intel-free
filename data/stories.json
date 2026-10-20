@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-20T21:46:53.429449+00:00",
+  "updated_at": "2026-10-20T22:44:55.698332+00:00",
   "stories": [
+    {
+      "id": "275655d3bc9934ddf8a4",
+      "title": "v1.17.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.17.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-20T22:13:01+00:00",
+      "summary": "Features\n\napi: add org webhook endpoints and user profile enforcement events\napi: add RBAC Group owner-access error codes to the Admin API\napi: document the unsupported_charset error code for plugin uploads\n\nBug Fixes\n\nbedrock: keep a workspace ID set in default_headers on the Bedrock and Mantle clients\ngoogle-cloud: keep workspace and user profile IDs set in default_headers\n\nChores\n\nci: run the changelog check on a standard runner",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "d2ace7e9d2436a978a3a",
       "title": "v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
