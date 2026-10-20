@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T16:48:00.779656+00:00",
+  "updated_at": "2026-10-20T17:43:38.090972+00:00",
   "stories": [
     {
       "id": "ef73bf2ace8ac6719291",
@@ -42,6 +42,17 @@
       "source_type": "Official",
       "published_at": "2026-10-20T15:19:48+00:00",
       "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "1725d137aa3debc0d8ae",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-20T10:00:00+00:00",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
