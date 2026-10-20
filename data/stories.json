@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-20T17:43:38.090972+00:00",
+  "updated_at": "2026-10-20T18:54:47.794969+00:00",
   "stories": [
+    {
+      "id": "e8a8161ff83426ef4f6b",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-20T18:17:47+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9bb4cf31d442b764caee",
+      "title": "v1.16.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.16.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-20T17:49:46+00:00",
+      "summary": "Features\n\napi: add data_refreshed_at and has_more to analytics report pages\napi: add workspace rate-limit updates to the Admin API\napi: make User Profiles generally available\nclient: yield server-sent events with unrecognized event names\ngoogle-cloud: use the v1 endpoints and add the organization endpoint\n\nChores\n\nci: skip the changelog check on draft pull requests\ndocs: add credential expiry descriptions to the Managed Agents API reference\ndocs: add Messages API request descriptions\ndocs: correct plugin manifest_version and reach descriptions\ndocs: improve Managed Agents memory store descriptions\ndocs: improve Managed Agents vault and creden",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "ef73bf2ace8ac6719291",
       "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
@@ -361,6 +383,17 @@
       "source_type": "Official",
       "published_at": "2026-10-20T00:00:00+00:00",
       "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "1cfb6291fa158d05a5ba",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelerate drug development and advance new treatments.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
