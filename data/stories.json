@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-20T15:48:02.234320+00:00",
+  "updated_at": "2026-10-20T16:48:00.779656+00:00",
   "stories": [
+    {
+      "id": "ef73bf2ace8ac6719291",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-20T16:09:19+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "806b1f92932cb66421ab",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "source": "GitHub AI",
+      "source_type": "Official",
+      "published_at": "2026-10-20T16:05:03+00:00",
+      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.\nThe post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "4a79326aef7c9f5109b8",
+      "title": "Called to serve: Tech, research, and positive impact",
+      "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-10-20T16:00:00+00:00",
+      "summary": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more.\nThe post Called to serve: Tech, research, and positive impact appeared first on Microsoft Research.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "536f23cd94f139849c62",
       "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
