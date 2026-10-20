@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T11:47:05.469227+00:00",
+  "updated_at": "2026-10-20T12:59:10.818594+00:00",
   "stories": [
     {
       "id": "f1d2125c10ab9bae35bc",
@@ -285,6 +285,17 @@
       "published_at": "2026-10-20T00:00:00+00:00",
       "summary": "",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "41fb25a47d12d204a957",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
