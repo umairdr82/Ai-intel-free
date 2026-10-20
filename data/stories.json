@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T10:46:44.707131+00:00",
+  "updated_at": "2026-10-20T11:47:05.469227+00:00",
   "stories": [
     {
       "id": "f1d2125c10ab9bae35bc",
@@ -275,6 +275,17 @@
       "summary": "arXiv:2610.24298v1 Announce Type: new \nAbstract: Multi-agent LLM systems exchange messages before acting through tools, but message delivery, signing authority, and tool-side enforcement are separate trust boundaries. We represent them as communication, authorization, and execution structures, and use the authority cut to characterize the smallest independently compromised signer coalition that can construct a policy-valid false-claim proof under stated assumptions. Controlled paired hidden-state studies reveal four distinctions. First, no fixed-message routing contrast across four models meets the prespecified large-effect criterion; when re",
       "importance": 3,
       "status": "PREPRINT"
+    },
+    {
+      "id": "c2b4b68d7e0027f0e436",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "5e09805dda87945da37a",
