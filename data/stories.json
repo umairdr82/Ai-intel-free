@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-21T01:48:33.557337+00:00",
+  "updated_at": "2026-10-21T02:46:43.160236+00:00",
   "stories": [
+    {
+      "id": "d2ace7e9d2436a978a3a",
+      "title": "v0.40.7",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-21T01:58:37+00:00",
+      "summary": "What's Changed\n\nopenai: allow Responses effort on non-thinking models by @hoyyeva in #19010\nllama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064\nmlx: add PPLX Decider v1.2 support by @dhiltgen in #19072\n\nFull Changelog: v0.40.6...v0.40.7-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "275655d3bc9934ddf8a4",
       "title": "v1.17.0",
@@ -9,17 +20,6 @@
       "source_type": "Release",
       "published_at": "2026-10-20T22:13:01+00:00",
       "summary": "Features\n\napi: add org webhook endpoints and user profile enforcement events\napi: add RBAC Group owner-access error codes to the Admin API\napi: document the unsupported_charset error code for plugin uploads\n\nBug Fixes\n\nbedrock: keep a workspace ID set in default_headers on the Bedrock and Mantle clients\ngoogle-cloud: keep workspace and user profile IDs set in default_headers\n\nChores\n\nci: run the changelog check on a standard runner",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "d2ace7e9d2436a978a3a",
-      "title": "v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-20T21:15:15+00:00",
-      "summary": "Deduplicate MLX CUDA runtime payloads\n\nMove CUDA libraries shared by the GGML and MLX backends into the sibling CUDA payload, and teach in-process and subprocess MLX loading to resolve that packaged dependency directory.\nKeep MLX-private libraries and JIT headers in the MLX overlay, include the full OpenBLAS Fortran runtime closure, and verify those dependencies in release packaging.\n\naddress comments",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -250,7 +250,7 @@
       "source": "arXiv AI",
       "source_type": "Preprint",
       "published_at": "2026-10-20T04:00:00+00:00",
-      "summary": "arXiv:2610.24161v1 Announce Type: new \nAbstract: TorchTPU is an open-source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU migration while delivering industry-competitive inference and training performance through eager execution optimizations, torch.compile integration, and native hardware acceleration.",
+      "summary": "arXiv:2610.24161v2 Announce Type: new \nAbstract: TorchTPU is an open-source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU migration while delivering industry-competitive inference and training performance through eager execution optimizations, torch.compile integration, and native hardware acceleration.",
       "importance": 2,
       "status": "PREPRINT"
     },
@@ -327,7 +327,7 @@
       "source": "arXiv AI",
       "source_type": "Preprint",
       "published_at": "2026-10-20T04:00:00+00:00",
-      "summary": "arXiv:2610.24264v1 Announce Type: new \nAbstract: As LLM-based agents are deployed with increasing autonomy in real-world environments, a critical failure mode emerges: agentic misalignment, where agents choose harmful actions over failure. However, existing safety benchmarks primarily evaluate whether agents comply with explicitly harmful instructions, leaving the conditions that cause agents to choose harmful actions poorly understood. To address this limitation, we propose AM-Bench, a unified taxonomy and 35 scenario evaluation benchmark spanning seven industries for agentic misalignment grounded in the fraud triangle, a well-established cr",
+      "summary": "arXiv:2610.24264v2 Announce Type: new \nAbstract: As LLM-based agents are deployed with increasing autonomy in real-world environments, a critical failure mode emerges: agentic misalignment, where agents choose harmful actions over failure. However, existing safety benchmarks primarily evaluate whether agents comply with explicitly harmful instructions, leaving the conditions that cause agents to choose harmful actions poorly understood. To address this limitation, we propose AM-Bench, a unified taxonomy and 35 scenario evaluation benchmark spanning seven industries for agentic misalignment grounded in the fraud triangle, a well-established cr",
       "importance": 3,
       "status": "PREPRINT"
     },
@@ -486,17 +486,6 @@
       "status": "PRIMARY SOURCE"
     },
     {
-      "id": "2434881791854a653a12",
-      "title": "v0.40.7",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-18T00:28:57+00:00",
-      "summary": "What's Changed\n\nopenai: allow Responses effort on non-thinking models by @hoyyeva in #19010\nllama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064\nmlx: add PPLX Decider v1.2 support by @dhiltgen in #19072\n\nFull Changelog: v0.40.6...v0.40.7-rc0",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
       "id": "87525bd1d9561d5fdc46",
       "title": "v3.35.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.35.0",
@@ -504,6 +493,17 @@
       "source_type": "Release",
       "published_at": "2026-10-17T23:13:52+00:00",
       "summary": "3.35.0 (2026-10-17)\nFeatures\n\napi: add typed Live sideband events (#4099) (8d5cbf0)\napi: add ultrafast service tier for Agents (#4101) (100bf8f)\n\nBug Fixes\n\nrealtime: preserve byte receives with websockets 13 (#4098) (309916e)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "2434881791854a653a12",
+      "title": "v0.40.7-rc0: mlx: add PPLX Decider v1.2 support (#19072)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-17T21:45:55+00:00",
+      "summary": "Implement the Qwen3.5-backed decision scorer with noncausal attention,\nthe publisher readout, image handling, and System One prompt encoding.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
