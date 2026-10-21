@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T18:55:58.106416+00:00",
+  "updated_at": "2026-10-21T19:46:29.321641+00:00",
   "stories": [
     {
       "id": "76744d828500bda5b632",
@@ -506,6 +506,17 @@
       "summary": "arXiv:2610.27220v1 Announce Type: new \nAbstract: Recent work has explored continuous representations in place of discrete tokens during Chain-of-Thought (CoT) reasoning, often referred to as soft CoT. This is motivated by the idea that a mixture of token embeddings can represent a superposition of multiple reasoning possibilities within a single step. However, it remains challenging to train large language models to realize this potential. Existing work has explored reinforcement learning (RL)-style training for soft CoT. However, these approaches treat soft tokens as actions in a Markov decision process rather than as differentiable intermed",
       "importance": 2,
       "status": "PREPRINT"
+    },
+    {
+      "id": "e270f5ba4688033de075",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "275655d3bc9934ddf8a4",
