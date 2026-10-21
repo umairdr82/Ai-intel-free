@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-10-21T15:50:30.461640+00:00",
+  "updated_at": "2026-10-21T16:48:44.322149+00:00",
   "stories": [
+    {
+      "id": "3bfcd79e09f177c0e0d9",
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-10-21T16:23:53+00:00",
+      "summary": "Health & Bioscience",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "76744d828500bda5b632",
+      "title": "v0.40.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-21T16:20:30+00:00",
+      "summary": "Recursive Flint\nFlint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and tool interactions.\nFlint is an Apache 2.0-licensed, 40B-parameter mixture-of-experts model with approximately 2.5B parameters active per token. In its release evaluations, Recursive reports 54.9% on Terminal-Bench 2.1 and 74.2% on SWE-bench Verified.\nollama run flint\nNote: rc0 supports Flint on MacOS.  Other GPU support will be e",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "5b4e08461387ba3b4483",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-21T16:04:43+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "f5a67a23b0dd5c70b4db",
+      "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
+      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-10-21T16:00:00+00:00",
+      "summary": "For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing. The Kannan–Lovász–Simonovits (KLS) conjecture was proposed in 1995. It asks whether, for a broad class of high-dimensional [&#8230;]\nThe post Solving a 31-year-old grand challenge in mathematics – the KLS conjecture appeared first on Microsoft Research.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "17ca5ebcc0e1de6ddd4f",
+      "title": "v3.36.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.36.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-21T15:53:22+00:00",
+      "summary": "3.36.0 (2026-10-21)\nFeatures\n\nadd Vertex AI support for the Responses API (#4139) (3e63d33)\napi: add 30-minute cache-write usage counts (#4111) (5589146)\napi: add compaction trigger IDs (#4122) (0e5794d)\napi: add custom voice consent management (#4135) (de6d70d)\ntypes: prepare native synchronous WebSocket option type (#4118) (90c0bac)\n\nBug Fixes\n\napi: accept canonical batch responses in strict mode (#4106) (6eaa90e)\nclean up failed WebSocket setup and honor native options (#4121) (b1a1a10)\nend sync WebSocket recovery when an attempt is interrupted (#4129) (337769b)\nhonor timed Translation receives during terminal cleanup (#4132) (ca54146)\npre",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "f5284c2a0a529dc4b898",
+      "title": "v2.0.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.0.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-21T15:51:32+00:00",
+      "summary": "⚠ BREAKING CHANGES\n\napi: add support for new API version 2026-10-21\n\nFeatures\n\napi: add a workspace_id filter and the usage_tier scope type to list spend limits\napi: add support for new API version 2026-10-21\n\nDocumentation\n\napi: remove outdated system role note from messages description",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "c2ed162a157709f5cb47",
       "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
@@ -10,17 +76,6 @@
       "published_at": "2026-10-21T14:58:18+00:00",
       "summary": "",
       "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "76744d828500bda5b632",
-      "title": "v0.40.8-rc0: mlx: add Flint model support (#19181)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-21T14:45:50+00:00",
-      "summary": "Preserve source tool JSON alongside decoded API values so Flint can retain\nnumeric types and schema order in prompts. Existing API marshaling is unchanged.\nAssemble ModelOpt expert banks during safetensors import, and reject direct\nFlint NVFP4 creation before conversion. Other models retain their existing\nimport and quantization paths.\nAdd optional learned sinks and device causal masks to shared MLX attention.\nExisting callers retain the no-sink and host-mask paths; Flint opts into the\nnew behavior.",
-      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
