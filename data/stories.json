@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T02:46:43.160236+00:00",
+  "updated_at": "2026-10-21T03:48:20.865182+00:00",
   "stories": [
     {
       "id": "d2ace7e9d2436a978a3a",
@@ -7,8 +7,8 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-21T01:58:37+00:00",
-      "summary": "What's Changed\n\nopenai: allow Responses effort on non-thinking models by @hoyyeva in #19010\nllama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064\nmlx: add PPLX Decider v1.2 support by @dhiltgen in #19072\n\nFull Changelog: v0.40.6...v0.40.7-rc0",
+      "published_at": "2026-10-21T03:40:06+00:00",
+      "summary": "What's Changed\n\npplx-decider is a 27B decision model from Perplexity, fine-tuned from\nQwen3.8-27B\nContinuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without\nthinking, or when the history contains another provider's compaction items\nFixed streaming Responses requests where client tool calls (e.g. Codex with web search) could emit before open\nreasoning items, producing misordered/duplicate tool call events\nRequests routed to remote models are now cancelled on ollama.com when the client disconnects, instead of continuing\nto run\nollama show now reports which renderer and parser a model us",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -20,6 +20,17 @@
       "source_type": "Release",
       "published_at": "2026-10-20T22:13:01+00:00",
       "summary": "Features\n\napi: add org webhook endpoints and user profile enforcement events\napi: add RBAC Group owner-access error codes to the Admin API\napi: document the unsupported_charset error code for plugin uploads\n\nBug Fixes\n\nbedrock: keep a workspace ID set in default_headers on the Bedrock and Mantle clients\ngoogle-cloud: keep workspace and user profile IDs set in default_headers\n\nChores\n\nci: run the changelog check on a standard runner",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "86cb76492e93ed0a125c",
+      "title": "v0.40.7: mlx: deduplicate CUDA runtime payloads (#17956)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-20T21:15:15+00:00",
+      "summary": "Deduplicate MLX CUDA runtime payloads\n\nMove CUDA libraries shared by the GGML and MLX backends into the sibling CUDA payload, and teach in-process and subprocess MLX loading to resolve that packaged dependency directory.\nKeep MLX-private libraries and JIT headers in the MLX overlay, include the full OpenBLAS Fortran runtime closure, and verify those dependencies in release packaging.\n\naddress comments",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
