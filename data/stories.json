@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-21T09:49:10.134945+00:00",
+  "updated_at": "2026-10-21T10:48:16.160838+00:00",
   "stories": [
+    {
+      "id": "4c80e288b5b5682fd2e8",
+      "title": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse: Advancing Agents with World-Class Retrieval Models",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-21T10:41:36+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "86cb76492e93ed0a125c",
       "title": "v0.40.7",
