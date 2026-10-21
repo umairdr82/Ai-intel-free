@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-21T10:48:16.160838+00:00",
+  "updated_at": "2026-10-21T11:48:27.775038+00:00",
   "stories": [
+    {
+      "id": "32694d7b05454b04f025",
+      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-21T10:59:42+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "4c80e288b5b5682fd2e8",
       "title": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse: Advancing Agents with World-Class Retrieval Models",
