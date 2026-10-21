@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-21T11:48:27.775038+00:00",
+  "updated_at": "2026-10-21T12:59:41.845219+00:00",
   "stories": [
+    {
+      "id": "5c32755a71da49edb4fe",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-21T12:51:24+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "32694d7b05454b04f025",
       "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
