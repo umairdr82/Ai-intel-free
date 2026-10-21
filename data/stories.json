@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-21T14:49:23.650826+00:00",
+  "updated_at": "2026-10-21T15:50:30.461640+00:00",
   "stories": [
+    {
+      "id": "c2ed162a157709f5cb47",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-21T14:58:18+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "76744d828500bda5b632",
       "title": "v0.40.8-rc0: mlx: add Flint model support (#19181)",
@@ -75,6 +86,17 @@
       "source_type": "Official",
       "published_at": "2026-10-21T07:00:00+00:00",
       "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "de9db6f384cbc7887755",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-21T07:00:00+00:00",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
