@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-22T16:49:18.581179+00:00",
+  "updated_at": "2026-10-22T20:34:25.924086+00:00",
   "stories": [
+    {
+      "id": "3f70b4caf5cb0241b0af",
+      "title": "v3.37.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.37.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-22T20:03:54+00:00",
+      "summary": "3.37.0 (2026-10-22)\n⚠ BREAKING CHANGES\n\napi: This minor release includes a breaking change to Decisions types. In Live response models, question instructions can now be a string or a list of structured text, image, or JSON parts; check isinstance(question.instructions, str) before using string operations and handle the structured form. Decisions request input types also include additional message roles and tool-history items, so update exhaustive type checks accordingly. Existing string instructions and DecisionInputMessageParam user-message inputs remain supported.\n\nFeatures\n\napi: expand Decisions input and question types (#4158) (1e45ad1)\n\n",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "1b490a05d592c0ac9dd8",
+      "title": "v0.40.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-22T19:39:48+00:00",
+      "summary": "What's Changed\n\nllama.cpp update\n\nFull Changelog: v0.40.8...v0.40.9-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "891b7e0bbf66f86d27b7",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-22T19:00:00+00:00",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "67297d2df9a3d7f196c3",
       "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
@@ -344,12 +377,12 @@
     },
     {
       "id": "8f6bec0a27923dd29295",
-      "title": "v0.40.9",
+      "title": "v0.40.9-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-22T01:33:10+00:00",
-      "summary": "What's Changed\n\nllama.cpp update\n\nFull Changelog: v0.40.8...v0.40.9-rc0",
+      "published_at": "2026-10-22T00:13:25+00:00",
+      "summary": "llama.cpp update (#19194)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4914,39 +4947,6 @@
       "source": "Hugging Face",
       "source_type": "Official",
       "published_at": "2026-09-03T00:00:00+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "b5500bc6503561c622e2",
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "url": "https://huggingface.co/blog/train-to-paint-with-code",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-09-03T00:00:00+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "d721843382f3485e8d6d",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "source": "Google DeepMind",
-      "source_type": "Official",
-      "published_at": "2026-09-02T16:24:24+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "63b19b50b4021cb509d5",
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "source": "Google DeepMind",
-      "source_type": "Official",
-      "published_at": "2026-09-02T16:18:31+00:00",
       "summary": "",
       "importance": 4,
       "status": "PRIMARY SOURCE"
