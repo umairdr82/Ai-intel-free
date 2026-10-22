@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-22T02:47:29.121163+00:00",
+  "updated_at": "2026-10-22T03:49:18.641912+00:00",
   "stories": [
+    {
+      "id": "ff959580a1d2df8957d4",
+      "title": "v3.36.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.36.1",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-22T03:32:31+00:00",
+      "summary": "3.36.1 (2026-10-22)\nBug Fixes\n\napi: honor per-call WebSocket query settings (#4138) (d40a5e1)\nexamples: stop microphone capture between recordings (#4143) (26e5d92)\nvalidate browser calls before reading driver state (#4142) (2bfe460)\n\nChores\n\napi: clarify service-account API key deletion (#4151) (6ed945e)\n\nRefactors\n\nprepare handwritten chunked upload runtime (#4146) (2d58e82)\nprepare handwritten vector-store polling runtime (#4148) (7cd7028)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "8f6bec0a27923dd29295",
       "title": "v0.40.9",
