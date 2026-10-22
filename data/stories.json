@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-22T07:02:29.973479+00:00",
+  "updated_at": "2026-10-22T07:56:40.611288+00:00",
   "stories": [
+    {
+      "id": "0e5fad3ca5f8a881acf7",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-22T07:51:31+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "c35b3ef79c92279b18ef",
       "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
@@ -4938,17 +4949,6 @@
       "published_at": "2026-09-01T17:08:51+00:00",
       "summary": "",
       "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "7415c6bcd9dd29dab310",
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "source": "Google AI",
-      "source_type": "Official",
-      "published_at": "2026-09-01T16:00:00+00:00",
-      "summary": "Collage of images created by Google Pics, with the text \"Say hello to Google Pics\" on top",
-      "importance": 3,
       "status": "PRIMARY SOURCE"
     }
   ],
