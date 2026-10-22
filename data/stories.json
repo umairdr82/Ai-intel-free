@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-21T23:44:38.346630+00:00",
+  "updated_at": "2026-10-22T00:59:11.308722+00:00",
   "stories": [
+    {
+      "id": "8f6bec0a27923dd29295",
+      "title": "v0.40.9-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-22T00:13:25+00:00",
+      "summary": "llama.cpp update (#19194)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "8d4c38436cd935212162",
       "title": "v2.1.0",
@@ -548,6 +559,17 @@
       "source_type": "Official",
       "published_at": "2026-10-21T00:00:00+00:00",
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "3fe372fb2e8166f0e814",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
