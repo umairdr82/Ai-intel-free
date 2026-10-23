@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-23T10:07:35.531835+00:00",
+  "updated_at": "2026-10-23T15:07:39.635783+00:00",
   "stories": [
+    {
+      "id": "894d6b5c56fd7cecb49a",
+      "title": "v0.40.10",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-23T15:03:59+00:00",
+      "summary": "NVIDIA Nemotron 3.5 Bolt E4B\nNemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window.\nThe model includes a DFlash draft for speculative decoding.\nollama run nemotron-3.5-bolt:e4b\n\nFull Changelog: v0.40.9...v0.40.10",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "f8a90ed57699f1dc64e5",
+      "title": "v2.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-23T13:10:10+00:00",
+      "summary": "Features\n\napi: add support for message threads\napi: add usage and cost reports by dimension, mark older reports legacy\n\nBug Fixes\n\nclient: stop suggesting math.inf in the max_retries error message\ntools: leave the tool runner's history to the caller after append_messages(), and keep the current reply out of the set_messages_params() callback\ntools: keep running the tool runner's function tools when set_messages_params() gives tools as definitions, and stop running one it takes out of tools\ntools: give the set_messages_params() callback of a tool runner its tools as definitions again\ntools: keep a tool runner's betas, user_profile_id and works",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "5d193cc1f396c8e39b22",
       "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
@@ -295,6 +317,17 @@
       "source_type": "Official",
       "published_at": "2026-10-23T00:00:00+00:00",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "2b3f616d26d343fed778",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "summary": "",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
@@ -4915,39 +4948,6 @@
       "source_type": "Release",
       "published_at": "2026-09-18T16:12:53+00:00",
       "summary": "1.7.0 (2026-09-18)\nFull Changelog: v1.6.0...v1.7.0\nFeatures\n\napi: add group with display_name to rate limits, deprecate group_type (28f0a83)\ntools: add compact_before_next_turn() to the tool runner (#641) (8b23fb3)\n\nBug Fixes\n\nbedrock: raise an API error for eventstream exception and error frames (#769) (8ec9cc9)\nclient: accept X | Y union types when parsing responses (b366fa5)\nclient: don't raise TypeError for X | Y fields with unknown data (30ebd69)\nclient: join multiple anthropic-beta values with a comma and no space (#781) (1680324)\ntools: tidy compact_before_next_turn() state and failure handling (#804) (d3a9fc8)\n\nChores\n\ndeps: require p",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "18bdedfb0c5ed6fd316c",
-      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-      "source": "GitHub AI",
-      "source_type": "Official",
-      "published_at": "2026-09-18T15:00:00+00:00",
-      "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.\nThe post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "d92122e53ec9d4f7bc6f",
-      "title": "New experts join Google’s AI & Economy team",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "source": "Google AI",
-      "source_type": "Official",
-      "published_at": "2026-09-18T14:00:00+00:00",
-      "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "44ec3a3d6fdc7de7b05f",
-      "title": "Co-creating the future of fashion with Google",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "source": "Google AI",
-      "source_type": "Official",
-      "published_at": "2026-09-18T13:00:00+00:00",
-      "summary": "Jane Wade and Sergio Hudson",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
