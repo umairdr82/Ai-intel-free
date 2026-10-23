@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T19:17:12.403402+00:00",
+  "updated_at": "2026-10-23T23:10:29.547032+00:00",
   "stories": [
     {
       "id": "32ef7801f5802984dfdd",
@@ -65,6 +65,17 @@
       "published_at": "2026-10-23T13:10:10+00:00",
       "summary": "Features\n\napi: add support for message threads\napi: add usage and cost reports by dimension, mark older reports legacy\n\nBug Fixes\n\nclient: stop suggesting math.inf in the max_retries error message\ntools: leave the tool runner's history to the caller after append_messages(), and keep the current reply out of the set_messages_params() callback\ntools: keep running the tool runner's function tools when set_messages_params() gives tools as definitions, and stop running one it takes out of tools\ntools: give the set_messages_params() callback of a tool runner its tools as definitions again\ntools: keep a tool runner's betas, user_profile_id and works",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "f8c156dba7886826388b",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-23T10:00:00+00:00",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4933,17 +4944,6 @@
       "id": "689d78c6e007ab8e2c4f",
       "title": "Transformers now runs llama.cpp quants",
       "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-09-22T00:00:00+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "6b3083011aeb49b1cc1d",
-      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "url": "https://huggingface.co/blog/omlx",
       "source": "Hugging Face",
       "source_type": "Official",
       "published_at": "2026-09-22T00:00:00+00:00",
