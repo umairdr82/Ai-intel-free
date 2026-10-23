@@ -1,14 +1,58 @@
 {
-  "updated_at": "2026-10-23T15:07:39.635783+00:00",
+  "updated_at": "2026-10-23T19:17:12.403402+00:00",
   "stories": [
     {
-      "id": "894d6b5c56fd7cecb49a",
+      "id": "32ef7801f5802984dfdd",
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-10-23T18:51:33+00:00",
+      "summary": "Generative AI",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8c177b37ece0d145f22f",
       "title": "v0.40.10",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-23T17:17:19+00:00",
+      "summary": "NVIDIA Nemotron 3.5 Bolt E4B\nNemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window.\nThe model includes a DFlash draft for speculative decoding.\nollama run nemotron-3.5-bolt:e4b\n\nFull Changelog: v0.40.9...v0.40.10",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "ee4c22366ef7e7abd786",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-23T17:00:00+00:00",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "5d794c3788a3a4be0d42",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-23T16:15:50+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "894d6b5c56fd7cecb49a",
+      "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-23T15:03:59+00:00",
-      "summary": "NVIDIA Nemotron 3.5 Bolt E4B\nNemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window.\nThe model includes a DFlash draft for speculative decoding.\nollama run nemotron-3.5-bolt:e4b\n\nFull Changelog: v0.40.9...v0.40.10",
+      "published_at": "2026-10-23T14:12:11+00:00",
+      "summary": "renderers: add gemma4-nemotron renderer\n\nAdd a Gemma 4 renderer variant that renders assistant content before\nits tool calls rather than after the tool responses. Models opt in with\nRENDERER gemma4-nemotron; gemma4 auto-detection is unchanged.\nAdds the corresponding chat template as a test fixture for Jinja parity\nchecks.\n\nmlx: support Gemma 4 targets with DFlash drafts\n\nLoad a draft-owned output head when its config requires one, while preserving the target-head path used by existing DFlash models.\nExpose Gemma 4 hidden-state taps and raw logits for speculative decoding. Report safetensors target precision independently of quantized draft we",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4904,50 +4948,6 @@
       "source_type": "Official",
       "published_at": "2026-09-22T00:00:00+00:00",
       "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "d84d5932ca4ed6616850",
-      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
-      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
-      "source": "Microsoft Research",
-      "source_type": "Official",
-      "published_at": "2026-09-21T15:30:19+00:00",
-      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules.\nThe post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "693b3130e25cc8808f58",
-      "title": "tokenizers v1: encode, decode and scaling, measured",
-      "url": "https://huggingface.co/blog/tokenizers-v1",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-09-21T00:00:00+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "a7f1f0b4928f996bc8f6",
-      "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
-      "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
-      "source": "Google Research",
-      "source_type": "Official",
-      "published_at": "2026-09-18T17:46:09+00:00",
-      "summary": "Algorithms & Theory",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "b7dda88cc518b2596f0c",
-      "title": "v1.7.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
-      "source": "Anthropic SDK",
-      "source_type": "Release",
-      "published_at": "2026-09-18T16:12:53+00:00",
-      "summary": "1.7.0 (2026-09-18)\nFull Changelog: v1.6.0...v1.7.0\nFeatures\n\napi: add group with display_name to rate limits, deprecate group_type (28f0a83)\ntools: add compact_before_next_turn() to the tool runner (#641) (8b23fb3)\n\nBug Fixes\n\nbedrock: raise an API error for eventstream exception and error frames (#769) (8ec9cc9)\nclient: accept X | Y union types when parsing responses (b366fa5)\nclient: don't raise TypeError for X | Y fields with unknown data (30ebd69)\nclient: join multiple anthropic-beta values with a comma and no space (#781) (1680324)\ntools: tidy compact_before_next_turn() state and failure handling (#804) (d3a9fc8)\n\nChores\n\ndeps: require p",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
