@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T12:42:57.512943+00:00",
+  "updated_at": "2026-10-24T16:37:33.326045+00:00",
   "stories": [
     {
       "id": "bf6c1f5aeba5312508e1",
@@ -20,6 +20,17 @@
       "source_type": "Release",
       "published_at": "2026-10-23T23:18:22+00:00",
       "summary": "Features\n\napi: add Claude Tag endpoints for Claude Enterprise organizations\n\nBug Fixes\n\ngoogle-cloud: send user profiles requests to the organization endpoint\n\nChores\n\nclient: stop sending query params hardcoded in endpoint paths\ndocs: improve the descriptions of the code execution tool and its encrypted results\ndocs: reword work queue, skill and external key descriptions\ndocs: update descriptions of the per-user usage and cost reports\ninternal: carry endpoint path query params to the request layer\ninternal: check the repository by owner and public name in workflows\ninternal: read the beta route qualifier instead of the beta=true query\nintern",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "173b2ddf9d58603a1734",
+      "title": "v0.40.11: voice: add voice catalog for Phonon (#19242)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-23T23:15:08+00:00",
+      "summary": "mlxrunner: import and list Phonon catalog voices\n\n\ndocs: document Phonon voices",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4938,17 +4949,6 @@
       "published_at": "2026-09-23T15:25:14+00:00",
       "summary": "",
       "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "1f7907ace18f3f71c174",
-      "title": "v1.8.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0",
-      "source": "Anthropic SDK",
-      "source_type": "Release",
-      "published_at": "2026-09-22T16:25:23+00:00",
-      "summary": "1.8.0 (2026-09-22)\nFull Changelog: v1.7.0...v1.8.0\nFeatures\n\napi: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) (b5cc700)\n\nBug Fixes\n\napi: share one evaluated_permission enum across Managed Agents events (f4f51c8)\nstreaming: avoid a Python 3.13 crash at exit when a stream is left open (af029bd)\ntools: add_tools() takes effect straight away (#874) (06d0a6b)\ntools: leave reply-only params off the tool runner's compaction request (#871) (4687310)\n\nChores\n\ndocs: add descriptions to the Dreams API reference (5574c63)\ndocs: add descriptions to the User Profiles API reference (5574c63)\ndocs: add memory sto",
-      "importance": 3,
       "status": "PRIMARY SOURCE"
     }
   ],
