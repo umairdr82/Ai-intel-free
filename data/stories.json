@@ -1,14 +1,25 @@
 {
-  "updated_at": "2026-10-24T16:37:33.326045+00:00",
+  "updated_at": "2026-10-24T19:30:59.629133+00:00",
   "stories": [
     {
-      "id": "bf6c1f5aeba5312508e1",
+      "id": "173b2ddf9d58603a1734",
       "title": "v0.40.11",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-24T00:30:13+00:00",
-      "summary": "What's Changed\n\nqwen3coder: preserve literal function closing tags in parameters by @hoyyeva in #19228\nlaunch: use allocated context for OpenCode by @hoyyeva in #19193\ndecision: allow empty state for vllm-d3 by @SynapShift in #19173\nllama.cpp: version bump b11845 by @dhiltgen in #19250\nmlxrunner: spell out symbols, numbers and links for Phonon by @jmorganca in #19234\nvoice: add voice catalog for Phonon by @jmorganca in #19242\n\nNew Contributors\n\n@SynapShift made their first contribution in #19173\n\nFull Changelog: v0.40.10...v0.40.11-rc0",
+      "published_at": "2026-10-24T17:50:51+00:00",
+      "summary": "Speech\nOllama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint.\nollama run phonon \"Hello from Ollama.\"\nd3 decision models\nd3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes.\nollama run d3 \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\nNew Contributors\n\n@SynapShift made their first cont",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "39a2c26df5548ff5b1c5",
+      "title": "v0.40.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-24T17:50:26+00:00",
+      "summary": "Flint on Linux and Windows\nFlint now runs on Linux and Windows as well as macOS.\nOther improvements\n\nStreaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output.\nollama launch now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings.\nAnthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures.\n\nFull Changelog: v0.40.8...v0.40.9",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -24,9 +35,9 @@
       "status": "PRIMARY SOURCE"
     },
     {
-      "id": "173b2ddf9d58603a1734",
-      "title": "v0.40.11: voice: add voice catalog for Phonon (#19242)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+      "id": "bf6c1f5aeba5312508e1",
+      "title": "v0.40.11-rc0: voice: add voice catalog for Phonon (#19242)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
       "source": "Ollama",
       "source_type": "Release",
       "published_at": "2026-10-23T23:15:08+00:00",
@@ -385,17 +396,6 @@
       "summary": "arXiv:2610.30631v1 Announce Type: new \nAbstract: Medical knowledge evolves as clinical guidelines revise recommendations, yet whether large language models (LLMs) faithfully incorporate such changes remains unclear. We introduce ChronoEvo, comprising 1,709 recommendation-level revisions across 12 forms of medical knowledge change, to distinguish recognition of revised guidance from incorporation into clinical recommendations. In the primary model, 90.8% of responses recognized revisions and 80.2% were clinically correct, but only 58.5% fully incorporated guidance, yielding a 32.3-percentage-point recognition-incorporation gap. This dissociati",
       "importance": 3,
       "status": "PREPRINT"
-    },
-    {
-      "id": "39a2c26df5548ff5b1c5",
-      "title": "v0.40.9",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-23T02:12:47+00:00",
-      "summary": "Speech\nOllama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint.\nollama run phonon \"Hello from Ollama.\"\nd3 decision models\nd3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes.\nollama run d3 \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\nFlint on Linux and Windows\nFlin",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     },
     {
       "id": "1a543055a02f9816518c",
