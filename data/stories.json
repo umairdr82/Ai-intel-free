@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T16:26:33.367013+00:00",
+  "updated_at": "2026-10-25T19:40:25.552634+00:00",
   "stories": [
     {
       "id": "173b2ddf9d58603a1734",
@@ -7,7 +7,7 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-24T17:50:51+00:00",
+      "published_at": "2026-10-25T18:06:57+00:00",
       "summary": "Speech\nOllama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint.\nollama run phonon \"Hello from Ollama.\"\nd3 decision models\nd3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes.\nollama run d3 \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\nNew Contributors\n\n@SynapShift made their first cont",
       "importance": 3,
       "status": "PRIMARY SOURCE"
