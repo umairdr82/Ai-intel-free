@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-26T14:19:07.593843+00:00",
+  "updated_at": "2026-10-26T20:31:11.127355+00:00",
   "stories": [
+    {
+      "id": "a5c54e147599c0edc16e",
+      "title": "v3.39.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.39.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-26T19:14:00+00:00",
+      "summary": "3.39.0 (2026-10-26)\nFeatures\n\napi: add gpt-6.1-terra model identifier (#4180) (e8beb1a)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "82ca109e520592e23b65",
+      "title": "Release: v5.21.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-10-26T18:21:30+00:00",
+      "summary": "Release v5.21.0\nNew Model additions\nMiniCPM-OCR\nMiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-attention merger with a Qwen3.5 language model. It is specialized for reading text-dense images such as scanned pages, screenshots, receipts and tables.\nLinks: Documentation | Paper\n\nFeat test (#49920) by @guarin in #49920\n\nFlint\n\nFlint is Recursive's mixture-of-experts language model. Compared to a standard SwiGLU MoE transformer such as Qwen3-MoE, it uses hybrid attention (sliding-window attention with rotary embeddings over th",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9adc31453afb2c0fcbf2",
+      "title": "v3.38.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.38.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-26T16:35:03+00:00",
+      "summary": "3.38.0 (2026-10-25)\nFeatures\n\napi: add delegation controls and prompt cache lifetimes (#4169) (43045fc)\napi: expand Live Decision item and question types (#4175) (5d72315)\n\nBug Fixes\n\nagents: clarify result schema warnings (#4165) (cfa0a79)\nformat API status errors using the server message (#4161) (6ce5f05)\npreserve fallback parsing for PEP 604 unions (#4160) (05dfea0)\nresponses: resolve function arguments within their namespace (#4166) (81792ff)\nresponses: validate tool namespaces before runner dispatch (#4167) (56a55f2)\n\nChores\n\napi: preserve client and resource compatibility (#4157) (56f33a1)\nenforce zero custom code in generated Python fi",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "b1d7eb2dedce5839f589",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-10-26T16:00:00+00:00",
+      "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "27334100e818b98514ff",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-26T10:00:00+00:00",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "7e73eebe3e909303c4c5",
       "title": "How Fanatics and OpenAI streamline the fan experience",
@@ -9,6 +64,17 @@
       "source_type": "Official",
       "published_at": "2026-10-26T07:00:00+00:00",
       "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "742d30efdc4090c11a97",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-26T07:00:00+00:00",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -286,6 +352,17 @@
       "summary": "arXiv:2610.32106v1 Announce Type: new \nAbstract: Scientific agents collaborate with researchers whose expertise and preferences differ, but benchmarks usually hold the collaborator fixed. We introduce PersonaScienceBench: 200 tasks from five benchmarks across four scientific domains. Simulated researchers provide context and feedback according to persona profiles, while task objectives and grading remain fixed. Agents encounter researcher preferences only through conversation. Across eighteen modelconfigurations, task performance, fact recovery, and self-repetition reveal different strengths. Detailed GPT 6 Astra analyses show distinct agent ",
       "importance": 3,
       "status": "PREPRINT"
+    },
+    {
+      "id": "35e334c198740f741663",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "summary": "Bringing fast and capable computer use to everyone",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "173b2ddf9d58603a1734",
@@ -4871,83 +4948,6 @@
       "source_type": "Release",
       "published_at": "2026-09-30T22:58:09+00:00",
       "summary": "1.11.0 (2026-09-30)\nFull Changelog: v1.10.0...v1.11.0\nFeatures\n\napi: add list spend limits endpoint (e8f0cac)\n\nChores\n\nclient: deprecate sonnet 4.5 (22b36b1)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "ce56aa83d0064ef1be25",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "source": "Google DeepMind",
-      "source_type": "Official",
-      "published_at": "2026-09-30T20:01:45+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "0252731fabad7d0d3839",
-      "title": "v1.10.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.10.0",
-      "source": "Anthropic SDK",
-      "source_type": "Release",
-      "published_at": "2026-09-30T18:28:45+00:00",
-      "summary": "1.10.0 (2026-09-30)\nFull Changelog: v1.9.0...v1.10.0\nFeatures\n\napi: add a refusal stop reason and stop_details to Managed Agents session idle events (cba653f)\napi: add Claude Enterprise analytics, spend limits, and RBAC groups and roles to the Admin API (6bb2c0c)\napi: add per-user usage and cost reports to the Admin API analytics (7443920)\napi: add Plugins and Plugin Marketplaces to the Admin API (1baad3b)\napi: add repository error types to Managed Agents session errors (c682f7e)\napi: allow removing a plugin's org-wide installation setting (17f52fc)\napi: MCP tunnels beta: add read-only transport object to Tunnel and return the one-time relay ",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "a3f2477a7a4c17f88579",
-      "title": "Release 5.18.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0",
-      "source": "Transformers",
-      "source_type": "Release",
-      "published_at": "2026-09-30T16:46:27+00:00",
-      "summary": "New Model additions\nNemotron 3 Diarization\n\nNemotron 3 Diarization is an open-weight streaming speaker diarization model designed to determine \"who spoke when\" in real-world audio. It supports both streaming and offline inference, handles up to eight speakers, and orders speaker outputs by each speaker's first arrival in the input audio.\nThe model uses the Arrival-Order Speaker Cache (AOSC) 1 and FIFO queue introduced for Streaming Sortformer 1, 2. A single checkpoint supports configurable latency profiles, from an 80 ms input buffer to a 30.4 s offline-style buffer, and configurable output frame resolution in multiples of 10 ms. With chunked",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "63e9a822faf54946f1af",
-      "title": "Forecasting space weather risks on power grids",
-      "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
-      "source": "Microsoft Research",
-      "source_type": "Official",
-      "published_at": "2026-09-30T16:00:00+00:00",
-      "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives.\nThe post Forecasting space weather risks on power grids appeared first on Microsoft Research.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "c696e8b1f34224735a5b",
-      "title": "Introducing SynthID Bio",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "source": "Google DeepMind",
-      "source_type": "Official",
-      "published_at": "2026-09-30T15:03:07+00:00",
-      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "90249c2a3882c6d31b88",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-09-30T10:30:00+00:00",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "061338e668ed697490e5",
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-09-30T10:00:00+00:00",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
