@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-26T06:21:41.361772+00:00",
+  "updated_at": "2026-10-26T14:19:07.593843+00:00",
   "stories": [
+    {
+      "id": "7e73eebe3e909303c4c5",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-26T07:00:00+00:00",
+      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "5f576791a98a9560d038",
       "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
@@ -4937,17 +4948,6 @@
       "source_type": "Official",
       "published_at": "2026-09-30T10:00:00+00:00",
       "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "3cc335b5ecc27437412d",
-      "title": "v3.22.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.22.1",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-09-30T00:25:09+00:00",
-      "summary": "3.22.1 (2026-09-30)\nBug Fixes\n\napi: correct the missing authentication error message (#3993) (51692ed), closes #3962\ntransform NotRequired typed dictionary fields (#3995) (5544c18)\n\nChores\n\ntests: mark sample_file.txt as text with LF line endings (#3879) (fd78a48)\n\nDocumentation\n\nexamples: fix two stale example comments (#3877) (1c4830b)\nexamples: print event.delta in the streaming helpers doc (#3876) (063375b)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
