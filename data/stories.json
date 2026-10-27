@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-27T13:15:03.078579+00:00",
+  "updated_at": "2026-10-27T18:45:15.055832+00:00",
   "stories": [
+    {
+      "id": "b49ec3bd8394c6fb4c19",
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-10-27T17:35:00+00:00",
+      "summary": "Education Innovation",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "1c5b51464767c2ad2949",
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-27T17:16:52+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "25296bd10ebb7ad2c6b8",
+      "title": "v0.40.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-27T17:16:47+00:00",
+      "summary": "Liquid AI LFM3\nLFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes:\n\nlfm3: a 1.7B text model with a 256K-token context window\nlfm3-vl: adds image understanding\nlfm3-audio: speech recognition, translation, and text-to-speech in 18 languages\nlfm3-omni: text, images, and audio in one model\n\nollama run lfm3\nd1 decision models\nLiquid AI's d1 models now come in a 2B size, built on LFM3. d1 makes decisions about text and images, and d1-omni adds audio.\nollama run d1:2b \"I was charged twice for order 4417.\" --ask \"Is this a billing iss",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "1d6c5c59e46e52b936cb",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-27T16:12:42+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "393575ee7d83ff0a65d3",
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-10-27T16:01:38+00:00",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "ef005755972bec0a295e",
+      "title": "v3.40.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.40.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-27T15:37:52+00:00",
+      "summary": "3.40.0 (2026-10-27)\nFeatures\n\napi: add prompt cache breakpoint TTL options (#4188) (3596d18)\n\nBug Fixes\n\nci: use an explicit browser demo dependency (#4185) (a3f4302)\n\nChores\n\napi: record completed generated-code separation (#4190) (d7ab5ee)\ndeps-dev: bump griffe from 1.14.0 to 2.3.0 (#4069) (766b849)\ndeps: bump actions/create-github-app-token from 3.2.0 to 3.3.0 (#4178) (06dbb5d)\ndeps: bump actions/download-artifact from 8.0.1 to 8.0.2 (#4110) (2404d04)\ndeps: bump actions/upload-artifact from 7.0.1 to 7.0.2 (#4107) (0adf711)\ndeps: bump github/codeql-action/analyze from 4.38.2 to 4.39.0 (#4177) (1e42321)\ndeps: bump openai/codex-action from 1.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c417f8e3d39d0b893c07",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "5f576791a98a9560d038",
       "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
@@ -278,12 +355,12 @@
     },
     {
       "id": "c39f2a58bf6fb070341b",
-      "title": "v0.40.12",
+      "title": "v0.40.12-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-27T00:07:12+00:00",
-      "summary": "What's Changed\n\nmlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247\nMLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291\nmlx: add DFlash2 support by @dhiltgen in #19149\nllama.cpp: version bump b11901 by @dhiltgen in #19311\n\nFull Changelog: v0.40.11...v0.40.12-rc0",
+      "published_at": "2026-10-26T23:10:42+00:00",
+      "summary": "llama.cpp: version bump b11901 (#19311)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -823,6 +900,17 @@
       "source_type": "Official",
       "published_at": "2026-10-23T00:00:00+00:00",
       "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "3b5a2a6a27ab5490f80a",
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "url": "https://openai.com/index/anima",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
@@ -4861,94 +4949,6 @@
       "published_at": "2026-10-03T22:56:48+00:00",
       "summary": "",
       "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "c38af6e5cae43e23a64c",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-02T16:15:00+00:00",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "b31357d97d278020889e",
-      "title": "v3.24.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.24.0",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-02T15:54:21+00:00",
-      "summary": "3.24.0 (2026-10-02)\nFeatures\n\napi: add custom voice creation and agent session events (#4013) (e5de2e5)\n\nBug Fixes\n\napi: prioritize Python request routing fields (#4014) (ffcc4c4)\napi: prioritize routing fields in parse helpers (#4016) (ba53a10)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "6a7bb4e3e69d69f535f5",
-      "title": "The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "source": "Google AI",
-      "source_type": "Official",
-      "published_at": "2026-10-02T15:00:00+00:00",
-      "summary": "A video showing the September AI updates",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "afd517ff06180871c64e",
-      "title": "AI is changing developer work. Here are three skills to strengthen.",
-      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-      "source": "GitHub AI",
-      "source_type": "Official",
-      "published_at": "2026-10-02T15:00:00+00:00",
-      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.\nThe post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "a47750453f6e45044c5c",
-      "title": "Toward provably private learning from federated data",
-      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
-      "source": "Google Research",
-      "source_type": "Official",
-      "published_at": "2026-10-02T14:57:41+00:00",
-      "summary": "Mobile Systems",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "56c490db040147f1def4",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-02T04:01:31+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "882596cbc7639eb42bf2",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-02T00:00:00+00:00",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "eb59ea8627f0aa9d94e6",
-      "title": "v3.23.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.23.0",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-01T23:02:59+00:00",
-      "summary": "3.23.0 (2026-10-01)\nFeatures\n\nagents: [1/n] return typed answers from session streams (#4007) (10f8816)\nagents: stage files and download turn artifacts (#4009) (4fc2438)\napi: Add session traces and Realtime translations (#4001) (138e3d1)\nbeta: expose typed application actions as agent tools (#4006) (f219c55)\ncollect final output from beta Agents streams (157ac4c)\n\nBug Fixes\n\napi: allow original image detail in Chat Completions (#4005) (8a136c2)\napi: correct the eval run cancellation endpoint (#4003) (28c5c9a)\napi: retain WebSocket endpoint paths and query parameters (#3999) (7f203fd)\nkeep Castiron budget results valid when main advances (#401",
-      "importance": 3,
       "status": "PRIMARY SOURCE"
     }
   ],
