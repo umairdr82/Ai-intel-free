@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-26T20:31:11.127355+00:00",
+  "updated_at": "2026-10-27T00:28:35.991750+00:00",
   "stories": [
+    {
+      "id": "c39f2a58bf6fb070341b",
+      "title": "v0.40.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-27T00:07:12+00:00",
+      "summary": "What's Changed\n\nmlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247\nMLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291\nmlx: add DFlash2 support by @dhiltgen in #19149\nllama.cpp: version bump b11901 by @dhiltgen in #19311\n\nFull Changelog: v0.40.11...v0.40.12-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a9c488820a62ac4adcd9",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-26T22:00:00+00:00",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "a5c54e147599c0edc16e",
       "title": "v3.39.0",
@@ -43,6 +65,28 @@
       "published_at": "2026-10-26T16:00:00+00:00",
       "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8eb6001a836a6e50b8fb",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-26T14:30:00+00:00",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "7d972df501d01ba1f64a",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-26T13:45:00+00:00",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4904,50 +4948,6 @@
       "source_type": "Release",
       "published_at": "2026-10-01T23:02:59+00:00",
       "summary": "3.23.0 (2026-10-01)\nFeatures\n\nagents: [1/n] return typed answers from session streams (#4007) (10f8816)\nagents: stage files and download turn artifacts (#4009) (4fc2438)\napi: Add session traces and Realtime translations (#4001) (138e3d1)\nbeta: expose typed application actions as agent tools (#4006) (f219c55)\ncollect final output from beta Agents streams (157ac4c)\n\nBug Fixes\n\napi: allow original image detail in Chat Completions (#4005) (8a136c2)\napi: correct the eval run cancellation endpoint (#4003) (28c5c9a)\napi: retain WebSocket endpoint paths and query parameters (#3999) (7f203fd)\nkeep Castiron budget results valid when main advances (#401",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "b8087b88cb63ae7fc829",
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-01T17:00:00+00:00",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "637d3dfa247fa816a4c4",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-01T16:00:00+00:00",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "2167384f51e2a4466793",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-01T00:00:00+00:00",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "fd51b96744f279e1a66e",
-      "title": "v1.11.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.11.0",
-      "source": "Anthropic SDK",
-      "source_type": "Release",
-      "published_at": "2026-09-30T22:58:09+00:00",
-      "summary": "1.11.0 (2026-09-30)\nFull Changelog: v1.10.0...v1.11.0\nFeatures\n\napi: add list spend limits endpoint (e8f0cac)\n\nChores\n\nclient: deprecate sonnet 4.5 (22b36b1)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
