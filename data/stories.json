@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-28T09:43:45.713374+00:00",
+  "updated_at": "2026-10-28T16:40:21.390503+00:00",
   "stories": [
+    {
+      "id": "ec733f799e1aaee3d1ac",
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-28T14:58:17+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "67c6b18b0a76451db874",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "709cc8e2bd467b791689",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "6d883a1f3620138ca1b2",
       "title": "Counting the Bandages: On measuring the time that AI saves",
@@ -4916,39 +4949,6 @@
       "published_at": "2026-10-07T20:19:57+00:00",
       "summary": "",
       "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "2ff84b708c87960b9f63",
-      "title": "v1.12.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.0",
-      "source": "Anthropic SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-07T17:57:07+00:00",
-      "summary": "1.12.0 (2026-10-07)\nFull Changelog: v1.11.0...v1.12.0\nFeatures\n\napi: add claude-haiku-5-5 and typed computer and browser toolset tool calls (f6346e6)\napi: add disabled to thinking types in model capabilities (78d815d)\napi: add display_name to RBAC roles and deprecate name (f63f99c)\napi: add include_default parameter to list workspaces (5d4b37b)\napi: add lifecycle stage fields and filter to /v1/models (0c96c02)\napi: add line to model objects (a85c649)\napi: add url_sources to the Managed Agents web_fetch tool config (78d815d)\napi: add web search and code execution support to model capabilities (78d815d)\n\nBug Fixes\n\napi: send the beta header by ",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "c6fb2b313984d9d24e98",
-      "title": "Secret protection must scale with software",
-      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
-      "source": "GitHub AI",
-      "source_type": "Official",
-      "published_at": "2026-10-07T17:45:34+00:00",
-      "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.\nThe post Secret protection must scale with software appeared first on The GitHub Blog.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "88e871d5a8d26738db20",
-      "title": "Multimodal open d1 decision models for the edge",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-07T16:54:33+00:00",
-      "summary": "",
-      "importance": 4,
       "status": "PRIMARY SOURCE"
     }
   ],
