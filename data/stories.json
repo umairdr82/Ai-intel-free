@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-28T16:40:21.390503+00:00",
+  "updated_at": "2026-10-28T21:40:32.043028+00:00",
   "stories": [
+    {
+      "id": "5a94e92ea1729a3634bb",
+      "title": "v0.40.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-28T19:55:04+00:00",
+      "summary": "What's Changed\n\nllm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in #19344\nllama.cpp: version bump b11963 by @dhiltgen in #19360\n\nFull Changelog: v0.40.12...v0.40.13-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "e8e0cb1d0e685ced8c0e",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-10-28T17:00:58+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "ec733f799e1aaee3d1ac",
       "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
@@ -9,6 +31,28 @@
       "source_type": "Official",
       "published_at": "2026-10-28T14:58:17+00:00",
       "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a395c7da350b5086cc15",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-28T13:15:00+00:00",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "e2ed7680c50ae3f074e0",
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-28T10:00:00+00:00",
+      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4904,50 +4948,6 @@
       "source_type": "Release",
       "published_at": "2026-10-08T02:09:43+00:00",
       "summary": "What's Changed\n\nserver: proxy cloud usage and balance APIs by @drifkin in #18829\nllama: fix clef head reads past 2GiB on windows by @Gigrise in #18777\ncmd: remove account step from CLI onboarding by @hoyyeva in #18826\nmanifest: avoid symlinks on Windows by @dhiltgen in #18852\ndocs: fix 6 dead links in README community integrations list by @aniketkrs in #18814\ndocs: fix broken download links in app README by @chenlichao in #18233\nmlx: drop carried metal residency patch now that it is upstream by @dhiltgen in #18854\n\nNew Contributors\n\n@Gigrise made their first contribution in #18777\n@aniketkrs made their first contribution in #18814\n@chenlichao",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "d9e485b409fe8517ac6e",
-      "title": "Disrupting AI-enabled “false front” operations",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-08T00:00:00+00:00",
-      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "ffd2818196374b7e8d98",
-      "title": "The model that didn't exist, so you made it yourself",
-      "url": "https://huggingface.co/blog/building-with-ml-intern",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-08T00:00:00+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "eb25002de2a733371d4c",
-      "title": "v0.40.1-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-07T22:22:54+00:00",
-      "summary": "mlx: drop carried metal residency patch now that it is upstream (#18854)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "b96cc914fffc078602a8",
-      "title": "Does better work always mean better workers?",
-      "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
-      "source": "Google Research",
-      "source_type": "Official",
-      "published_at": "2026-10-07T20:19:57+00:00",
-      "summary": "",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
