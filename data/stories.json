@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-29T16:10:56.035923+00:00",
+  "updated_at": "2026-10-29T21:10:01.995216+00:00",
   "stories": [
+    {
+      "id": "d368308dafb9bf4a5ac8",
+      "title": "Microsoft Research Focus – Edition #97",
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-10-29T19:19:16+00:00",
+      "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting.\nThe post Microsoft Research Focus – Edition #97 appeared first on Microsoft Research.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9349f418e7bc7ab45091",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-29T17:00:00+00:00",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "128755116b8b9c05fe32",
       "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
@@ -24,6 +46,17 @@
       "status": "PRIMARY SOURCE"
     },
     {
+      "id": "0f01adb2acab0a67ba71",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-29T09:00:00+00:00",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "bf42268542540e5c5755",
       "title": "Patch release v5.21.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
@@ -32,6 +65,17 @@
       "published_at": "2026-10-29T08:35:02+00:00",
       "summary": "Patch release v5.21.1\n** Fix rope_scaling setter for configs that assign it during init (#50080 )\nWe broke remote code loading in vllm, this fixes it sorry everyone!",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "d948735545c20cf30721",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4904,50 +4948,6 @@
       "source_type": "Release",
       "published_at": "2026-10-09T17:36:11+00:00",
       "summary": "server: skip local model compatibility migration (#18908)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "36f74a1165945d075a5f",
-      "title": "v1.13.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
-      "source": "Anthropic SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-09T15:28:52+00:00",
-      "summary": "Features\n\napi: add types for the Chat and Cowork unified analytics metrics\napi: add workflows, multiagent configuration and thread status filtering to Managed Agents\n\nChores\n\ninternal: name the default API version header value",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "e05551817b225bef5e8c",
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-09T15:20:29+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "9e3839028a973afbf20d",
-      "title": "v3.27.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.27.0",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-09T13:46:41+00:00",
-      "summary": "3.27.0 (2026-10-09)\nFeatures\n\napi: add prewarmed hosted environments (#4043) (c511a77)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "570fe3204556675e8dd9",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-09T07:00:00+00:00",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
