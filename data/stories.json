@@ -1,15 +1,37 @@
 {
-  "updated_at": "2026-10-29T08:33:24.211621+00:00",
+  "updated_at": "2026-10-29T16:10:56.035923+00:00",
   "stories": [
     {
+      "id": "128755116b8b9c05fe32",
+      "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-10-29T14:16:58+00:00",
+      "summary": "New Models\nMistral Large 4 (Le Chonk)\n\nMistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own datacenters in Europe.\nMistral Large 4 unifies instruction following, reasoning, coding, and agentic workflows in a single set of weights. While a generalist model, it shows especially good performance on workloads such as cybersecurity, finance, and law, and it surpasses frontier closed models on vis",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "e508e29ae812fe586e8d",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-29T13:37:07+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "bf42268542540e5c5755",
-      "title": "v5.21.1",
+      "title": "Patch release v5.21.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
       "source": "Transformers",
       "source_type": "Release",
-      "published_at": "2026-10-29T07:56:35+00:00",
-      "summary": "v5.21.1",
-      "importance": 3,
+      "published_at": "2026-10-29T08:35:02+00:00",
+      "summary": "Patch release v5.21.1\n** Fix rope_scaling setter for configs that assign it during init (#50080 )\nWe broke remote code loading in vllm, this fixes it sorry everyone!",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -296,6 +318,39 @@
       "published_at": "2026-10-29T02:54:11+00:00",
       "summary": "LFM3 on Linux and Windows\nLiquid AI's LFM3 models, including text-to-speech in lfm3-audio and lfm3-omni, now run on Linux and Windows as well as Apple silicon.\nFull Changelog: v0.40.12...v0.40.13",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "718617961cab3abcc8e8",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "b6b30743068c26272d89",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "6394645bd5105adc5435",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4893,61 +4948,6 @@
       "source_type": "Official",
       "published_at": "2026-10-09T07:00:00+00:00",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "9bf93d58cc35db9987f8",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-09T07:00:00+00:00",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "95b91ef337a82fbc2d20",
-      "title": "v0.40.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-09T03:37:30+00:00",
-      "summary": "Model upgrades\nModels downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp.\nTo make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically.\nTo remove backed up models now (requires jq):\ncurl -s localhost:11434/api/tags | jq -r '.models[].name' | while read -r m; do\n  curl -s localhost:11434/api/show -d \"{\\\"model\\\":\\\"$m\\\"}\" | jq -r \\\n    'select(any(.manifests[]?; .runner == \"llamacpp\")) | .manifests[] | select(.runne",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "db7b9e6fe248e3146f87",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-08T16:00:00+00:00",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "ffbada98cace5f62be30",
-      "title": "v0.40.2-rc0: server: hide duplicate and downgrade guards from list (#18874)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-08T15:54:06+00:00",
-      "summary": "When a legacy GGUF which requires our llama.cpp patch set is loaded, we do a\nlazy conversion on disk to make it llama.cpp compatible.  To support\ndowngrades, we temporarily hold both the new and old GGUFs and create a shadow\nv1 manifest tag to prevent the downgraded server from deleting the new blobs.\nShowing these in the list output is confusing to users and API consumers.  The\nlegacy copies will be removed in a future release to recover the disk space.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "855092fba1df7e8a668b",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "url": "https://openai.com/index/pollo-ai",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-08T12:00:00+00:00",
-      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
