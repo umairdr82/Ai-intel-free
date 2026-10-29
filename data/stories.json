@@ -1,14 +1,36 @@
 {
-  "updated_at": "2026-10-28T21:40:32.043028+00:00",
+  "updated_at": "2026-10-29T01:50:06.812279+00:00",
   "stories": [
     {
-      "id": "5a94e92ea1729a3634bb",
+      "id": "002a48ec774cc7a0f7a7",
       "title": "v0.40.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-10-28T23:48:33+00:00",
+      "summary": "What's Changed\n\nllm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in #19344\nllama.cpp: version bump b11963 by @dhiltgen in #19360\n\nFull Changelog: v0.40.12...v0.40.13-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c830f4bc72556ec9823d",
+      "title": "v3.41.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.41.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-10-28T22:26:54+00:00",
+      "summary": "3.41.0 (2026-10-28)\nFeatures\n\napi: accept typed references in Realtime response inputs (#4189) (8ecb487)\napi: add response tool usage models (#4201) (55fc500)\napi: filter agent sessions by metadata (#4200) (77fd116)\nwebsocket: recover queued binary frames after reconnect (#4191) (f079868)\n\nBug Fixes\n\nexamples: detect incomplete WebSocket responses (#4187) (8559299)\nexamples: handle interruptions and disconnects in push-to-talk (#4192) (35fc9f3)\nkeep consumer fixtures clean under strict Pyright (#4204) (5012565)\n\nChores\n\napi: document upcoming model shutdowns (#4199) (5b43cce)\napi: update image-model documentation (#4198) (fa67521)\nenforce gen",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "5a94e92ea1729a3634bb",
+      "title": "v0.40.13-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-10-28T19:55:04+00:00",
-      "summary": "What's Changed\n\nllm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in #19344\nllama.cpp: version bump b11963 by @dhiltgen in #19360\n\nFull Changelog: v0.40.12...v0.40.13-rc0",
+      "published_at": "2026-10-28T17:37:56+00:00",
+      "summary": "llama.cpp: version bump b11963 (#19360)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4926,28 +4948,6 @@
       "source_type": "Release",
       "published_at": "2026-10-08T08:53:32+00:00",
       "summary": "3.26.1 (2026-10-08)\nBug Fixes\n\napi: correct custom voice creation parameters (#4038) (b9bc5c1)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "3bcb59dfb0fa4c4dce77",
-      "title": "v1.12.1",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.1",
-      "source": "Anthropic SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-08T03:41:38+00:00",
-      "summary": "Chores\n\nci: check that pull requests update the changelog\ndocs: note that listing Claude Console spend limits is in early access\ninternal: match the package version in uv.lock",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "37acfe428526cde8f1d9",
-      "title": "v0.40.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-08T02:09:43+00:00",
-      "summary": "What's Changed\n\nserver: proxy cloud usage and balance APIs by @drifkin in #18829\nllama: fix clef head reads past 2GiB on windows by @Gigrise in #18777\ncmd: remove account step from CLI onboarding by @hoyyeva in #18826\nmanifest: avoid symlinks on Windows by @dhiltgen in #18852\ndocs: fix 6 dead links in README community integrations list by @aniketkrs in #18814\ndocs: fix broken download links in app README by @chenlichao in #18233\nmlx: drop carried metal residency patch now that it is upstream by @dhiltgen in #18854\n\nNew Contributors\n\n@Gigrise made their first contribution in #18777\n@aniketkrs made their first contribution in #18814\n@chenlichao",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
