@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-30T07:11:15.191486+00:00",
+  "updated_at": "2026-10-30T14:13:37.026536+00:00",
   "stories": [
+    {
+      "id": "7f76fde50a9a411473a4",
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-10-30T13:05:28+00:00",
+      "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances.\nThe post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on Microsoft Research.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "75a20b079e3b9559a8e8",
+      "title": "Patch release v5.22.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.1",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-10-30T09:36:03+00:00",
+      "summary": "Patch release v5.22.1\nWe just had to fix the documentation!\n** [Fix] Remove WIP doc for Ml4 (#50124) from @remi-or",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "2e338f4975c6ee042842",
       "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
@@ -4928,28 +4950,6 @@
       "summary": "What's Changed\n\nollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878\nollama launch codex no longer warns about service tiers by @hoyyeva in #18879\nPaused background model upgrade for embedding and other request performance, by @jmorganca in #18908\n\nFull Changelog: v0.40.2...v0.40.3",
       "importance": 3,
       "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "04a3afe8fc92fa04289a",
-      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-      "url": "https://arxiv.org/abs/2610.10541",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-10T04:00:00+00:00",
-      "summary": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or unsuitable, column headers become a critical source of semantic evidence for traceable KG preparation.\n  We present an explainable, header-centric framework for metadata-only Column Type Annotation (CTA) and Data Quality Assessment (DQA). The framework maps headers to 39 interpretable FinalFormat types using curated lexical resources and preserves token",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "30c38a4f4bf9960ad2b0",
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "url": "https://arxiv.org/abs/2610.10549",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-10T04:00:00+00:00",
-      "summary": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distributional fidelity without per-domain authoring. We introduce **Synthesis Through Simulation** (STS), a **schema--free** data synthesis paradigm in w",
-      "importance": 3,
-      "status": "PREPRINT"
     }
   ],
   "sources_checked": 13
