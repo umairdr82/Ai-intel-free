@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-30T14:13:37.026536+00:00",
+  "updated_at": "2026-10-30T19:27:00.453757+00:00",
   "stories": [
+    {
+      "id": "037154e824aaff256e14",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "7f76fde50a9a411473a4",
       "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
@@ -21,6 +32,28 @@
       "published_at": "2026-10-30T09:36:03+00:00",
       "summary": "Patch release v5.22.1\nWe just had to fix the documentation!\n** [Fix] Remove WIP doc for Ml4 (#50124) from @remi-or",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "84abd1857de5dfd951d9",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-30T09:30:00+00:00",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a86d24c59c826150d16d",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-30T09:00:00+00:00",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -691,6 +724,17 @@
       "source_type": "Official",
       "published_at": "2026-10-29T00:00:00+00:00",
       "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "85f94c0fe8f02a81789b",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
@@ -4906,50 +4950,6 @@
       "summary": "arXiv:2610.12921v1 Announce Type: new \nAbstract: Brain-computer interfaces decode neural activity, yet class-label supervision (CLS) leaves relationships among classes implicit. We propose Language as Supervision (LaS), which aligns neural features with natural-language class descriptions through learned projections and predicts classes using candidate text prototypes. We evaluate seven encoder architectures with independently trained models for visual, motor, and speech decoding from scalp and intracranial recordings. LaS improves speech-decoding accuracy by up to 17.15~pp over matched CLS baselines. Its representations support candidate-set",
       "importance": 2,
       "status": "PREPRINT"
-    },
-    {
-      "id": "0fcd4629093f8692e4cc",
-      "title": "Collaborative Learning and Reasoning over Model Slices",
-      "url": "https://arxiv.org/abs/2610.12927",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12927v1 Announce Type: new \nAbstract: Large language models (LLMs) excel across diverse tasks, benefiting from knowledge priors, in-context reasoning, and test-time computation. Despite these strengths, single-model reasoning remains vulnerable to error propagation, as later steps depend on the model's earlier outputs, leaving reasoning blind spots difficult to independently reassess. To address this limitation, we develop \\textit{collaborative learning}, encompassing the construction of heterogeneous collaborators and the learning of effective cross-model collaboration. Specifically, \\textit{model slicing} replaces a large model w",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "8df6df601655f17ef834",
-      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
-      "url": "https://arxiv.org/abs/2610.12933",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12933v1 Announce Type: new \nAbstract: Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can substantially increase training cost without proportional performance gains. In this study, we therefore ask: how far can reasoning supervision be compressed without sacrificing capability? To this end, we propose an uncertainty-guided progressive contraction framework that concentrates supervision and optimization on the reasoning trajectories most valuable for learning. Specifically, rather than treating a teacher-generated chain-of-thought (CoT) ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "69d3bdce5fc6a4e84ed5",
-      "title": "v3.29.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-11T17:38:54+00:00",
-      "summary": "3.29.0 (2026-10-11)\nFeatures\n\napi: add billing_not_active session error code (#4052) (c88b320)\napi: add shida to named Live voices (#4053) (7352cf5)\napi: add vault updates and metadata filters (#4047) (e72f493)\napi: align beta pagination limits and non-null parameters (#4057) (800899e)\n\nChores\n\napi: clarify decision creation documentation (#4054) (16d3d3b)\napi: clarify Decisions question and answer descriptions (#4051) (895d617)\napi: document 128-character safety identifiers (#4050) (2c1ae52)\napi: document decision choice constraints (#4055) (b7a1990)\napi: document Files API rate-limit responses (#4049) (f6a3459)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "de32d3b9322608aa8c64",
-      "title": "v0.40.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-11T06:40:39+00:00",
-      "summary": "What's Changed\n\nollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878\nollama launch codex no longer warns about service tiers by @hoyyeva in #18879\nPaused background model upgrade for embedding and other request performance, by @jmorganca in #18908\n\nFull Changelog: v0.40.2...v0.40.3",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     }
   ],
   "sources_checked": 13
