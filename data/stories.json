@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-01T19:44:17.719411+00:00",
+  "updated_at": "2026-11-01T23:38:45.899089+00:00",
   "stories": [
+    {
+      "id": "1816c94a150b33fb518a",
+      "title": "v3.42.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.42.1",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-01T20:56:19+00:00",
+      "summary": "3.42.1 (2026-11-01)\nBug Fixes\n\napi: preserve Responses WebSocket connection behavior (#4221) (38075d8)\nrealtime: validate beta WebSocket authentication profiles (#4218) (3622a97)\n\nRefactors\n\nwebsocket: add SDK-owned Responses policy helpers (#4219) (83ed269)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "2e338f4975c6ee042842",
       "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
@@ -4938,17 +4949,6 @@
       "published_at": "2026-10-12T04:00:00+00:00",
       "summary": "arXiv:2610.12914v1 Announce Type: new \nAbstract: Vision-language-action (VLA) models have shown strong promise in robotic manipulation, yet their post-training still predominantly relies on trajectory-level supervised imitation over robot demonstrations. While effective for learning feasible actions, this paradigm supervises policies to reproduce expert actions at each step, biasing them toward demonstration-specific action paths and providing limited guidance for recovering toward task-progress states once execution deviates from demonstrated trajectories. To address this limitation, we propose OGPO, an Offline Goal-conditioned Policy Optimi",
       "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "ef0706f3d0161a7692c1",
-      "title": "DeFiRank: Federated Pairwise Ranking for Governance in Decentralized Financial Networks",
-      "url": "https://arxiv.org/abs/2610.12916",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12916v1 Announce Type: new \nAbstract: Existing governance approaches in decentralized financial networks rely on manual review processes conducted by human committees, which introduces subjective bias, creates a scalability bottleneck under high network volume, and fails to capture complex behavioural patterns and evolving network dynamics. To address these limitations, we propose \\name, a federated learning-based pairwise ranking framework in which multiple institutions collaboratively train a ranking model without sharing their private transaction data. This collaborative learning enables the model to capture network-wide behavio",
-      "importance": 2,
       "status": "PREPRINT"
     }
   ],
