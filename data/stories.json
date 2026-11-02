@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-02T16:04:07.384696+00:00",
+  "updated_at": "2026-11-02T23:34:37.073577+00:00",
   "stories": [
+    {
+      "id": "85f0b11b847933bb21dd",
+      "title": "v2.4.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.4.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-02T19:07:19+00:00",
+      "summary": "Features\n\napi: add GA methods for analytics, spend limits and RBAC\napi: add named beta types for unified metrics and RBAC delete responses\napi: add shared analytics order and increase request actor types\napi: add tool_use_limit_reached_error and compaction_limit_reached_error session error types\napi: add types for analytics group_by and spend limit period filters\napi: add user_profile_id to External Keys and Workspaces\n\nBug Fixes\n\napi: make spend_limit nullable in the spend limit increase request approve response\napi: require always-sent analytics fields and drop the unused project product field\nclient: let pydantic validate params types that",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c45a0b6d7de18ac55a14",
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-02T17:45:00+00:00",
+      "summary": "Animated carousel of images from AI posts in October",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "5d33ed0c66ace544e65f",
       "title": "Introducing the Grid Protectors Program",
@@ -10,6 +32,17 @@
       "published_at": "2026-11-02T15:00:00+00:00",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "5a014341bc3fc0f1d8b6",
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-02T09:00:00+00:00",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -286,6 +319,17 @@
       "summary": "arXiv:2610.41089v1 Announce Type: new \nAbstract: Estimating whether a problem is too complex for a large language model (LLM) before the model attempts it can guide model routing, how to allocate test-time compute, and suggest the need for new tools to aid the agent. While existing estimators rely on the problem text, LLM-annotated task difficulty labels, or signals obtained after a model attempts to solve the problem, such as its hidden states, none explicitly leverage the constraint structure inherent in the problem: the variables to assign and how the constraints over them interact.\n  We introduce CIRCE, which extracts a problem's structur",
       "importance": 2,
       "status": "PREPRINT"
+    },
+    {
+      "id": "4094d4340f9e66f9e2fc",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "1816c94a150b33fb518a",
@@ -4905,50 +4949,6 @@
       "published_at": "2026-10-13T21:23:05+00:00",
       "summary": "launch: allow usage credits without upgrading (#18985)",
       "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "8b1ab1df41ac00d8450a",
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "Google DeepMind",
-      "source_type": "Official",
-      "published_at": "2026-10-13T19:43:07+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "7a679d710e8c186b4153",
-      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-      "source": "GitHub AI",
-      "source_type": "Official",
-      "published_at": "2026-10-13T17:56:33+00:00",
-      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.\nThe post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "53911f98c21c784fce1a",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-13T17:05:48+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "94cc08977f17740f09c1",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source": "Google DeepMind",
-      "source_type": "Official",
-      "published_at": "2026-10-13T16:01:58+00:00",
-      "summary": "",
-      "importance": 4,
       "status": "PRIMARY SOURCE"
     }
   ],
