@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-11-03T15:12:37.141079+00:00",
+  "updated_at": "2026-11-03T21:03:25.964722+00:00",
   "stories": [
+    {
+      "id": "dac5300615d863ce6683",
+      "title": "v3.44.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.44.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-03T20:20:42+00:00",
+      "summary": "3.44.0 (2026-11-03)\nFeatures\n\napi: add workload identity providers and federation rules (#4237) (12709d7)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "997b1f620072e4f1dd30",
+      "title": "v3.43.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.43.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-03T18:05:44+00:00",
+      "summary": "3.43.0 (2026-11-03)\nFeatures\n\napi: expand Live Responses delegation tools (#4233) (f6e8480)\nresponses: accumulate rich WebSocket progress (#4224) (48cdad3)\nresponses: add WebSocket lane overflow isolation (#4225) (16bdad1)\n\nChores\n\ndeps: bump actions/setup-node from 4.4.0 to 7.1.0 (#4229) (abbfb27)\ndeps: bump actions/setup-python from 7.0.0 to 7.1.0 (#4232) (49f9a59)\ndeps: bump pypa/gh-action-pypi-publish from 1.14.2 to 1.14.3 (#4228) (f43f29b)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8d86676710497099b109",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-03T17:15:21+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "e790a34c95d47f72aebd",
+      "title": "Learn the rules: The hacker mindset",
+      "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-11-03T17:14:38+00:00",
+      "summary": "Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules.\nThe post Learn the rules: The hacker mindset appeared first on Microsoft Research.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "da38bc697163569b3434",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-03T17:01:49+00:00",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "4d3938441f216409a8f1",
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-03T16:35:36+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "25493a43cba550c7fe81",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-03T12:00:00+00:00",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "fc87a45dcfbf03d41725",
       "title": "Heimstaden is changing residential real estate management with AI",
@@ -9,6 +86,17 @@
       "source_type": "Official",
       "published_at": "2026-11-03T08:00:00+00:00",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "34e7d62615202d0de65f",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-03T08:00:00+00:00",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -318,6 +406,28 @@
       "published_at": "2026-11-03T00:00:00+00:00",
       "summary": "",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "019edb616369c3322f4c",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "63945bc794809749828f",
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "summary": "",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4839,116 +4949,6 @@
       "published_at": "2026-10-15T04:00:00+00:00",
       "summary": "arXiv:2610.14495v1 Announce Type: new \nAbstract: Explainer videos -- a worked geometry problem, why the sky is blue, how a dynasty fell -- are usually one more target for pixel video generation. We argue they are a different kind of artifact: a program (script, storyboard and per-frame animation code) that a deterministic renderer turns into frames. A program can be read, diffed, tested and audited; pixels can only be watched. Reels-RSI is an open-source reel director for any agent harness; its self-improvement happens at the program level rather than in weights or prompts. Every revision pass is logged with a code snapshot; a retrospective p",
       "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "1fded67394963f17105a",
-      "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
-      "url": "https://arxiv.org/abs/2610.18927",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.18927v1 Announce Type: new \nAbstract: LLM agent frameworks heavily rely on external skill assets to standardize tool usage, encode operational workflows, and supply executable runtime resources. Despite their widespread adoption, multi-component skill packages frequently suffer from cross-artifact inconsistencies, where documentation, scripts, and configuration files specify conflicting behavioral constraints. Although static auditing techniques can uncover such contractual discrepancies, static defect volume cannot reliably reflect real-world agent performance degradation. This gap leaves practitioners without rigorous evidence to",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "4cca51b1d2fa9e6fc5e5",
-      "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
-      "url": "https://arxiv.org/abs/2610.18933",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.18933v1 Announce Type: new \nAbstract: Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons. Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics. To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents. Building on its predecessor, our system decompose",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "394c1d937d63f8e3d65c",
-      "title": "Beyond Equation Search: Conjecture-Guided Discovery with SCOPE and ClosureBench",
-      "url": "https://arxiv.org/abs/2610.18938",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.18938v1 Announce Type: new \nAbstract: Most symbolic regression methods optimize candidate equations, but improving an equation's fit does not establish whether its underlying scientific conjecture should be retained, revised, or rejected. A conjecture may admit multiple mathematical realizations, and similarly accurate equations may imply different explanations. This motivates a shift from refining individual expressions to developing and testing the conjectures that guide them. We introduce SCOPE, a framework that sustains multiple conjecture-driven research trajectories. Multiple scientist agents independently pursue conjectures ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "0df3b2bcb1dd42e770f6",
-      "title": "Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models",
-      "url": "https://arxiv.org/abs/2610.18990",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.18990v1 Announce Type: new \nAbstract: Low-Rank Adaptation (LoRA) has made diffusion model personalization affordable and widely shareable, but it also creates moderation risks when harmful or problematic content is not faithfully disclosed. Hence, it is desired to develop a mechanism that, given a LoRA adapter, discovers the concept it was trained to generate, so as to support downstream investigation. We characterize the target concept through the conditioning input that most clearly exposes what the LoRA has learned. Such an input should induce coherent LoRA outputs that are distinctive from those of the base model and strongly a",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "4aa0285e48f2d54a4f4e",
-      "title": "Smart Alone, Blind Together: Why Accuracy Fails to CertifyTheory of Mind in Multi-Agent Teams",
-      "url": "https://arxiv.org/abs/2610.19051",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.19051v1 Announce Type: new \nAbstract: Coordinators that act on what they infer about teammates are usually certified by the accuracy of those inferences. We argue that accuracy is the wrong certificate, for two reasons. First, the accuracy needed to act depends on what a wrong action costs, so the bar belongs to the deployment, not the module. Second, a module's errors are rarely independent, and dependence has a sign: positively associated errors help where their damage overlaps and hurt where it compounds, so an accuracy threshold fails in a predictable direction, and once wrong beliefs interact and can do harm, no rule based on ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "21fdd541672d836a1643",
-      "title": "RLPE: Teaching LLMs to Prompt with Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.19062",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.19062v1 Announce Type: new \nAbstract: Prompting is a widely used method for adapting general-purpose LLMs to domain-specific tasks. Effective prompts can be tedious to create manually, so prompt writing is increasingly handed to LLMs, with recent work training LLMs to write prompts for other models. These techniques either write prompts without observing how the task model behaves, blind to the failure modes the prompt should address, or must run alongside the task LLM at inference time, adding overhead to every query. Neither reflects how prompt engineering is often practiced. To close this gap, we introduce Reinforcement Learned ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "cd991714a23b05cf43bb",
-      "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
-      "url": "https://arxiv.org/abs/2610.19068",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.19068v1 Announce Type: new \nAbstract: Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt. The dominant approach, which we term Retrieve-then-Plan (RtP), embeds the user query and retrieves similar tools via approximate nearest-neighbor search. We study an alternative Plan-then-Retrieve (PtR) paradigm in which the LLM first generates Abstract Tool Stubs (hypothesized function signatures describing needed capabilities) which then serve as retrieval queries against the registry. Evaluating on ToolBench",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "af7dd48ff2f796d33900",
-      "title": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.19100",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.19100v1 Announce Type: new \nAbstract: Constructing robust GUI agents relies on multimodal visual grounding: the ability to precisely map natural language intents to actionable on-screen components. Despite abundant desktop, web, and mobile benchmarks, high-fidelity resources tailored for diverse environments are surprisingly scarce. To bridge this gap, we introduce the Screen Referring Grounding Dataset (ScreenRef), a comprehensive GUI grounding dataset consisting of GUI screenshots paired with natural language referring expressions and box or point annotations. Spanning desktop, web, and mobile domains, ScreenRef comprises 586K sc",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "ae9256c3de05475e67c5",
-      "title": "Plant Memory: Technical Language Processing and a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders",
-      "url": "https://arxiv.org/abs/2610.19131",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.19131v1 Announce Type: new \nAbstract: Maintenance work orders are the largest written record of how industrial equipment fails, yet in most plants they are close to unusable for analysis. Short texts are abbreviated and misspelt, asset identity is buried in free text, work-type labels contradict the work described, and the fields that matter most for reliability (symptom, root cause, action taken) are usually empty. As a result, diagnostic knowledge stays with senior technicians and leaves when they do. We present Plant Memory, a system that applies technical language processing (TLP) to SAP Plant Maintenance (PM) exports and build",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "96d726103dc66f3c5bcf",
-      "title": "Graph-Based Orchestration of Heterogeneous AI Models: A Control Node Approach to Composite Intelligence",
-      "url": "https://arxiv.org/abs/2610.19136",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.19136v1 Announce Type: new \nAbstract: We present a graph-based framework for Composite AI systems that integrate multiple AI techniques to address complex problems. We describe an architecture using specialized control nodes to orchestrate diverse models including planning, machine learning, constraint programming, and large language models. The system employs directed acyclic graphs and behavior trees to manage model relationships and execution sequencing. Our methodology encompasses data connectors, computational services, and a containerized deployment framework supporting hierarchical, sequential, and concurrent model compositi",
-      "importance": 3,
       "status": "PREPRINT"
     }
   ],
