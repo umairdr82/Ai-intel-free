@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-03T21:03:25.964722+00:00",
+  "updated_at": "2026-11-04T01:25:21.944198+00:00",
   "stories": [
+    {
+      "id": "c2fb38ee8177687467b1",
+      "title": "v0.40.15",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-03T22:52:31+00:00",
+      "summary": "What's Changed\n\nmlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433\nmodel: add MiMo V2.6 model support by @dhiltgen in #19400\n\nFull Changelog: v0.40.14...v0.40.15-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "dac5300615d863ce6683",
       "title": "v3.44.0",
@@ -1604,6 +1615,17 @@
       "source_type": "Release",
       "published_at": "2026-10-28T22:20:04+00:00",
       "summary": "This temporary patch works around a regression on older versions of MacOS\nggml_metal_library_compile_all: failed to build 'unary' library",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "16681fd606d5f6994d06",
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "url": "https://openai.com/ads/customers/evernote",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-10-28T19:40:49+00:00",
+      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4926,28 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-10-15T04:00:00+00:00",
       "summary": "arXiv:2610.14487v1 Announce Type: new \nAbstract: Generative recommendation models based on autoregressive decoding have been adopted as alternatives to classical ranking-based systems. While their modeling flexibility has been widely studied, their resilience to data poisoning remains largely unexplored. In this work, we ask: how susceptible are generative recommenders to conditional targeted poisoning? Under a realistic setting where an adversary can inject limited malicious interactions and query a recommendation API as a black box, our empirical study shows that generative recommenders are vulnerable: injecting fewer than 1% synthetic inte",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "c13ba601de7867b46f1b",
-      "title": "HiPPT: Physiology-Grounded Wearable PPG Representation Learning via Multi-Scope Text Alignment",
-      "url": "https://arxiv.org/abs/2610.14489",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.14489v1 Announce Type: new \nAbstract: Reusable wearable PPG representations should capture local pulse morphology and broader physiological regularities. Existing pretraining objectives, however, usually apply supervision at the recording or pair level, overlooking that different concepts become reliable over different scopes of waveform evidence. We propose HiPPT, a physiology-grounded framework that matches each supervision source to its appropriate evidence scope. We construct a PPG-Text corpus of over 4 million wrist-worn recordings from 202K users, pairing recordings with waveform-derived morphology and metadata-derived contex",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "02336069bfc68c374539",
-      "title": "Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos",
-      "url": "https://arxiv.org/abs/2610.14495",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.14495v1 Announce Type: new \nAbstract: Explainer videos -- a worked geometry problem, why the sky is blue, how a dynasty fell -- are usually one more target for pixel video generation. We argue they are a different kind of artifact: a program (script, storyboard and per-frame animation code) that a deterministic renderer turns into frames. A program can be read, diffed, tested and audited; pixels can only be watched. Reels-RSI is an open-source reel director for any agent harness; its self-improvement happens at the program level rather than in weights or prompts. Every revision pass is logged with a code snapshot; a retrospective p",
       "importance": 2,
       "status": "PREPRINT"
     }
