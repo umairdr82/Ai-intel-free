@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-04T09:19:20.735542+00:00",
+  "updated_at": "2026-11-04T18:00:11.555181+00:00",
   "stories": [
+    {
+      "id": "32d4e91d243ef07f0795",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-04T17:50:10+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "1be4fdd8e6ca80f0ec01",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-04T14:30:00+00:00",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a3433e936d2c04bfa772",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-04T07:00:00+00:00",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "c46af9cc7f9be056c86e",
       "title": "Alignment Faking Depends on the Value, Not Just the Model",
@@ -4916,39 +4949,6 @@
       "published_at": "2026-10-15T16:08:03+00:00",
       "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
       "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "2b0a4f23c4eeb155767a",
-      "title": "Proof-based general-purpose computing with Magnetar",
-      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
-      "source": "Microsoft Research",
-      "source_type": "Official",
-      "published_at": "2026-10-15T16:00:00+00:00",
-      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security.\nThe post Proof-based general-purpose computing with Magnetar appeared first on Microsoft Research.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "b655aadac97a31177c2f",
-      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-      "source": "NVIDIA",
-      "source_type": "Official",
-      "published_at": "2026-10-15T15:00:24+00:00",
-      "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "c382892319c647d5502c",
-      "title": "v0.40.5-rc1: New model... (#19030)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-15T14:28:26+00:00",
-      "summary": "ci: shorten Windows Vulkan build path\n\nKeep the nested shader-generator compiler probes below Windows path limits in checkouts with longer repository names.\n\nmlx: fix Nemotron bugs and support global scales\n\nAccept published Nemotron layer names while retaining legacy aliases, and\nfix layer-count inference and detached MTP quantization. Stabilize Mamba\nsoftplus, preserve FP32 vision normalization, and compile Mamba gate and\nnorm scaling.\nSupport per-expert F32 global scales and preserve activation-scale\ncompanions in ModelOpt and compressed-tensors NVFP4 imports. Normalize\nreciprocal globals and reject invalid scales. Keep activation scales\ns",
-      "importance": 4,
       "status": "PRIMARY SOURCE"
     }
   ],
