@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T06:52:17.704013+00:00",
+  "updated_at": "2026-11-05T15:30:20.854491+00:00",
   "stories": [
     {
       "id": "f846b630bec3a503daeb",
@@ -288,6 +288,17 @@
       "status": "PRIMARY SOURCE"
     },
     {
+      "id": "25fa4dd18ec78a48a923",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-05T02:00:00+00:00",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "aa9545d2ba2c2728beed",
       "title": "v3.46.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.46.0",
@@ -296,6 +307,17 @@
       "published_at": "2026-11-05T00:55:06+00:00",
       "summary": "3.46.0 (2026-11-05)\nFeatures\n\napi: add Australia, India, and Japan residency options (#4246) (2634b87)\napi: add GPT-6 Rosalind to the model catalog (#4243) (0f8e5f3)\napi: add image complexity and GIF and SVG output controls (#4247) (0152e3a)\napi: expand agent turn errors and image and audio options (#4245) (1b2fb74)\n\nChores\n\ndeps: bump github/codeql-action/init from 4.39.0 to 4.39.1 (#4230) (c9fe335)",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c65c7708e93995ca4541",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4926,28 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-10-17T04:00:00+00:00",
       "summary": "arXiv:2610.20764v1 Announce Type: new \nAbstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly can reality change before an intelligent system can no longer reliably perceive, reason, and act? We formulate this as a theory- and model-agnostic challenge in which systems must infer reliable actions for increasingly distant future states across a growing observation--reality gap. We operationalize this challenge through the effective Speed of Coherent Cognition (\\(S_C^{\\mathrm{eff}}\\)), defined as the highest tested Speed of Reality (\\(S_R\\)) ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "cffdb744dda380b11ea5",
-      "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2610.20780",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-17T04:00:00+00:00",
-      "summary": "arXiv:2610.20780v1 Announce Type: new \nAbstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagnosing completed runs or repeatedly re-executing them to search for corrections does not provide a learned policy for intervening while execution is still in progress. We present Agent Runtime Inspection and Amendment (ARIA), a framework for learning when and how to repair ongoing multi-agent executions. Our key intuition is to turn execution-verified repairs into reusable supervision, moving repair search into data construction and training so t",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "94d5d577ef0fe3a43603",
-      "title": "Open-world AI: a Tale of Three Requirements",
-      "url": "https://arxiv.org/abs/2610.20782",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-17T04:00:00+00:00",
-      "summary": "arXiv:2610.20782v1 Announce Type: new \nAbstract: The closed world asks AI for specialized competence and lets it manufacture the iid data its theory assumes: a fixed criterion licenses collecting examples until the task is covered. The open world asks for versatility --- taking up tasks a machine was not built for, from few examples and with little prior from a human designer --- and offers data that is grouped, not shuffled. Its tasks are not known in advance, so a machine must do inference-time learning (1st requirement). Modeling tasks as sharing latent factors and decomposing the training objective, we derive two more: a *rich representat",
       "importance": 2,
       "status": "PREPRINT"
     }
