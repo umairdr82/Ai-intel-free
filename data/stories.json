@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-06T17:59:57.406492+00:00",
+  "updated_at": "2026-11-06T23:12:40.075414+00:00",
   "stories": [
+    {
+      "id": "aff32afb63af01e7ea9a",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "source": "GitHub AI",
+      "source_type": "Official",
+      "published_at": "2026-11-06T22:15:59+00:00",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.\nThe post Beyond code generation: A developer&#8217;s guide to agentic engineering appeared first on The GitHub Blog.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "878fd3793321c4bbb74a",
       "title": "Patch release v5.22.2",
@@ -20,6 +31,17 @@
       "source_type": "Official",
       "published_at": "2026-11-06T14:00:48+00:00",
       "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a0a44ed09dc9a1089b4e",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -318,6 +340,17 @@
       "published_at": "2026-11-06T00:00:00+00:00",
       "summary": "",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "5f721228af3682c2417b",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4915,39 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-10-20T04:00:00+00:00",
       "summary": "arXiv:2610.23866v1 Announce Type: new \nAbstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model is",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "4f25073757678c55c046",
-      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
-      "url": "https://arxiv.org/abs/2610.23921",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-20T04:00:00+00:00",
-      "summary": "arXiv:2610.23921v1 Announce Type: new \nAbstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares s",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "fcd28ec43c43c4649f18",
-      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
-      "url": "https://arxiv.org/abs/2610.23962",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-20T04:00:00+00:00",
-      "summary": "arXiv:2610.23962v1 Announce Type: new \nAbstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow produces more consistent, evidence-grounded and traceable diagnoses than the same LLM without structured workflow guidance.",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "bd2e7ce0c5344719b3aa",
-      "title": "What Social Media Teaches Us About Accumulative AI Risks",
-      "url": "https://arxiv.org/abs/2610.24006",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-20T04:00:00+00:00",
-      "summary": "arXiv:2610.24006v1 Announce Type: new \nAbstract: Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gra",
       "importance": 2,
       "status": "PREPRINT"
     }
