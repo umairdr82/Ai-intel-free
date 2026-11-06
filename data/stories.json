@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-05T22:01:37.582816+00:00",
+  "updated_at": "2026-11-06T02:29:46.403552+00:00",
   "stories": [
+    {
+      "id": "53eff4b4e1cfd4521d99",
+      "title": "v0.40.15",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-06T01:47:18+00:00",
+      "summary": "MiMo V2.6\nXiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows, is now supported in Ollama.\nollama run mimo-v2.6\nAutoTrust decision models\nAutoTrust decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read images.\nollama run autotrust-jev \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\nNote: autotrust-jev is supported on Apple silicon in this release.\nWhat's Changed\n\nollama launch now supports Kimi Code CLI — the successor to kimi-cli — and offers to m",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "dbe9554da67aea58adfe",
+      "title": "v0.40.15-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-05T21:41:21+00:00",
+      "summary": "cmd/launch: add Kimi Code CLI support (#19506)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "bbd492caba72ca544b8b",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-05T20:00:00+00:00",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "f25b9201ad6bdcc6fc96",
       "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
@@ -57,6 +90,17 @@
       "status": "PRIMARY SOURCE"
     },
     {
+      "id": "616c68177b707eae60eb",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "6e85f4370dc45c55fcb9",
       "title": "Detecting signs of hypertension using wearable sensors",
       "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
@@ -87,6 +131,17 @@
       "published_at": "2026-11-05T09:00:00+00:00",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "db9792e954d447010915",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -365,17 +420,6 @@
       "status": "PREPRINT"
     },
     {
-      "id": "964c13ba54cd144f6787",
-      "title": "v0.40.15",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-11-05T03:36:38+00:00",
-      "summary": "What's Changed\n\nmlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433\nmodel: add MiMo V2.6 model support by @dhiltgen in #19400\n\nFull Changelog: v0.40.14...v0.40.15-rc0",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
       "id": "25fa4dd18ec78a48a923",
       "title": "Setting a new standard for responsible AI infrastructure",
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
@@ -383,6 +427,17 @@
       "source_type": "Official",
       "published_at": "2026-11-05T02:00:00+00:00",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "964c13ba54cd144f6787",
+      "title": "v0.40.15-rc1: llama.cpp: version bump b12111 (#19530)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-05T01:31:38+00:00",
+      "summary": "Drop 002-metal-unary-cast-constexpr.patch: superseded by upstream fix",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -398,6 +453,17 @@
       "status": "PRIMARY SOURCE"
     },
     {
+      "id": "2d1d326185a62641bed0",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-05T00:45:15+00:00",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "c65c7708e93995ca4541",
       "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
       "url": "https://huggingface.co/blog/phonon-tts",
@@ -406,6 +472,17 @@
       "published_at": "2026-11-05T00:00:00+00:00",
       "summary": "",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a8e215d1c3fca63aee0f",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "url": "https://openai.com/index/franklin-templeton",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4873,83 +4950,6 @@
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "5c52b7d34becd1ccf770",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-19T00:00:00+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "ddb992ee87d6c82ddadf",
-      "title": "v3.35.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.35.1",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-18T01:05:46+00:00",
-      "summary": "3.35.1 (2026-10-18)\nBug Fixes\n\npreserve beta Realtime byte reads on websockets 13 (#4102) (5766349)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "87525bd1d9561d5fdc46",
-      "title": "v3.35.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.35.0",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-17T23:13:52+00:00",
-      "summary": "3.35.0 (2026-10-17)\nFeatures\n\napi: add typed Live sideband events (#4099) (8d5cbf0)\napi: add ultrafast service tier for Agents (#4101) (100bf8f)\n\nBug Fixes\n\nrealtime: preserve byte receives with websockets 13 (#4098) (309916e)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "2434881791854a653a12",
-      "title": "v0.40.7-rc0: mlx: add PPLX Decider v1.2 support (#19072)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-17T21:45:55+00:00",
-      "summary": "Implement the Qwen3.5-backed decision scorer with noncausal attention,\nthe publisher readout, image handling, and System One prompt encoding.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "12b904c1ef68ba4e866e",
-      "title": "v3.34.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-17T20:34:04+00:00",
-      "summary": "3.34.0 (2026-10-17)\nFeatures\n\napi: add degraded external storage status (#4097) (b216cb2)\napi: add Realtime Translation WebSocket sessions (#4095) (bfada50)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "630ca87cf322b200196e",
-      "title": "v0.40.6",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-17T15:29:04+00:00",
-      "summary": "What's Changed\n\nwin: prevent orphaned runners by @dhiltgen in #18500\ngguf: add the q2_0 tensor and file types by @jmorganca in #18967\nLaunch clef in Ollama's cloud by @jberg5 in #19036\nuse identifiers for --ask mode question keys by @jberg5 in #19041\n\nFull Changelog: v0.40.5...v0.40.6-rc0",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "a828bd7f7dff23d55597",
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "url": "https://arxiv.org/abs/2610.20665",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-17T04:00:00+00:00",
-      "summary": "arXiv:2610.20665v1 Announce Type: new \nAbstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studies failures and tests corrections in paused games",
-      "importance": 3,
-      "status": "PREPRINT"
     }
   ],
   "sources_checked": 13
