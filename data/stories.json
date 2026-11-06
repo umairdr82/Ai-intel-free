@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-06T10:57:47.287654+00:00",
+  "updated_at": "2026-11-06T17:59:57.406492+00:00",
   "stories": [
+    {
+      "id": "878fd3793321c4bbb74a",
+      "title": "Patch release v5.22.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.2",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-11-06T15:43:27+00:00",
+      "summary": "Patch release v5.22.2\nSome in between patch for security and distributed fixes. See the included commits 🤗\n\n[Distributed] Set device_id only for NCCL (#50281) by @michaelbenayoun  and @3outeille\nHarden our Jinja sandboxing (#50431) by @Rocketknight1\n\nFull Changelog: v5.22.1...v5.22.2",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "5a90caffb2c87d2e6e8e",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-06T14:00:48+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "c96e5195afc57b531aeb",
       "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
@@ -4926,28 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-10-20T04:00:00+00:00",
       "summary": "arXiv:2610.24006v1 Announce Type: new \nAbstract: Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gra",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "c8995f7fb2daa49f58e7",
-      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
-      "url": "https://arxiv.org/abs/2610.24010",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-20T04:00:00+00:00",
-      "summary": "arXiv:2610.24010v1 Announce Type: new \nAbstract: Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, however, may be vague, latent, or recognizable only after seeing concrete visual possibilities. We propose a human-AI co-creation paradigm beyond explicit intent expression. By expanding model exploration, we expose artists to diverse visual possibilities, allowing them to identify previously unarticulated preferences through observation, comparison, and selection. We",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "4a6eaefef3476f2174ae",
-      "title": "Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis",
-      "url": "https://arxiv.org/abs/2610.24024",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-20T04:00:00+00:00",
-      "summary": "arXiv:2610.24024v1 Announce Type: new \nAbstract: Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge. Artificial intelligence (AI) has progressively advanced RD diagnostics, from symbolic methods and deep learning to large language model (LLM)-based systems. However, each paradigm carries structural limitations: symbolic methods are bounded by knowledge completeness, neural models sacrifice interpretability, and LLM-based systems are vulnerable to evaluation biases like data leakage. In this study, we",
       "importance": 2,
       "status": "PREPRINT"
     }
