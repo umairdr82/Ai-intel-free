@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-09T06:39:58.792577+00:00",
+  "updated_at": "2026-11-09T17:33:50.346481+00:00",
   "stories": [
+    {
+      "id": "eb2d15a1215902fbab20",
+      "title": "v3.48.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.48.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-09T16:12:58+00:00",
+      "summary": "3.48.0 (2026-11-09)\nFeatures\n\napi: add stream options for agent sessions (#4251) (c6fc264)\napi: recognize gpt-6-rosalind in beta Responses (#4257) (3774b7e)\n\nChores\n\napi: retain agent scheduling support (#4255) (a1175a3)\ndeps: bump locked multidict from 6.9.1 to 7.1.0 (#4259) (28cdb1b)\ndeps-dev: bump the python-maintenance group with 5 updates (#4258) (4b10e22)\ndeps-dev: bump types-requests from 2.33.0.20261006 to 2.33.0.20261030 (#4260) (de498d7)\n\nDocumentation\n\nconsolidate AGENTS.md guidance (#4254) (44b1555)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "ac8f18750241a65f1eaf",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-09T15:05:57+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "55d059b88c6c576a2f3d",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-09T12:34:29+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "b0afcada4af198fcf7ce",
       "title": "Enhancing Academic Advisement with Case-Based Reasoning",
@@ -275,6 +308,17 @@
       "summary": "arXiv:2611.08908v1 Announce Type: new \nAbstract: The rapid development of large language models (LLMs) has been driven largely by scaling model size and human-curated training data, yet this paradigm is increasingly constrained by data scarcity and diminishing returns from human supervision. Self-play offers a promising pathway for autonomous data generation and improvement, but current frameworks remain unsatisfactory due to a lack of a data-centric perspective, limited cross-domain generalization, and growing trustworthiness and security concerns. In this paper, we argue that real-world LLM self-play systems should achieve effectiveness, ge",
       "importance": 2,
       "status": "PREPRINT"
+    },
+    {
+      "id": "e85e3f3ffe1e843f80b8",
+      "title": "v0.40.16-rc0: Add ripple preview support to the MLX runner (#19592)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-08T00:36:53+00:00",
+      "summary": "Add the Ripple model, renderer, parser and import registration.\nSupport per-layer NoPE in DFlash drafts.\nFuse MLP activation, value blending and attention gating.\nAdd reference fixtures and model/runner regression tests.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "aff32afb63af01e7ea9a",
@@ -4905,50 +4949,6 @@
       "published_at": "2026-10-21T04:00:00+00:00",
       "summary": "arXiv:2610.26948v1 Announce Type: new \nAbstract: Conversational recommender systems have recently adopted vision-language models to match user dialogue intents with multimodal product information. However, extending these methods to many product domains faces a dilemma: deploying a separately adapted VLM per domain scales cost linearly with the number of domains and requires routing each dialogue to the right model, while naively merging all domains into a single VLM degrades accuracy because product characteristics vary widely across categories. We propose LightCRS, a lightweight, query-conditioned framework for unified multi-domain multimod",
       "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "10f476c8a9f7eae9633e",
-      "title": "When Planning Problems Become Hard for LLMs: Separating Structural Complexity from Semantic Interpretability",
-      "url": "https://arxiv.org/abs/2610.26964",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26964v1 Announce Type: new \nAbstract: Large language models (LLMs) struggle with classical planning, but benchmarks rarely distinguish structural difficulty from the difficulty of interpreting symbolic vocabulary. We examine seven STRIPS domains with BFS-optimal plan lengths. For predicting structural difficulty without solving an instance, the zero-training delete-relaxation heuristic $h_{\\mathrm{add}}$ outperforms learned alternatives on held-out domains (mean Spearman $|\\rho|=0.931$), including ridge regression ($0.707$), object count ($0.657$), and the episodic retrieval architecture ARC ($0.400$). ARC also fails to outperform ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "a7caf59272b369ac7ff0",
-      "title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
-      "url": "https://arxiv.org/abs/2610.26995",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26995v1 Announce Type: new \nAbstract: LLM-based agents increasingly rely on reusable skills. However, scaling skill libraries makes efficient and accurate skill use difficult. Full skill loading incurs high token and runtime overhead. In contrast, flat semantic retrieval treats skills as independent text entries, ignoring dependencies, execution order, state transitions, and data flow constraints. We propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM-based agents. SPEM maintains Atomic Skill Memory for individual skills and Skill-DAG Memory for reusable compositions derived from s",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "52c931923122853deb10",
-      "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
-      "url": "https://arxiv.org/abs/2610.27027",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.27027v1 Announce Type: new \nAbstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not only on the conclusion, so whether collaboration reduces hallucination, and what decides when it does, has to be measured in the reasoning too. Yet most evaluations score only the final answer. We evaluate four systems (a single-LLM baseline and three multi-agent topologies) across four models and three clinical tasks, scoring hallucination, under a factuality and fait",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "cdc9b07e0aafe2c1cf91",
-      "title": "Teaching AI Agent to Play Poker Strategically Through Preference Optimization",
-      "url": "https://arxiv.org/abs/2610.27028",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.27028v1 Announce Type: new \nAbstract: A poker agent can make a legal move and still make a strategically poor one. We ask whether compact AI agents can exhibit strategic behavior under hidden information and whether preference optimization can improve beyond static and zero-shot policies. We first evaluate a static baseline and three frozen language models: SmallThinker, Qwen3, and Gemma-3 whose performance varies substantially between exact-game and six-player evaluation. We therefore propose Strategic Preference Optimization with KL-anchored Equilibrium (SPOKE), combining teacher-relative value penalties, policy anchoring, risk c",
-      "importance": 3,
       "status": "PREPRINT"
     }
   ],
