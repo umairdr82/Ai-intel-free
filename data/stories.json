@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-11-10T09:55:06.560785+00:00",
+  "updated_at": "2026-11-10T17:53:12.126821+00:00",
   "stories": [
+    {
+      "id": "48b7a73b34c5d20c41f5",
+      "title": "v2.8.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.8.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-10T16:32:58+00:00",
+      "summary": "Features\n\napi: add Claude Tag metrics to the analytics summaries and users reports\napi: add reply_mode to Claude Tag Slack channel settings\n\nBug Fixes\n\nbedrock: send \";\" in a model ID as is, and refuse a model ID whose part before the first \";\" is empty, \".\" or \"..\"\ngoogle-cloud: percent-encode the project, location and workspace ID in the workspace and organization base URL paths\ngoogle-cloud: refuse an empty project, location or workspace ID that would be written into a derived base URL\nvertex: refuse an empty model, project ID or region instead of writing it into the request path\nvertex: send \";\" in the model as %3B in the request path\n\nCh",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "6d8eb3bcd497222db158",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-10T16:03:47+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "59a8a5dd3afc5312ddae",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-10T14:00:00+00:00",
+      "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "ef83b8dc18b1604dec2e",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "f321c904268bcef29356",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-10T12:02:28+00:00",
+      "summary": "AlphaProof Code agents wrote three  million lines of proofs in Lean to verify Signal’s core encryption.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "0f0020abcf733229d29f",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-10T12:00:00+00:00",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "69d4d9d74efa01629a6c",
       "title": "Closing the AI guidance gap in education",
@@ -8,7 +74,18 @@
       "source": "OpenAI",
       "source_type": "Official",
       "published_at": "2026-11-10T09:00:00+00:00",
-      "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "f3fc54cd1d78c100d666",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-10T07:00:00+00:00",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -299,6 +376,28 @@
       "status": "PREPRINT"
     },
     {
+      "id": "cb93d68b445c05b0e3dc",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "5f3963726dbe36e6ccf9",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "9e6aebddb26b309846fc",
       "title": "v0.40.16",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
@@ -318,6 +417,17 @@
       "published_at": "2026-11-09T20:29:39+00:00",
       "summary": "Natural Language Processing",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8827aad4505e69ef98eb",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-09T19:51:47+00:00",
+      "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4840,116 +4950,6 @@
       "summary": "arXiv:2610.28982v1 Announce Type: new \nAbstract: While large language models are increasingly deployed as tool-calling agents, their safety evaluations still focus primarily on their ability to refuse harmful requests in text. We investigate whether the refusal behavior in text transfers to tool use. We construct a benchmark of 2,304 prompts across four domains, consisting of matched triplets that present the same harmful or benign request in text-only, standard tool-enabled, and adversarially framed tool-enabled settings. We then assess tool-call safety using 20 predefined forbidden actions. Testing five models of varying sizes and families,",
       "importance": 3,
       "status": "PREPRINT"
-    },
-    {
-      "id": "4cd0d3a23be15a1e655e",
-      "title": "PerMIT: Securing Persistent Memory for LLM Agents via Machine-Checked Integrity Theorems and Scalable Community Trust",
-      "url": "https://arxiv.org/abs/2610.28987",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.28987v1 Announce Type: new \nAbstract: Persistent memory is a largely undefended surface for injection and poisoning, and the same risk limits memory sharing among agents. We present PerMIT, a memory architecture with provable integrity guarantees under an explicit trust assumption: only user-typed inputs and values confirmed at a gate are trusted. PerMIT mediates the release and use of untrusted environment-derived values through a finite memory interface, while preserving agent-driven multi-turn planning and tool choice. Over this finite interface, we prove two integrity theorems that are also machine-checked in Lean 4, which toge",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "a6442d2eaa69aff01190",
-      "title": "AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards",
-      "url": "https://arxiv.org/abs/2610.28989",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.28989v1 Announce Type: new \nAbstract: Customized agent deployments define policies over tools, resources, and execution conditions. Providing these policies in the task agent's prompt does not reliably prevent violations. Training a guard requires examples of tool calls that comply with or violate those policies. We introduce AgentPolicyForge, a framework that uses executable environments to construct policy benchmarks and iteratively train policy guards. With this framework, we construct PolicyGym, a dataset across ten policy families using 698 scenarios for training data generation and 254 separate held-out scenarios for human-re",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "07755911b2e46dc29ebf",
-      "title": "An Evidence-Driven Multi-Agent Compound AI System for Head and Neck Proton Radiotherapy Planning",
-      "url": "https://arxiv.org/abs/2610.29010",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.29010v1 Announce Type: new \nAbstract: Radiation treatment planning requires balancing competing objectives to satisfy clinical criteria while accommodating physicians' preferences. This study aims to develop an evidence-driven, multi-agent compound AI system that integrates DRL-based automated treatment planning with LLM-based conversational plan refinement for proton PBS therapy. A policy network trained using PPO first generates multiple plans without human intervention, from which one is selected as the target plan and the others serve as references for subsequent refinements. For challenging cases requiring further adjustments,",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "ff02c0290aa26d035595",
-      "title": "GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development",
-      "url": "https://arxiv.org/abs/2610.29014",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.29014v1 Announce Type: new \nAbstract: Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) applications remains an open challenge. Unlike traditional software, XR applications operate within dynamic 3D physical environments where runtime robustness depends jointly on continuous user motion, spatial input, and environmental sensing. We introduce GenXR-Bench, the first benchmark for the end-to-end evaluation of coding agents in XR software development. GenXR-Bench contains 112 expert-authored t",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "4db8131df544b503780f",
-      "title": "Inheritance as an Admission Test for LLM Prompt Merge Operators",
-      "url": "https://arxiv.org/abs/2610.29023",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.29023v1 Announce Type: new \nAbstract: Large language model (LLM) agents are often improved by iterating until a fixed verifier is done. Once that verifier saturates, the loop has nothing left to climb. We instead score agents against the current population, and a frozen panel records whether anyone got better. The panel mean can rise inside the seeds by elimination alone. We therefore count a run as training only when its final mean beats the best generation-zero member. A merge is admitted only when the child moves toward the donor, past the child the same operator produces at zero dose, and the lower confidence bound on that move",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "30c10e5d8ae6fce36400",
-      "title": "GRAIL: From Saliency to Semantics in Time-Series Explanation",
-      "url": "https://arxiv.org/abs/2610.29036",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.29036v1 Announce Type: new \nAbstract: Explaining a time-series model requires both locating the evidence and extracting meaningful knowledge from it. Yet a single timestep is not a semantic unit: the meaningful patterns live across many samples, not in any one of them. Per-timestep saliency is therefore noisy, high-dimensional, and unstable. Existing methods address this by introducing fixed-size windows and treating them as independent players in a cooperative game. Evaluating a coalition of such players requires defining a ``baseline'' region, which prior work tackles with fixed counterfactuals (e.g., a flat line, noise, or a spe",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "dccae9368aa1166cf3d8",
-      "title": "AutoFraming: Synthesizing Dynamic Frames of C Code with LLMs",
-      "url": "https://arxiv.org/abs/2610.29046",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.29046v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown considerable promise in synthesizing formal specifications from source code. However, existing approaches primarily focus on functional contracts and loop invariants, while largely neglecting frame conditions, which specify the memory locations that may or may not be modified during execution and constitute an essential part of formal specifications. To address this limitation, we propose an LLM-based approach for synthesizing ACSL frame specifications alongside functional contracts from C code. Our approach analyzes code property graphs (CPGs) to extract",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "cb8fedecbe8959e7e8ba",
-      "title": "Does Every Instance Count Equally? Order Effects in LLM Multi-Instance Processing",
-      "url": "https://arxiv.org/abs/2610.29057",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.29057v1 Announce Type: new \nAbstract: Users increasingly rely on large language models (LLMs) to analyse collections of independent inputs, such as product reviews or social media posts, and return a single aggregated answer. This setting requires multi-instance processing (MIP), where a model combines information from multiple instances into one prediction. We study a task in which the model must infer a binary label for each instance, and identify the most frequent label among the full instance set. The correct answer should be invariant to instance order. By evaluating fifteen LLMs across five datasets and seven instance order p",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "ff959580a1d2df8957d4",
-      "title": "v3.36.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.36.1",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-22T03:32:31+00:00",
-      "summary": "3.36.1 (2026-10-22)\nBug Fixes\n\napi: honor per-call WebSocket query settings (#4138) (d40a5e1)\nexamples: stop microphone capture between recordings (#4143) (26e5d92)\nvalidate browser calls before reading driver state (#4142) (2bfe460)\n\nChores\n\napi: clarify service-account API key deletion (#4151) (6ed945e)\n\nRefactors\n\nprepare handwritten chunked upload runtime (#4146) (2d58e82)\nprepare handwritten vector-store polling runtime (#4148) (7cd7028)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "8f6bec0a27923dd29295",
-      "title": "v0.40.9-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-22T00:13:25+00:00",
-      "summary": "llama.cpp update (#19194)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     }
   ],
   "sources_checked": 13
