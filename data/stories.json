@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-11-09T17:33:50.346481+00:00",
+  "updated_at": "2026-11-10T01:35:21.047878+00:00",
   "stories": [
+    {
+      "id": "9e6aebddb26b309846fc",
+      "title": "v0.40.16",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-09T23:45:36+00:00",
+      "summary": "Ripple Preview\nRipple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding.\nollama run ripple-preview\nWhat's Changed\n\nQwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon\nollama launch claude always routes Claude Code to the selected model\nollama launch explains when a cloud model has been retired\n/v1/responses respects truncation and no longer silently truncates by default\n/v1/models returns an empty list instead of null when no models are installed\nCUDA 13.5 support for Windows on ARM\nUpdated llama.cpp\n\nFull Changelog: v0.40.15...v0.40.16",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "2dcdb6cee137def0a3a6",
+      "title": "Exploring the world's languages with Language Explorer",
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-11-09T20:29:39+00:00",
+      "summary": "Natural Language Processing",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "caa9073cefb43725f1a5",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-09T19:00:00+00:00",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "324a37cfaa0631c3cd66",
+      "title": "v2.7.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.7.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-09T18:52:17+00:00",
+      "summary": "Features\n\napi: accept user_profile.program_status_updated on organization webhook endpoints\napi: add claude-fable-5-2 and claude-mythos-5-2\napi: add parent organization filtering and grouping to the usage and cost reports\napi: add the sandbox_egress_restricted error to Admin API write methods\napi: add the user_profile.program_status_updated webhook event\n\nBug Fixes\n\nbedrock,vertex: add the parse and count_tokens methods missing from beta.messages.with_raw_response and with_streaming_response\nbedrock,vertex: send the X-Stainless-Async header and stream raw requests that name no stream class\nbedrock: sign requests that have no Connection header",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "eb2d15a1215902fbab20",
       "title": "v3.48.0",
@@ -24,6 +68,17 @@
       "status": "PRIMARY SOURCE"
     },
     {
+      "id": "952d2516af2e905436ad",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "55d059b88c6c576a2f3d",
       "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
       "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
@@ -31,6 +86,28 @@
       "source_type": "Official",
       "published_at": "2026-11-09T12:34:29+00:00",
       "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "02e9abf47eaf3fa01f98",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "2e34e84f0999c607fcd0",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4872,83 +4949,6 @@
       "published_at": "2026-10-21T04:00:00+00:00",
       "summary": "arXiv:2610.26899v1 Announce Type: new \nAbstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their applications in the construction industry, leading to more intelligent and efficient building processes. In particular, the rise of large language models in recent years has provided more possibilities for the transformation from traditional construction to smart construction. In this study, a large language model and reinforcement learning based autonomous constructi",
       "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "46178924d1dbab427845",
-      "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
-      "url": "https://arxiv.org/abs/2610.26904",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26904v1 Announce Type: new \nAbstract: Recent studies have proposed reinforcement learning with verifiable rewards (RLVR) methods that enable LLMs to generate high-quality RTL circuits from natural-language specifications. Existing approaches optimize circuit PPA (Power, Performance, Area) by aggregating multiple objectives into a single scalar reward, making it difficult to simultaneously generate diverse Pareto-optimal solutions across different trade-offs such as low power, low latency, and small area. However, in practical design, the relative importance of each objective varies depending on product requirements and design const",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "a75390adc4db4398d5bc",
-      "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
-      "url": "https://arxiv.org/abs/2610.26913",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26913v1 Announce Type: new \nAbstract: The adoption of Large Language Models for radiology report structuring has been largely dominated by either proprietary cloud-based models or large open models requiring high-end GPUs for deployment, which is a critical bottleneck for clinical adoption in radiology workflows that demand data privacy and offline operation. To address this, we present MedPAO-Assist, an edge-deployable agentic framework that generates structured radiology reports directly from radiologist dictation and voice commands, requiring only $\\approx3.3$ GB peak RAM and achieving an average end-to-end latency of $\\approx31",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "2fbb462a3743ef79b449",
-      "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
-      "url": "https://arxiv.org/abs/2610.26924",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26924v1 Announce Type: new \nAbstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks directly from raw data often overlooks deeper questions that emerge through analysis and provides limited evidence for verification. To address these limitations, we introduce DataPraxis, an analytics task synthesis framework based on verified workspace evolution. The framework progressively enriches workspaces with validated findin",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "3410e52a9f5f6033a027",
-      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
-      "url": "https://arxiv.org/abs/2610.26941",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26941v1 Announce Type: new \nAbstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze five key challenges and discuss the concept and core characteristics of industrial agents. We then establish a unified taxonomy covering application",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "66981a97c4d493d0d218",
-      "title": "Fix, Not Just Resample: Bounded Compiler-Guided Repair in Lean 4",
-      "url": "https://arxiv.org/abs/2610.26942",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26942v1 Announce Type: new \nAbstract: Automated theorem provers often rely on sampling language models, but proof assistants like Lean reject each failed step with a precise error message --- information that pure sampling discards. To overcome this, we introduce a bounded, online step-level repair module. Our search samples $K$ candidate tactics at each step and repairs a failed tactic at most $R$ times. Instead of discarding failed tactics, we feed the compiler's error message to a pretrained repair model to fix individual rejected steps in place. This approach improves the solve rate over a sampling-only baseline across all test",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "4dadc7afdfda6c937b17",
-      "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
-      "url": "https://arxiv.org/abs/2610.26943",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26943v1 Announce Type: new \nAbstract: Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems (MASs) have shown growing potential in this domain by leveraging collaboration and verification among multiple LLM agents. However, existing evaluations primarily focus on the correctness of final answers in text-only settings, offering limited insight into multimodal reasoning capabilities, the reliability of intermediate reasoning steps, and rob",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "8ee03648982651510b20",
-      "title": "LightCRS: Lightweight Multi-Domain Conversational Recommendation System",
-      "url": "https://arxiv.org/abs/2610.26948",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-21T04:00:00+00:00",
-      "summary": "arXiv:2610.26948v1 Announce Type: new \nAbstract: Conversational recommender systems have recently adopted vision-language models to match user dialogue intents with multimodal product information. However, extending these methods to many product domains faces a dilemma: deploying a separately adapted VLM per domain scales cost linearly with the number of domains and requires routing each dialogue to the right model, while naively merging all domains into a single VLM degrades accuracy because product characteristics vary widely across categories. We propose LightCRS, a lightweight, query-conditioned framework for unified multi-domain multimod",
-      "importance": 2,
       "status": "PREPRINT"
     }
   ],
