@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-10T17:53:12.126821+00:00",
+  "updated_at": "2026-11-10T23:25:33.512668+00:00",
   "stories": [
+    {
+      "id": "60786b016c122ab8631c",
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-10T22:25:00+00:00",
+      "summary": "What's Changed\n\nImprove ChatGPT CLI restore and graceful restart by @hoyyeva in #19583\ncmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409\nllm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640\nrpreslar4765/Ollama by @rpreslar4765 in #17163\nmlx: support concurrent generation by @dhiltgen in #19197\nllama.cpp: version bump b12257 by @dhiltgen in #19646\nMLX, MLX-C: version bump by @dhiltgen in #19647\n\nNew Contributors\n\n@rpreslar4765 made their first contribution in #17163\n\nFull Changelog: v0.40.16...v0.40.17-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "e1742b0ed40ea563844b",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-11-10T20:52:56+00:00",
+      "summary": "Microsoft researchers have discovered &#8220;Lazarus,&#8221; a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, [&#8230;]\nThe post Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents appeared first on Microsoft Research.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c0101f36ad82bf9132fd",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-10T19:00:00+00:00",
+      "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "48b7a73b34c5d20c41f5",
       "title": "v2.8.0",
@@ -65,6 +98,17 @@
       "published_at": "2026-11-10T12:00:00+00:00",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "991ad48e8559b2fefa9f",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-10T10:00:00+00:00",
+      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4905,50 +4949,6 @@
       "published_at": "2026-10-22T04:00:00+00:00",
       "summary": "arXiv:2610.28912v1 Announce Type: new \nAbstract: This paper charts the evolution of the Prolog textbook Simply Logical -- Intelligent Reasoning by Example from print with runnable programmes on a 3.5-inch diskette published in 1994, via various intermediate online versions, to the fully interactive online edition available today. Our aim is to investigate -- from both the writer's and the reader's perspectives -- the potential impact of technology on educational materials. The three authors of this paper present three distinct and complementary points of view, which come together to shape an interactive online book that offers an immersive le",
       "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "c33cf34840ad5759f7e1",
-      "title": "D-Skill: Distilling Teacher Knowledge through Agent Skills",
-      "url": "https://arxiv.org/abs/2610.28914",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.28914v1 Announce Type: new \nAbstract: Frontier language-model agents excel at complex tasks, but high inference costs make transferring their capabilities to smaller models essential. Traditional knowledge distillation achieves this through parameter updates, requiring access to the student's weights and additional training compute while encoding the transferred knowledge implicitly in the parameters. We introduce D-Skill, a framework that treats the teacher as a black box and distills its behavioral advantage into an interpretable natural-language skill by analyzing paired rollouts and identifying behavioral divergences and agreem",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "c3015f7c250cd700fda1",
-      "title": "Back Up Before You Regret: Measuring Backup Awareness and Automating Backup in Coding Agents",
-      "url": "https://arxiv.org/abs/2610.28934",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.28934v1 Announce Type: new \nAbstract: Coding agents now complete tasks autonomously, modifying real-world state such as artifacts, software environments, and configurations along the way. Yet they show limited backup awareness: recognizing that an action will modify state that may later be needed, and preserving it beforehand. To evaluate backup awareness, we introduce RegretBench, a benchmark of 205 executable tasks grounded in regret moments reported on platforms such as X.com, GitHub, and Stack Overflow, where users explicitly regretted not preserving state they later needed. Across six frontier models, agents complete 86.1% of ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "4de5b7368a607f9e9ab0",
-      "title": "Self-Improving Agents with World Model Predictive Paths",
-      "url": "https://arxiv.org/abs/2610.28945",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.28945v1 Announce Type: new \nAbstract: Large language model (LLM) agents are increasingly expected to interact with environments and improve their decisions during deployment. However, how anticipating future outcomes and drawing on accumulated interaction experience can jointly support decision-making remains underexplored. We propose a test-time framework, inspired by Model Predictive Path Integral (MPPI) control, that combines multi-branch predictive analysis with experience-based adaptation. At each step, the agent proposes multiple candidate actions and imagines their outcomes with a world model, so that alternatives can be com",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "6838e85e8517e0afdccf",
-      "title": "Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents",
-      "url": "https://arxiv.org/abs/2610.28982",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-22T04:00:00+00:00",
-      "summary": "arXiv:2610.28982v1 Announce Type: new \nAbstract: While large language models are increasingly deployed as tool-calling agents, their safety evaluations still focus primarily on their ability to refuse harmful requests in text. We investigate whether the refusal behavior in text transfers to tool use. We construct a benchmark of 2,304 prompts across four domains, consisting of matched triplets that present the same harmful or benign request in text-only, standard tool-enabled, and adversarially framed tool-enabled settings. We then assess tool-call safety using 20 predefined forbidden actions. Testing five models of varying sizes and families,",
-      "importance": 3,
       "status": "PREPRINT"
     }
   ],
