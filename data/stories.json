@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:30:17.482946+00:00",
+  "updated_at": "2026-11-11T15:16:17.318749+00:00",
   "stories": [
     {
       "id": "65b96c238445cdedc96b",
@@ -9,6 +9,28 @@
       "source_type": "Official",
       "published_at": "2026-11-12T00:00:00+00:00",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "833534b672b8daa32ace",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-11T15:00:15+00:00",
+      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8e8e851f9ac38a1986e4",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-11T09:00:00+00:00",
+      "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -310,6 +332,17 @@
       "status": "PREPRINT"
     },
     {
+      "id": "11568aa8dfcf9a3c0750",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "60786b016c122ab8631c",
       "title": "v0.40.17",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
@@ -427,6 +460,17 @@
       "source_type": "Official",
       "published_at": "2026-11-10T09:00:00+00:00",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9092d5eb66f29547408d",
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4906,51 +4950,7 @@
       "summary": "arXiv:2610.30495v1 Announce Type: new \nAbstract: AI agents now run experiments and report findings, so research produces claims faster than researchers can check them. Each empirical claim implies a property that must hold over its cases, but it states that property only in prose. Without an explicit property, no test can decide which evidence would falsify a claim, so validation cannot keep pace with the claims agents produce. To make claims testable, we approximate a claim's semantics by abstracting its property skeleton, a parameterized relation that recurs across claims. We present ARATest, a property-based testing library that checks the",
       "importance": 3,
       "status": "PREPRINT"
-    },
-    {
-      "id": "f00330389119ea4b3639",
-      "title": "Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3",
-      "url": "https://arxiv.org/abs/2610.30499",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30499v1 Announce Type: new \nAbstract: A generally intelligent system acquires new skills efficiently without requiring humans to redesign its software scaffold for every new task. Yet language models rarely act alone. A harness is a symbolic program that orchestrates calls to the model, handling perception, memory, tool use, recovery, and inference allocation on the model's behalf. ARC-AGI-3 is an interactive benchmark in which agents must explore unfamiliar environments, figure out their goals on the fly, and keep learning as they go. On it, human-steered systems already report ceiling scores across the public games, so we know ef",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "cfd3646d8e93859c3041",
-      "title": "PLE: Physical-Engineering's Last Exam",
-      "url": "https://arxiv.org/abs/2610.30537",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30537v1 Announce Type: new \nAbstract: Frontier language models now score above 90% on popular knowledge benchmarks and are increasingly deployed as agents that carry out multi-hour professional work. Yet no existing benchmark tests whether they can perform the real-world, economically valuable work of a professional physical engineer, such as modelling physics and legal code requirements across a multi-format project corpus, optimising material and installation costs, and issuing 2D/3D engineering design packages that a licensed reviewer would sign off on. Existing engineering benchmarks focus on textbook question answering, isolat",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "e6ef3164d52bcd29d16e",
-      "title": "Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core",
-      "url": "https://arxiv.org/abs/2610.30557",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30557v1 Announce Type: new \nAbstract: LLM agents that act on live Web data must combine heterogeneous evidence, remember what they have done and improve from outcomes without weakening their own safeguards. We study this problem in autonomous investing, where every action is irreversible and based on untrusted Web content. We present Steward, a multi-agent LLM system that draws the boundary of self-evolution in its type system. First, nine role-specialised agents decide jointly: four analysts read news feeds, SEC filings, macroeconomic series and market data and emit typed reports, from which a Portfolio Manager sets target positio",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "0ffab420835270ae7f82",
-      "title": "Diagnosing Personalization Failures in Mobile GUI Agents",
-      "url": "https://arxiv.org/abs/2610.30573",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30573v1 Announce Type: new \nAbstract: Unlike conventional GUI agents, personalized GUI agents require user preferences to guide sequential execution over changing GUI states. This raises two challenges: determining HOW each preference should alter execution strategy and WHEN it should take effect along the interaction trajectory. Existing benchmarks primarily evaluate overall task success, offering limited insight into these questions. We introduce PrefDiag-Bench with two components: (1) a categorization of preferences into five types, characterizing HOW they affect execution; and (2) a stage-wise diagnostic framework with 1,664 pr",
-      "importance": 3,
-      "status": "PREPRINT"
     }
   ],
-  "sources_checked": 12
+  "sources_checked": 13
 }
