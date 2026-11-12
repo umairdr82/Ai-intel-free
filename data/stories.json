@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-12T03:03:40.016027+00:00",
+  "updated_at": "2026-11-12T11:19:28.228795+00:00",
   "stories": [
+    {
+      "id": "4922ca6fb0dd92994c34",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-12T09:30:00+00:00",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "65b96c238445cdedc96b",
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -9,6 +20,17 @@
       "source_type": "Official",
       "published_at": "2026-11-12T00:00:00+00:00",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "d7c1da8cb7dc41da688b",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-12T00:00:00+00:00",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4928,29 +4950,7 @@
       "summary": "arXiv:2610.30443v1 Announce Type: new \nAbstract: Multi-task generalization is an important yet underexplored problem in multi-agent reinforcement learning (MARL). Many real-world applications require multi-agent systems to generalize across complex, temporally extended tasks with diverse inter-agent coordination requirements. We introduce a specification language that combines temporal-logic task specifications with operators for expressing such requirements. We propose SpecMAGIC, a hierarchical framework that leverages the automaton structure of task specifications for subtask decomposition. A centralized high-level planner identifies and al",
       "importance": 3,
       "status": "PREPRINT"
-    },
-    {
-      "id": "7b4106bebe70c36c65f2",
-      "title": "A Three-Pillar Governance Framework for Safe and Trustworthy AI Agents",
-      "url": "https://arxiv.org/abs/2610.30445",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30445v1 Announce Type: new \nAbstract: AI agents capable of autonomous decision-making introduce significant challenges related to safety, alignment, accountability, and human oversight. Existing Human-in-the-Loop (HITL) and responsible AI approaches provide important foundations, but many remain fragmented across system design, governance, and operational deployment. This paper presents a Three-Pillar (3P) model and framework for developing safe and trustworthy AI agents through transparency, accountability, and trustworthiness. The framework defines an evolutionary path in which increasing agent autonomy is introduced through prog",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "496750ffe36a92553db8",
-      "title": "Same Beliefs, Different Policies: Learning Reusable Representations for Early Stopping in LLM Reasoning",
-      "url": "https://arxiv.org/abs/2610.30450",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30450v1 Announce Type: new \nAbstract: Reasoning LLMs often continue reasoning after reaching a correct answer, wasting computation and sometimes replacing it with an incorrect one. Deciding when to stop is a metareasoning problem: the model must weigh what further reasoning could achieve against its cost, given what it can already answer. Direct utility training learns a stopping representation at a chosen token price; supporting new prices can require additional controller training. We introduce BELT (BELief-based Termination), which separates outcome prediction from stopping control. It learns beliefs about current and future ans",
-      "importance": 2,
-      "status": "PREPRINT"
     }
   ],
-  "sources_checked": 13
+  "sources_checked": 12
 }
