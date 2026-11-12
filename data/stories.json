@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-11-12T11:19:28.228795+00:00",
+  "updated_at": "2026-11-12T19:57:48.187409+00:00",
   "stories": [
+    {
+      "id": "2d1d2b520bc722137705",
+      "title": "v3.50.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.50.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-12T19:26:07+00:00",
+      "summary": "3.50.0 (2026-11-12)\nFeatures\n\napi: expose reasoning input transformations on responses (#4268) (734f75b)\n\nChores\n\ndeps: bump astral-sh/setup-uv from 10.3.0 to 10.3.3 (#4261) (0ebd006)\n\nDocumentation\n\nsimplify review handoff instructions (#4266) (141a89a)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "84ec87286cb35a64f463",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-12T19:07:35+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c7a410ad3b8628097c72",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-12T18:00:50+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "f19cddd04797ae7d9ed5",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-12T18:00:00+00:00",
+      "summary": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "4922ca6fb0dd92994c34",
       "title": "Holiday Extras is rethinking what it can build with Codex",
@@ -32,6 +76,17 @@
       "published_at": "2026-11-12T00:00:00+00:00",
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "cbda9238a3684b28e47a",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-12T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4894,61 +4949,6 @@
       "published_at": "2026-10-23T04:00:00+00:00",
       "summary": "arXiv:2610.30277v1 Announce Type: new \nAbstract: While artificial intelligence has made rapid progress in mathematical reasoning, many open problems depend on structure that is revealed only through large-scale computational exploration and analytical synthesis. One such example is Lehmer's problem from 1933. It asks whether the Mahler measure of an integer polynomial, which measures how far its roots stray from the unit circle, can be made arbitrarily small. Previously, constructing irreducible polynomials with integer coefficients and small Mahler measure has been carried out systematically only for even degrees $d \\le 180$. At higher degre",
       "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "34110cf59c8ccf8c44db",
-      "title": "Route-and-Generate: KL-Regularized Router Improvement for Reasoning Routing in LLMs",
-      "url": "https://arxiv.org/abs/2610.30351",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30351v1 Announce Type: new \nAbstract: Large language models often apply complex reasoning indiscriminately, leading to overthinking on simple tasks and underthinking on harder ones. We present Route-and-Generate (Rouge), a hierarchical training framework that enables LLMs to adaptively decide when and how much reasoning is required for each input. Our approach decouples reasoning effort allocation from answer generation by introducing a routing policy that allocates a fixed sampling budget across multiple reasoning formats, while the base model is optimized with GRPO using per-sample rewards. To promote efficient reasoning, we empl",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "e3d18c885bda15238d8e",
-      "title": "Soft Ontology Priors over Latent Concept Posteriors for Weakly Supervised Neuro-Symbolic Learning",
-      "url": "https://arxiv.org/abs/2610.30391",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30391v1 Announce Type: new \nAbstract: Neuro-symbolic (NeSy) predictors that supervise only the task label suffer from reasoning shortcuts: distinct concept mappings achieve the same maximum likelihood, leaving the recovered concepts unidentifiable and unsafe for downstream reuse. We attack this failure by injecting a soft ontology prior over the latent concepts into the training objective and compiling it together with the task constraint into a smooth, decomposable probabilistic circuit. Under independent Bernoulli perception, the normalisers of the resulting structured concept posterior reduce to weighted model counts that are li",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "c397688c68ae69b3f682",
-      "title": "RoleFlow: Self-Evolving Multi-Role Agentic Collaboration via Structural Adaptation",
-      "url": "https://arxiv.org/abs/2610.30429",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30429v1 Announce Type: new \nAbstract: Large language model (LLM) based multi-agent systems often rely on predefined collaboration structures, limiting their adaptability to evolving task requirements. Although recent approaches enable dynamic orchestration, trajectory-level rewards they apply assign one outcome to each decision, ofen struggling to identify the contributions of individual structural changes. We propose RoleFlow, a self-evolving multi-role agentic system that refines collaboration structures through feedback-driven atomic edits and on-demand role synthesis. To make structural adaptation learnable, we introduce Single",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "ac1ae703e0836c87ea0d",
-      "title": "Secure Agentic AI and Multimodal Intelligence in 6G Communication Systems",
-      "url": "https://arxiv.org/abs/2610.30436",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30436v1 Announce Type: new \nAbstract: Sixth-generation (6G) communication systems are expected to support immersive, intent-driven, and latency-critical services through tight integration of multimodal intelligence, edge computing, and autonomous network control. In this setting, agentic AI systems can reason over heterogeneous inputs, use tools and network functions, coordinate across distributed entities, and adapt to dynamic environments. These capabilities make agentic multimodal intelligence promising for 6G applications such as semantic communications, digital twins, and zero-touch network management, but they also introduce ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "2e059d317b42b4470af2",
-      "title": "SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.30443",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-23T04:00:00+00:00",
-      "summary": "arXiv:2610.30443v1 Announce Type: new \nAbstract: Multi-task generalization is an important yet underexplored problem in multi-agent reinforcement learning (MARL). Many real-world applications require multi-agent systems to generalize across complex, temporally extended tasks with diverse inter-agent coordination requirements. We introduce a specification language that combines temporal-logic task specifications with operators for expressing such requirements. We propose SpecMAGIC, a hierarchical framework that leverages the automaton structure of task specifications for subtask decomposition. A centralized high-level planner identifies and al",
-      "importance": 3,
       "status": "PREPRINT"
     }
   ],
