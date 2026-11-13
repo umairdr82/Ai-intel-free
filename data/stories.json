@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-11-13T16:28:35.114205+00:00",
+  "updated_at": "2026-11-13T22:40:21.507812+00:00",
   "stories": [
+    {
+      "id": "7e81db885b5d4d830e83",
+      "title": "v3.51.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.51.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-13T21:12:49+00:00",
+      "summary": "3.51.0 (2026-11-12)\nFeatures\n\napi: expand agent, image, Live, and external key support (#4269) (59738a2)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "bea6f68aca51de60ac08",
+      "title": "Advancing science & engineering with Antigravity’s /teamwork",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-11-13T20:47:18+00:00",
+      "summary": "Education Innovation",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "cdc8eef67bc55a0d0fa5",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-13T18:00:39+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "96c7f67bef86f8316048",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-13T17:02:35+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "7d4d71d056da02862d0b",
       "title": "Introducing ChatGPT Wallet",
@@ -4905,50 +4949,6 @@
       "published_at": "2026-10-27T04:00:00+00:00",
       "summary": "arXiv:2610.32057v2 Announce Type: new \nAbstract: We present HyScale, a long-context training system for learned sparse attention. Learned sparse attention is a promising architecture for million-token contexts, widely adopted in production since DeepSeek-V3.2. Selection, however, grows into the training bottleneck. For each query, it scores every previous token whereas sparse attention reads only $k$; worse, current systems materialize a full score table and repeat selection during recomputation. Our key insight is that the output of selection is not an activation, but rather a set of indices. Building on it, HyScale introduces HyTopK and sel",
       "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "d1eab6a9fbaab9bde7d4",
-      "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
-      "url": "https://arxiv.org/abs/2610.32060",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32060v1 Announce Type: new \nAbstract: Multi-agent LLM systems aim to improve reasoning through debate, evidence sharing, and mutual correction, but interaction can also introduce failures that final accuracy alone cannot explain. Agents may converge too early, ignore dissent, suppress correct minority answers, or preserve a wrong framing across rounds. We present a corpus-grounded taxonomy of communication failures, built from 3,211 failed multi-round trajectories across medical QA, coding, finance, multi-hop reasoning, ethics, and embodied text tasks. Using this taxonomy, we analyze failure distributions across datasets and system",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "bccce47abeed10674197",
-      "title": "DriveMind: Mind-Evolving Belief Tracking for Closed-Loop Autonomous Driving",
-      "url": "https://arxiv.org/abs/2610.32069",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32069v1 Announce Type: new \nAbstract: Recent multimodal large language models (MLLMs) can perceive a traffic scene, reason about it, and propose a driving action within a single model. However, existing MLLM-based drivers reason from scratch at each frame and commit to a single explanation, discarding earlier hypotheses about the scene. When the scene is ambiguous, the agent locks in on the wrong interpretation and acts on it before evidence accumulates. In this paper, we propose DriveMind, an MLLM-based driving framework that keeps several hypotheses about the scene alive at the same time and updates their weights as new frames ar",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "d42a04b577f838e326f1",
-      "title": "Behaviour analysis for large language model-driven agents",
-      "url": "https://arxiv.org/abs/2610.32087",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32087v1 Announce Type: new \nAbstract: Understanding language-agent behaviour requires learning how actions are organised across a trajectory and how this organisation relates to context and outcomes. We propose a general framework that connects data-driven behavioural discovery with analysis and experimental investigation. Categories developed from recorded activity define what is measured. Analyses preserve the behaviours' positions in the process and express their relationships as interpretable hypotheses. Statistical assessment and tests in held-out contexts examine the strength and scope of the evidence. Experiments, including ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "6925ee17bfc882817307",
-      "title": "DELA: Learning Controllable Edits for Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2610.32096",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32096v1 Announce Type: new \nAbstract: Diffusion language models (DLMs) support bidirectional denoising and iterative refinement, but generation remains largely controlled by token-level masking schedules. This leaves draft-level refinement implicit and limits explicit control over when to insert missing content, delete redundant spans, revisit uncertain regions, or stop editing. We introduce Diffusion Editing Language Adapter (DELA), a plug-in framework that enables controllable draft refinement with a frozen DLM. DELA operates on clean, variable-length drafts using four explicit editing actions: Insert, Delete, Remask, and Stop. T",
-      "importance": 3,
       "status": "PREPRINT"
     }
   ],
