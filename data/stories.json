@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-13T08:02:05.660460+00:00",
+  "updated_at": "2026-11-13T16:28:35.114205+00:00",
   "stories": [
+    {
+      "id": "7d4d71d056da02862d0b",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-13T15:00:00+00:00",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a1c4ce12170e4f18f3a7",
+      "title": "Release v5.23.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-11-13T14:10:57+00:00",
+      "summary": "Release v5.23.0\nNew Model additions\nInkling2\n\nInkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and other languages and across multiple coding languages. Its language backbone has 48 mixture-of-experts decoder layers, each routing tokens to 8 of 384 experts, for 594B total and 17B active parameters. It keeps the Inkling decoder (learned relative attention, short causal convolutions, mixture-of-experts layers) and adds block attention residuals, gated attention with a learned sink, and dynamic key/value convolutions. Images are e",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "6841e619fcd7e8d93702",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-13T14:05:22+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "a9c0a0c8a7adff8153bd",
       "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
@@ -879,6 +912,17 @@
       "published_at": "2026-11-10T12:00:00+00:00",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "d0f9bf46fa9dba7cc8ef",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-10T11:13:04+00:00",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4906,50 +4950,6 @@
       "summary": "arXiv:2610.32096v1 Announce Type: new \nAbstract: Diffusion language models (DLMs) support bidirectional denoising and iterative refinement, but generation remains largely controlled by token-level masking schedules. This leaves draft-level refinement implicit and limits explicit control over when to insert missing content, delete redundant spans, revisit uncertain regions, or stop editing. We introduce Diffusion Editing Language Adapter (DELA), a plug-in framework that enables controllable draft refinement with a frozen DLM. DELA operates on clean, variable-length drafts using four explicit editing actions: Insert, Delete, Remask, and Stop. T",
       "importance": 3,
       "status": "PREPRINT"
-    },
-    {
-      "id": "ffd0aaab3523514f344b",
-      "title": "Learning Nonlinear Waveform Fusion Across Scales for Integrated Sensing and Communication",
-      "url": "https://arxiv.org/abs/2610.32099",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32099v1 Announce Type: new \nAbstract: Fixed source superposition and frequency partitioning constrain how communication content interacts with a probing reference in integrated sensing and communication (ISAC). We learn nonlinear waveform fusion across scales for image transmission and localization of multiple targets in range and angle. Reception uses the information available at each end. Adaptive temporal feature weighting and spectral updates combine image features and a deterministic linearly frequency-modulated reference in a shared complex state, generating a waveform with fixed total energy over the array frame. At the user",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "7df57fc5ebfb2f3dbcf9",
-      "title": "PersonaScienceBench: Evaluating Scientific Agents with Diverse Simulated Researchers",
-      "url": "https://arxiv.org/abs/2610.32106",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32106v1 Announce Type: new \nAbstract: Scientific agents collaborate with researchers whose expertise and preferences differ, but benchmarks usually hold the collaborator fixed. We introduce PersonaScienceBench: 200 tasks from five benchmarks across four scientific domains. Simulated researchers provide context and feedback according to persona profiles, while task objectives and grading remain fixed. Agents encounter researcher preferences only through conversation. Across eighteen modelconfigurations, task performance, fact recovery, and self-repetition reveal different strengths. Detailed GPT 6 Astra analyses show distinct agent ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "c44dc9ed271ff418b14a",
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-27T00:00:00+00:00",
-      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "c39f2a58bf6fb070341b",
-      "title": "v0.40.12-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-26T23:10:42+00:00",
-      "summary": "llama.cpp: version bump b11901 (#19311)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     }
   ],
   "sources_checked": 13
