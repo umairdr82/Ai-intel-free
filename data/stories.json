@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T22:40:21.507812+00:00",
+  "updated_at": "2026-11-14T03:20:17.018598+00:00",
   "stories": [
     {
       "id": "7e81db885b5d4d830e83",
@@ -75,6 +75,17 @@
       "source_type": "Official",
       "published_at": "2026-11-13T14:05:22+00:00",
       "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a99dfdd20d85acbbb850",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-13T08:00:00+00:00",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4937,17 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-10-27T04:00:00+00:00",
       "summary": "arXiv:2610.32046v1 Announce Type: new \nAbstract: Recent \\emph{test-time training} (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to explore an efficient \\emph{test-time adaptation} method for scientific discovery. We introduce \\emph{Test-Time Memory Evolution} (TTME), a plug-and-play test-time adaptation meth",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "858568da781d266c40d0",
-      "title": "HyScale: Scaling Long-Context Training for Learned Sparse Attention",
-      "url": "https://arxiv.org/abs/2610.32057",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32057v2 Announce Type: new \nAbstract: We present HyScale, a long-context training system for learned sparse attention. Learned sparse attention is a promising architecture for million-token contexts, widely adopted in production since DeepSeek-V3.2. Selection, however, grows into the training bottleneck. For each query, it scores every previous token whereas sparse attention reads only $k$; worse, current systems materialize a full score table and repeat selection during recomputation. Our key insight is that the output of selection is not an activation, but rather a set of indices. Building on it, HyScale introduces HyTopK and sel",
       "importance": 2,
       "status": "PREPRINT"
     }
