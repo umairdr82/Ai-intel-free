@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-15T17:45:09.163292+00:00",
+  "updated_at": "2026-11-15T22:52:07.666163+00:00",
   "stories": [
+    {
+      "id": "2e8f421d2ee2a3dfd36b",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-15T22:00:01+00:00",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "33b95c2112c46efd0955",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-15T22:00:00+00:00",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "7e81db885b5d4d830e83",
       "title": "v3.51.0",
@@ -4926,28 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-10-27T04:00:00+00:00",
       "summary": "arXiv:2610.32034v1 Announce Type: new \nAbstract: The growing population of orbital debris has intensified interest in active debris removal and on-orbit servicing, for which dual-arm space manipulators offer improved grasping stability and load distribution relative to single-arm systems. However, coordinating two manipulators under inter-arm collision avoidance, orientation alignment, and sensing uncertainty remains challenging. This paper develops a coordinated reinforcement learning framework for cooperative motion planning of a dual-arm space manipulator in a target-reaching task with inter-arm collision-avoidance constraints. A centraliz",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "899345890ca2652c1a9a",
-      "title": "Do AI-for-Science Agents Preserve Model Safety?",
-      "url": "https://arxiv.org/abs/2610.32045",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32045v1 Announce Type: new \nAbstract: AI-for-Science agents are increasingly being used for formulating scientific hypotheses, running autonomous experiments, and interpreting evidence. These agents are constructed by integrating a large language model (LLM) into a domain-specific agent harness, which in turn can improve the LLM's scientific capability and enable the model to orchestrate scientific tools. In this work, we ask whether model safety is preserved when an LLM is integrated in an AI-for-Science agent harness. We evaluate five agent harnesses on 50 harmful chemistry requests. Specifically, we study how the safety behavior",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "88ed6b4d7523fe2d81c7",
-      "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
-      "url": "https://arxiv.org/abs/2610.32046",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "summary": "arXiv:2610.32046v1 Announce Type: new \nAbstract: Recent \\emph{test-time training} (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to explore an efficient \\emph{test-time adaptation} method for scientific discovery. We introduce \\emph{Test-Time Memory Evolution} (TTME), a plug-and-play test-time adaptation meth",
       "importance": 2,
       "status": "PREPRINT"
     }
