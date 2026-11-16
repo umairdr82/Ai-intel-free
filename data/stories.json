@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-11-16T11:28:07.043043+00:00",
+  "updated_at": "2026-11-16T22:08:47.259245+00:00",
   "stories": [
+    {
+      "id": "66c26f89d499749cc55b",
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-16T19:02:48+00:00",
+      "summary": "What's Changed\n\nImprove ChatGPT CLI restore and graceful restart by @hoyyeva in #19583\ncmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409\nllm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640\nrpreslar4765/Ollama by @rpreslar4765 in #17163\nmlx: support concurrent generation by @dhiltgen in #19197\nllama.cpp: version bump b12257 by @dhiltgen in #19646\nMLX, MLX-C: version bump by @dhiltgen in #19647\n\nNew Contributors\n\n@rpreslar4765 made their first contribution in #17163\n\nFull Changelog: v0.40.16...v0.40.17-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "97087fe3c15c5fa6c7d3",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-11-16T17:01:35+00:00",
+      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only how to solve tasks, but also how to spend computation more effectively. \nThe post TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient appeared first on Microsoft Research.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "2d7a5d6b20fff3cd431e",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "dd659f011024f04f24b0",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "7b30e0d510db4989239a",
+      "title": "v2.9.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-16T16:47:17+00:00",
+      "summary": "Features\n\napi: add source and error codes to the RBAC Role read endpoints\napi: add Update Bundle, which sets a Claude Tag Bundle's instructions, and return instructions on Bundle\n\nBug Fixes\n\n\ncredentials: write the credentials file on Windows with Python 3.12 and earlier\n\n\ntools: compare directory names exactly when confining file tool and upload paths on Windows\n\n\ntools: fully resolve file tool paths that pass through a dangling symlink\n\n\ntools: ignore ripgrep config files in the agent toolset's grep tool\n\n\ntools: keep an existing skill directory when the download or extraction that would replace it fails\n\n\ntools: keep the session tool runne",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "dfc32ad6652396f06f7a",
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T14:00:00+00:00",
+      "summary": "tbd",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "d91fd06de7b8771ee8ad",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T12:00:00+00:00",
+      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "ff7833693fa2a06713dc",
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
@@ -10,6 +87,39 @@
       "published_at": "2026-11-16T09:00:00+00:00",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9fe6d2ae73e55f52b807",
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T08:00:00+00:00",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "21b4758ab52123ac78ff",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "21e886491b30cfff0403",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -286,6 +396,39 @@
       "summary": "arXiv:2611.17722v1 Announce Type: new \nAbstract: Multi-level learning/optimization, e.g., bilevel optimization, has been recognized for its versatile applicability across a broad array of domains, spanning from signal processing to machine learning. However, most existing works focus on bilevel and trilevel optimization. In contrast, multi-level optimization problems involving four or more hierarchical levels, which we term poly-level learning (PLL) problems, remain largely unexplored.In addition, in practical PLL, data may be distributed across multiple nodes over a distributed network. Nevertheless, extant studies on PLL predominantly focus",
       "importance": 2,
       "status": "PREPRINT"
+    },
+    {
+      "id": "60f3c7381bc61eae5e3d",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "3d4aeac88b69acfaa9cd",
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8ec21efa2c62273428cb",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "2e8f421d2ee2a3dfd36b",
@@ -1180,12 +1323,12 @@
     },
     {
       "id": "60786b016c122ab8631c",
-      "title": "v0.40.17",
+      "title": "v0.40.17-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-11-10T22:25:00+00:00",
-      "summary": "What's Changed\n\nImprove ChatGPT CLI restore and graceful restart by @hoyyeva in #19583\ncmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409\nllm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640\nrpreslar4765/Ollama by @rpreslar4765 in #17163\nmlx: support concurrent generation by @dhiltgen in #19197\nllama.cpp: version bump b12257 by @dhiltgen in #19646\nMLX, MLX-C: version bump by @dhiltgen in #19647\n\nNew Contributors\n\n@rpreslar4765 made their first contribution in #17163\n\nFull Changelog: v0.40.16...v0.40.17-rc0",
+      "published_at": "2026-11-10T21:42:11+00:00",
+      "summary": "MLX, MLX-C: version bump (#19647)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4806,149 +4949,6 @@
       "published_at": "2026-10-29T02:54:11+00:00",
       "summary": "LFM3 on Linux and Windows\nLiquid AI's LFM3 models, including text-to-speech in lfm3-audio and lfm3-omni, now run on Linux and Windows as well as Apple silicon.\nFull Changelog: v0.40.12...v0.40.13",
       "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "718617961cab3abcc8e8",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-29T00:00:00+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "b6b30743068c26272d89",
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-29T00:00:00+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "6394645bd5105adc5435",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "url": "https://huggingface.co/blog/anydecisionmodel",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-29T00:00:00+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "85f94c0fe8f02a81789b",
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "url": "https://openai.com/index/credit-saison",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-29T00:00:00+00:00",
-      "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "c830f4bc72556ec9823d",
-      "title": "v3.41.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.41.0",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-10-28T22:26:54+00:00",
-      "summary": "3.41.0 (2026-10-28)\nFeatures\n\napi: accept typed references in Realtime response inputs (#4189) (8ecb487)\napi: add response tool usage models (#4201) (55fc500)\napi: filter agent sessions by metadata (#4200) (77fd116)\nwebsocket: recover queued binary frames after reconnect (#4191) (f079868)\n\nBug Fixes\n\nexamples: detect incomplete WebSocket responses (#4187) (8559299)\nexamples: handle interruptions and disconnects in push-to-talk (#4192) (35fc9f3)\nkeep consumer fixtures clean under strict Pyright (#4204) (5012565)\n\nChores\n\napi: document upcoming model shutdowns (#4199) (5b43cce)\napi: update image-model documentation (#4198) (fa67521)\nenforce gen",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "002a48ec774cc7a0f7a7",
-      "title": "v0.40.13-rc1: llama.cpp: workaround Metal unary crash (#19372)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-28T22:20:04+00:00",
-      "summary": "This temporary patch works around a regression on older versions of MacOS\nggml_metal_library_compile_all: failed to build 'unary' library",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "16681fd606d5f6994d06",
-      "title": "Evernote turns AI-driven discovery into paid subscriptions",
-      "url": "https://openai.com/ads/customers/evernote",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-28T19:40:49+00:00",
-      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "5a94e92ea1729a3634bb",
-      "title": "v0.40.13-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-28T17:37:56+00:00",
-      "summary": "llama.cpp: version bump b11963 (#19360)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "e8e0cb1d0e685ced8c0e",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "Google DeepMind",
-      "source_type": "Official",
-      "published_at": "2026-10-28T17:00:58+00:00",
-      "summary": "",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "ec733f799e1aaee3d1ac",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-28T14:58:17+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "a395c7da350b5086cc15",
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-28T13:15:00+00:00",
-      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "e2ed7680c50ae3f074e0",
-      "title": "The future of the firm",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-28T10:00:00+00:00",
-      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "67c6b18b0a76451db874",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-28T09:30:00+00:00",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "importance": 4,
       "status": "PRIMARY SOURCE"
     }
   ],
