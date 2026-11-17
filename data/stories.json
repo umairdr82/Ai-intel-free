@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-11-17T14:28:55.504997+00:00",
+  "updated_at": "2026-11-17T22:54:52.488643+00:00",
   "stories": [
+    {
+      "id": "7d27c57b2467269bce1b",
+      "title": "v3.54.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.54.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-17T22:42:56+00:00",
+      "summary": "3.54.0 (2026-11-17)\nFeatures\n\napi: type Managed Agents budget events (#4284) (c5da68a)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9e4ff1fcd587dff8c9da",
+      "title": "v3.53.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.53.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-17T18:40:24+00:00",
+      "summary": "3.53.0 (2026-11-17)\nFeatures\n\napi: add 2-hour and 8-hour Responses background windows (720bcb5)\napi: add the GPT-6.2 Astra Law Responses model identifier (720bcb5)\napi: add the GPT-6.2 Astra model identifier (720bcb5)\napi: add the GPT-6.2 Sol model identifier (720bcb5)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8dc839ee9693568f48e5",
+      "title": "v2.10.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.10.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-17T18:28:13+00:00",
+      "summary": "Features\n\napi: add beta support for the billing_policy request parameter\napi: add contract_spend_limit_reached error code to messages\napi: add error codes for linked billing refusals\napi: add the user_profile_billing_not_authorized error code\napi: add webhook events for external key failure and recovery\n\nBug Fixes\n\nclient: stop reporting failed aiohttp connections as timeouts\ntypes: keep deprecated model aliases and the types nested under them working\n\nChores\n\n\napi: rename error data models, deprecating the old names\n\n\ndocs: clarify which AWS KMS keys a workspace can use on Claude Platform on AWS\n\n\ndocs: clarify which credential work get, upd",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8f6af8c44a4a1bfb5de3",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-17T17:45:00+00:00",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "b451aff394adbb427d3a",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "summary": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "46af5006ff7ddd91e255",
+      "title": "Can AI help build a healthier future?",
+      "url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "source": "Microsoft Research",
+      "source_type": "Official",
+      "published_at": "2026-11-17T16:52:17+00:00",
+      "summary": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these questions and more.\nThe post Can AI help build a healthier future? appeared first on Microsoft Research.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "3047d7657748ea760feb",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-17T08:00:00+00:00",
+      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "23297fa602e89190e519",
       "title": "Agents Cannot Hand Over What They Have Not Yet Understood",
@@ -296,6 +373,17 @@
       "published_at": "2026-11-17T00:00:00+00:00",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "b43ef08ac3ed4f7af6f4",
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -1263,6 +1351,17 @@
       "source_type": "Official",
       "published_at": "2026-11-12T00:00:00+00:00",
       "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "35bcc4b3dafe10f2abb0",
+      "title": "ChatGPT Ads increases its market presence in 44 countries",
+      "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-12T00:00:00+00:00",
+      "summary": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
@@ -4850,105 +4949,6 @@
       "published_at": "2026-10-30T14:18:30+00:00",
       "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
       "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "7f76fde50a9a411473a4",
-      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
-      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
-      "source": "Microsoft Research",
-      "source_type": "Official",
-      "published_at": "2026-10-30T13:05:28+00:00",
-      "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances.\nThe post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on Microsoft Research.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "75a20b079e3b9559a8e8",
-      "title": "Patch release v5.22.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.1",
-      "source": "Transformers",
-      "source_type": "Release",
-      "published_at": "2026-10-30T09:36:03+00:00",
-      "summary": "Patch release v5.22.1\nWe just had to fix the documentation!\n** [Fix] Remove WIP doc for Ml4 (#50124) from @remi-or",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "84abd1857de5dfd951d9",
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-30T09:30:00+00:00",
-      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "a86d24c59c826150d16d",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-30T09:00:00+00:00",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "574dbaf7fc8731e40575",
-      "title": "Fair use benefits everyone",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-30T00:00:00+00:00",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "d368308dafb9bf4a5ac8",
-      "title": "Microsoft Research Focus – Edition #97",
-      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
-      "source": "Microsoft Research",
-      "source_type": "Official",
-      "published_at": "2026-10-29T19:19:16+00:00",
-      "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting.\nThe post Microsoft Research Focus – Edition #97 appeared first on Microsoft Research.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "9349f418e7bc7ab45091",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-10-29T17:00:00+00:00",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "128755116b8b9c05fe32",
-      "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
-      "source": "Transformers",
-      "source_type": "Release",
-      "published_at": "2026-10-29T14:16:58+00:00",
-      "summary": "New Models\nMistral Large 4 (Le Chonk)\n\nMistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own datacenters in Europe.\nMistral Large 4 unifies instruction following, reasoning, coding, and agentic workflows in a single set of weights. While a generalist model, it shows especially good performance on workloads such as cybersecurity, finance, and law, and it surpasses frontier closed models on vis",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "e508e29ae812fe586e8d",
-      "title": "Granite Switch 4.1.1 — Update models like you update software",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-10-29T13:37:07+00:00",
-      "summary": "",
-      "importance": 4,
       "status": "PRIMARY SOURCE"
     }
   ],
