@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-16T22:08:47.259245+00:00",
+  "updated_at": "2026-11-17T04:31:34.950731+00:00",
   "stories": [
+    {
+      "id": "6da059c46566ace8932e",
+      "title": "v3.52.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.52.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-16T22:40:22+00:00",
+      "summary": "3.52.0 (2026-11-16)\nFeatures\n\napi: add schedule pause reasons (#4278) (a996ce2)\napi: deliver beta Agents session errors as stream events (#4281) (690fba9)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "66c26f89d499749cc55b",
       "title": "v0.40.17",
@@ -4939,17 +4950,6 @@
       "summary": "arXiv:2610.36433v1 Announce Type: new \nAbstract: Construction safety management still struggles to produce daily safety bulletins (DSBs), structured daily communications that identify site-specific hazards, convey safety protocols, and set preventive measures for workers. Manual DSB creation takes 2-3 hours daily and yields inconsistent quality, with 25% of crews never conducting pretask planning (Olson et al., 2016), diverting safety personnel from field supervision. This study proposes the Lightweight Multi-Agent DSB System (LM-DSB), which integrates retrieval-augmented generation (RAG) with a locally deployable Large Language Model (LLM) t",
       "importance": 3,
       "status": "PREPRINT"
-    },
-    {
-      "id": "255532568ba55074da7d",
-      "title": "v0.40.13",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-10-29T02:54:11+00:00",
-      "summary": "LFM3 on Linux and Windows\nLiquid AI's LFM3 models, including text-to-speech in lfm3-audio and lfm3-omni, now run on Linux and Windows as well as Apple silicon.\nFull Changelog: v0.40.12...v0.40.13",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     }
   ],
   "sources_checked": 13
