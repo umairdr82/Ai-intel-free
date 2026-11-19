@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T21:59:24.292458+00:00",
+  "updated_at": "2026-11-19T03:32:53.044025+00:00",
   "stories": [
     {
       "id": "95da0fde7d56c751139e",
@@ -98,6 +98,28 @@
       "published_at": "2026-11-18T08:00:00+00:00",
       "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "58da586369f33999eb92",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-18T08:00:00+00:00",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "53d809d7420a3923e8ba",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-18T08:00:00+00:00",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4926,28 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-11-02T05:00:00+00:00",
       "summary": "arXiv:2610.40970v1 Announce Type: new \nAbstract: Generative audio systems can produce large libraries of personalized bedtime content, but ordinary media objectives (retention, completion, and novelty) are poorly aligned with the goal of supporting a transition toward sleep. Direct evidence for narrated bedtime audio in adults is mixed, and a recent active-controlled trial did not support such audio as a standalone treatment for sleep disturbance. We translate this uncertain evidence into conservative engineering requirements and present a multilingual pipeline for generating and narrating low-arousal sleep stories. The implemented prototype ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "a62191562ccbcd3cb631",
-      "title": "The psychophysics of affect in large language models",
-      "url": "https://arxiv.org/abs/2610.40985",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-02T05:00:00+00:00",
-      "summary": "arXiv:2610.40985v1 Announce Type: new \nAbstract: Good decisions often require considering how outcomes will feel. Yet large language models (LLMs) increasingly enter decision workflows, despite little being known about how they map outcomes to feelings or use those mappings in choice. We tested how LLMs anticipated gambling or stock-trading outcomes would feel and whether they incorporated these ratings into choice. When outcomes were rated in isolation, ratings exhibited diminishing sensitivity to magnitude, resembling human value functions; but models rated gains more intensely than equivalent losses, an inversion of canonical loss aversion",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "b6105e57c0645b9f6376",
-      "title": "Can Personal Requirements Become Supervision for Planning?",
-      "url": "https://arxiv.org/abs/2610.40992",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-02T05:00:00+00:00",
-      "summary": "arXiv:2610.40992v1 Announce Type: new \nAbstract: Managing multiple chronic conditions through diet requires satisfying disease- and medication-specific requirements jointly across meals and days while preserving established eating habits. These requirements are public in clinical guidelines and drug labels, yet turning them into a feasible plan for one person remains difficult for language-model agents. In our dietitian-approved weekly planning evaluation built from NHANES, thirteen models, from medically fine-tuned 8B models to GPT-6.1 Sol, pass fewer than 3% of complete plans through direct generation. Explicit rules, higher reasoning effor",
       "importance": 2,
       "status": "PREPRINT"
     }
