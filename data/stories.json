@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-11-19T13:15:46.268865+00:00",
+  "updated_at": "2026-11-19T21:39:38.936887+00:00",
   "stories": [
+    {
+      "id": "edaf4543af753c5c93ac",
+      "title": "v3.56.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.56.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-19T20:56:27+00:00",
+      "summary": "3.56.0 (2026-11-19)\nFeatures\n\napi: add gpt-live-1.1 to Live model choices (#4294) (a51f139)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "888f64c038855a1ce01a",
+      "title": "A game you cannot win unless you have a quantum computer",
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-11-19T20:03:00+00:00",
+      "summary": "Quantum",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "483b8aad3f75186ef3a2",
+      "title": "v2.11.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-19T19:14:21+00:00",
+      "summary": "Features\n\napi: add Claude Code managed settings to the Admin API\napi: add the sandbox_egress_restricted error to Admin API plugin methods\n\nBug Fixes\n\n\nclient: encode spaces in query strings as %20\nThe AWS SigV4 signature of a request now matches its query string when a parameter contains a space.\n\n\nPerformance Improvements\n\nstructured outputs: build each call's output schema from a cached raw schema\n\nChores\n\ndocs: explain how the input-token rate limit types differ\ndocs: name Claude Security in the usage and cost report descriptions\ndocs: note that a Google Cloud external key's provider and key_name can't be changed",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "1b3aafed7dd5d45c6822",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-19T18:00:00+00:00",
+      "summary": "Gemini spark on a space background",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "d47c74f9a7ce43a8bb22",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-19T17:00:00+00:00",
+      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "9342dbf934e428aa00c1",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-19T08:00:00+00:00",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "67c713471b464c7eaef4",
       "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
@@ -4882,72 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-11-03T05:00:00+00:00",
       "summary": "arXiv:2611.00386v1 Announce Type: new \nAbstract: Large language model (LLM) agents increasingly rely on safeguards to prevent unauthorized actions while preserving legitimate service. However, existing risk assessments often focus on individual safeguard performance while overlooking dependence among safeguard decisions. This paper develops a dependence-aware framework for risk assessment and optimal design of multi-component AI safeguard systems, jointly selecting configurations and operating policies for sequential layered screening and selective verification. We establish stochastic comparisons of layered-screening error probabilities and ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "1d5cb4a31a882d24898e",
-      "title": "CalVLA: Shaping Native Confidence in Vision-Language-Action Policies with Outcome Supervision",
-      "url": "https://arxiv.org/abs/2611.00394",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00394v1 Announce Type: new \nAbstract: Can a vision-language-action (VLA) policy signal likely task failure from its own action probabilities? We introduce CalVLA, which shapes native action-token confidence using successful and failed rollouts and an Action-Confidence Alignment (ACal) squared margin-ranking loss. Low-rank adapters update OpenVLA-7B without an auxiliary failure detector. Observations are paired within tasks at similar normalized elapsed times, not necessarily equivalent physical progress. On a held-out test split from 500 LIBERO-10 configurations, adapted confidence achieves a joint failure-discrimination AUROC of $",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "0493ee34dafaff260904",
-      "title": "Hacking or Just Failing? A More Capable LLM Monitor Better Separates Reward Hacking from Honest Failure",
-      "url": "https://arxiv.org/abs/2611.00407",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00407v1 Announce Type: new \nAbstract: An agent's visible score can exceed its real progress because it gamed the score or because it simply made mistakes, so a useful reward-hacking monitor must tell the two apart. We built a sandboxed task in which an agent can game a completion score, labelled every episode by replaying it and repairing the final state counterfactually, and ran five pre-registered studies. On 60 episodes from a Llama 3.1 8B agent, small local monitors (Llama 3B and 8B) did not separate exploit attempts from honest failures with the same score gap: prompt changes traded missed exploits for false alarms, and the pr",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "48e67e42356466dee244",
-      "title": "Nonconformal Distortion and Local Orientation Reversal in the Fourier Circuit of a Modular-Addition Transformer",
-      "url": "https://arxiv.org/abs/2611.00414",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00414v1 Announce Type: new \nAbstract: We study the local differential geometry of a Fourier-based modular-addition circuit in a one-layer transformer whose algorithm has previously been reverse-engineered. For each of the five key Fourier frequencies, we restrict the model's multilayer perceptron (MLP) contribution to a corresponding Fourier input plane and readout, and measure its directional Beltrami coefficient under continuous input perturbations. Whereas nondegenerate restrictions of ideal complex multiplication are conformal, the trained maps exhibit nonconformal distortion (median $|\\mu|=0.304$--$0.446$), spatial organizatio",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "03cc608300fbff917f94",
-      "title": "OmniMechanism Design for Human-AI Collaboration with Impressionable Minds",
-      "url": "https://arxiv.org/abs/2611.00441",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00441v1 Announce Type: new \nAbstract: As AI systems are increasingly deployed in high-stakes domains such as healthcare, effectively integrating human expertise with AI outputs is critical for reliable decision-making. A substantial body of theoretical work studies optimal mechanisms for human-AI collaboration (HAC), focusing on when to involve humans and how to combine their expertise with AI predictions. However, these approaches largely overlook a key factor highlighted by empirical evidence: human judgments are impressionable and can vary depending on how AI outputs are presented. For example, when AI systems defer decisions to",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "1d1ff045081fc3d28d63",
-      "title": "Quantiles, Not Points: Streaming Quantile Matching for Ordinal-Aware LLM-as-a-Judge Calibration",
-      "url": "https://arxiv.org/abs/2611.00447",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00447v1 Announce Type: new \nAbstract: LLM-as-a-judge scores are often distributionally shifted from human ratings on any given evaluation task, and post-hoc calibration (mapping LLM to human scores in a small labeled anchor set) has become a popular method to correct for this shift. In this paper we derive the calibration from two positions: that LLMaJ scores are ordinal ratings drawn from a distribution rather than isolated points. We present streaming quantile matching (SQM), a version of a classical method not previously bench marked for LLMaJ calibration, which is built on the two positions by computing the optimal-transport ma",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "be8186163dc7e8b59d2c",
-      "title": "From Small to Large: Assessing Medical Reasoning, Benchmark Contamination, and Model Size in Language Models",
-      "url": "https://arxiv.org/abs/2611.00460",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00460v1 Announce Type: new \nAbstract: Large language models (LLMs) now answer medical exam questions at or above expert level, but it is unclear whether such scores reflect clinical competence, or are instead affected by the format of the questions being asked (e.g., multiple-choice versus open-ended), prior exposure to the benchmarks, and the difficulty of the questions. These benchmarks are also public and widely used online, which may be resulting in LLM memorization. Models may perform better on questions that they have seen before. It is also not evident whether smaller models, which are more locally deployable in HIPAA-compli",
       "importance": 3,
       "status": "PREPRINT"
     }
