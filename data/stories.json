@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-20T12:57:39.129261+00:00",
+  "updated_at": "2026-11-20T21:09:30.226520+00:00",
   "stories": [
+    {
+      "id": "b01afd6d4fc556922097",
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-20T20:46:13+00:00",
+      "summary": "What's Changed\n\nImprove ChatGPT CLI restore and graceful restart by @hoyyeva in #19583\ncmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409\nllm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640\nrpreslar4765/Ollama by @rpreslar4765 in #17163\nmlx: support concurrent generation by @dhiltgen in #19197\nllama.cpp: version bump b12257 by @dhiltgen in #19646\nMLX, MLX-C: version bump by @dhiltgen in #19647\n\nNew Contributors\n\n@rpreslar4765 made their first contribution in #17163\n\nFull Changelog: v0.40.16...v0.40.17-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "8fd5a8e76f0db8219e41",
+      "title": "v2.12.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-20T15:56:21+00:00",
+      "summary": "Features\n\napi: add the image_dimensions_too_large error code\n\nBug Fixes\n\n\nbedrock: send the user profile ID in the request body\nAmazon Bedrock reads user_profile_id from the request body and ignores the anthropic-user-profile-id header, so a profile ID given to AnthropicBedrock or AsyncAnthropicBedrock was not applied. Both clients now move it into the body of Messages requests and no longer send the header. A user_profile_id already in the body takes priority over the header.\nSome models on Bedrock do not support user profiles. A request to one of them with a profile ID now fails with a 400 error; before, the ID was ignored. Leave the ID off",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "7ad44f990f0c53ef2e2a",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-20T10:00:00+00:00",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "5597d4fc8cda207aa888",
       "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
@@ -288,13 +321,57 @@
       "status": "PRIMARY SOURCE"
     },
     {
+      "id": "8145fefb47ff1ca9fa55",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c1a2af93db54bfcf7c21",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "824c03b970f1dc58cad6",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "701a571706ec6c00de8b",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "18ac63b52f1497df4f08",
-      "title": "v0.40.17",
+      "title": "v0.40.17-rc2: mlxrunner: adapt saved history to memory pressure (#19678)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-11-20T00:25:30+00:00",
-      "summary": "What's Changed\n\nImprove ChatGPT CLI restore and graceful restart by @hoyyeva in #19583\ncmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409\nllm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640\nrpreslar4765/Ollama by @rpreslar4765 in #17163\nmlx: support concurrent generation by @dhiltgen in #19197\nllama.cpp: version bump b12257 by @dhiltgen in #19646\nMLX, MLX-C: version bump by @dhiltgen in #19647\n\nNew Contributors\n\n@rpreslar4765 made their first contribution in #17163\n\nFull Changelog: v0.40.16...v0.40.17-rc0",
+      "published_at": "2026-11-19T23:41:42+00:00",
+      "summary": "mlxrunner: adapt saved history to memory pressure\n\nRetain Metal prefix history using observed memory headroom and execution\nworkspace rather than a fixed 8 GiB allowance. Release unused buffers and\ncold history when system compression grows, preserving reusable paths and\nactive requests.\nCover pressure reclamation, snapshot ownership, memory observation, and\ncacheless request isolation.\n\n\naddress comments\n\n\naddress comments",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4873,83 +4950,6 @@
       "summary": "arXiv:2611.03946v1 Announce Type: new \nAbstract: Generative AI tools for research are widely deployed, yet individual productivity gains do not guarantee better team research. We argue that how AI use is structured matters alongside access. Personal AI tools may amplify two failures under deadline pressure: a consumption bottleneck, in which generation outpaces team-visible evaluation, and AI-induced research silos, in which private human-AI loops displace shared decision-making. We motivate this position with a mechanism-generating pilot: a 100-minute research sprint with twelve researchers in three independently operating teams, within a se",
       "importance": 2,
       "status": "PREPRINT"
-    },
-    {
-      "id": "738a2c3e0b15376d10c5",
-      "title": "Measuring Model-Specific Alignment Drift in LLM-Based Opinion Dynamics",
-      "url": "https://arxiv.org/abs/2611.03980",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.03980v1 Announce Type: new \nAbstract: Large language model (LLM) agents are increasingly used as synthetic participants in opinion-dynamics experiments, often assuming that an agent's behaviour is fully determined by its prompt. We test this assumption with a framework in which LLM agents discuss a contested policy issue over repeated rounds while their stance is quantified by a fixed psychometric instrument independent of any dynamics model. Across six LLMs, committed personas are intrinsically stable: in each of the five models tested without peer input, every agent keeps its assigned side for 20 rounds. The observed loss of alig",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "b15cf880ff80c80fac94",
-      "title": "A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data",
-      "url": "https://arxiv.org/abs/2611.03983",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.03983v1 Announce Type: new \nAbstract: Translating population-level exercise guidance into individualized prescriptions requires integrating clinical and wearable data, including diagnoses, medications, functional limitations, and baseline activity, with condition-specific recommendations, a process difficult to scale beyond specialist rehabilitation settings. We developed FITTER, a multi-agent framework that integrates these data with condition-specific guidance to generate personalized FITT-VP prescriptions and applies deterministic safety audit and repair to correct rule-checkable violations. We evaluated FITTER using data from 4",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "3ed65ab17adc2b47b50a",
-      "title": "Thinking Fast, Trading Late: System One Decision Models vs the Market",
-      "url": "https://arxiv.org/abs/2611.03985",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.03985v1 Announce Type: new \nAbstract: Large language models (LLMs) read company news at scale, and backtests suggest that their readings predict stock returns. We ask how much of that predictability survives a test that rules out look-ahead, memorization and selection. We propose OLIVIA, a protocol for such tests: point-in-time inputs with company identities masked, selection on validation data only, an analysis plan frozen by cryptographic hash, and a test period unblinded once through a logged lock. We apply it to AI decision models, non-generative language models that return probabilities for typed questions, reading news about ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "658ea49966e89c912987",
-      "title": "WASP-Mem: Let Agent Organize Procedural Memory. Human Spend Effort on Diagnosis",
-      "url": "https://arxiv.org/abs/2611.04003",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.04003v1 Announce Type: new \nAbstract: LLM agents struggle to automate complex enterprise procedures because static, pre-built harness cannot capture proprietary policies, undocumented behaviors, or state-dependent recovery paths that surface only during execution. Procedural memory accrued from agent experience offers a training-free path to closing this gap -- yet unlike episodic records or semantic facts, it must consolidate repeated successes and diagnosed failures into reusable actions and recovery strategies. We introduce WASP-Mem (Wiki-based Agent-Synthesized Procedural Memory), a nimble but effective method that distills exe",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "8ea07893178fa6fa49b7",
-      "title": "Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy",
-      "url": "https://arxiv.org/abs/2611.04006",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.04006v1 Announce Type: new \nAbstract: Modern learning systems increasingly combine pretrained models with downstream heads. Despite the growing importance of such modular designs, how the downstream model co-adapts to the geometry of pretrained representations remains relatively underexplored. We study this problem through vision-language-action models (VLAs), where a pretrained vision-language model (VLM) conditions an action model for control. We find that the action model progressively concentrates its sensitivity on high-variance dimensions of the VLM outputs. Through controlled experiments across different backbone-head models",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "6c1f673548c5860e095c",
-      "title": "v3.45.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.45.0",
-      "source": "OpenAI SDK",
-      "source_type": "Release",
-      "published_at": "2026-11-04T02:23:23+00:00",
-      "summary": "3.45.0 (2026-11-03)\nFeatures\n\napi: add 12-hour Responses caching and cache-write usage (#4240) (5f717b5)\napi: add project service tier settings (#4239) (1a2a3d0)\n\nDocumentation\n\nclarify generated-file ownership (#4241) (0309a8c)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "981785a01550309d0739",
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "url": "https://openai.com/index/devrev-enterprise-self-service",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-11-04T00:00:00+00:00",
-      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
     }
   ],
   "sources_checked": 13
