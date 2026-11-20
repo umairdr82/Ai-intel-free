@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-19T21:39:38.936887+00:00",
+  "updated_at": "2026-11-20T03:21:31.177487+00:00",
   "stories": [
+    {
+      "id": "f808ee90f673e0a7cfbd",
+      "title": "v3.57.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.57.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-20T01:27:57+00:00",
+      "summary": "3.57.0 (2026-11-19)\nFeatures\n\napi: support Live WebRTC standby (#4296) (18d10c3)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "18ac63b52f1497df4f08",
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-20T00:25:30+00:00",
+      "summary": "What's Changed\n\nImprove ChatGPT CLI restore and graceful restart by @hoyyeva in #19583\ncmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409\nllm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640\nrpreslar4765/Ollama by @rpreslar4765 in #17163\nmlx: support concurrent generation by @dhiltgen in #19197\nllama.cpp: version bump b12257 by @dhiltgen in #19646\nMLX, MLX-C: version bump by @dhiltgen in #19647\n\nNew Contributors\n\n@rpreslar4765 made their first contribution in #17163\n\nFull Changelog: v0.40.16...v0.40.17-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "edaf4543af753c5c93ac",
       "title": "v3.56.0",
@@ -341,6 +363,50 @@
       "summary": "arXiv:2611.23751v1 Announce Type: new \nAbstract: Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a lightweight System-1 model, but rely on workflow-specific hooks authored per environment. We present AnyS1, a framework that turns human-authored procedural skills, whose instructions naturally specify where choices arise and which options apply, into a shared, domain-general source of decision points. Offline, AnyS1 mines grounded enumerable decisions",
       "importance": 3,
       "status": "PREPRINT"
+    },
+    {
+      "id": "a890a236270cc5e31862",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "17b7a2b39f098895a220",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "82fe289fe466dcc1d4f7",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "da30645137037f0052cd",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "95da0fde7d56c751139e",
@@ -1201,17 +1267,6 @@
       "status": "PRIMARY SOURCE"
     },
     {
-      "id": "66c26f89d499749cc55b",
-      "title": "v0.40.17",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-11-16T19:02:48+00:00",
-      "summary": "What's Changed\n\nImprove ChatGPT CLI restore and graceful restart by @hoyyeva in #19583\ncmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409\nllm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640\nrpreslar4765/Ollama by @rpreslar4765 in #17163\nmlx: support concurrent generation by @dhiltgen in #19197\nllama.cpp: version bump b12257 by @dhiltgen in #19646\nMLX, MLX-C: version bump by @dhiltgen in #19647\n\nNew Contributors\n\n@rpreslar4765 made their first contribution in #17163\n\nFull Changelog: v0.40.16...v0.40.17-rc0",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
       "id": "97087fe3c15c5fa6c7d3",
       "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
       "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
@@ -1252,6 +1307,17 @@
       "source_type": "Release",
       "published_at": "2026-11-16T16:47:17+00:00",
       "summary": "Features\n\napi: add source and error codes to the RBAC Role read endpoints\napi: add Update Bundle, which sets a Claude Tag Bundle's instructions, and return instructions on Bundle\n\nBug Fixes\n\n\ncredentials: write the credentials file on Windows with Python 3.12 and earlier\n\n\ntools: compare directory names exactly when confining file tool and upload paths on Windows\n\n\ntools: fully resolve file tool paths that pass through a dangling symlink\n\n\ntools: ignore ripgrep config files in the agent toolset's grep tool\n\n\ntools: keep an existing skill directory when the download or extraction that would replace it fails\n\n\ntools: keep the session tool runne",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "66c26f89d499749cc55b",
+      "title": "v0.40.17-rc1: mlxrunner: batch speculative verification (#19663)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-16T16:43:54+00:00",
+      "summary": "mlxrunner: batch speculative verification\n\nKeep drafting active for concurrent generation by sharing target verification while preserving per-request sampling and cache rollback. Learn draft depth for each concurrent workload separately from isolated requests, and preserve probes that short requests never execute.\nMaterialize owned target features before a reader can pause, and cover acceptance, cancellation, handoffs, mixed decoding and retained-memory boundaries.\n\naddress comments",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4882,72 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-11-03T05:00:00+00:00",
       "summary": "arXiv:2611.00265v1 Announce Type: new \nAbstract: Computational brain imaging is constrained by a mismatch between increasingly diverse tasks and scarce, heterogeneous clinical data. Although existing brain foundation models transfer pretrained representations, their knowledge remains entangled within model-specific features and fixed architectures. This paper proposes BrainGFM, a generative foundation model that extends knowledge transfer beyond representation reuse through a reusable and reconfigurable brain-imaging prior. By pretraining on a corpus of about 1.3 million MRI and CT slices, BrainGFM supported task-aligned data synthesis for lo",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "14aa402972a361c83e1d",
-      "title": "Automated Theorem Generation in First-Order Logic by Construction from Triangular Standard Contradictions",
-      "url": "https://arxiv.org/abs/2611.00269",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00269v1 Announce Type: new \nAbstract: Automated theorem generation (ATG) seeks to construct new theorems rather than merely prove given conjectures. Existing approaches typically generate candidate statements that require subsequent proof or formal verification. We propose a constructive framework for ATG in first-order logic based on triangular standard contradictions. The method constructs minimally unsatisfiable clause sets from selected first-order literals, then forms theorems by retaining some clauses as premises and taking the negation of one clause, or a conjunction of clauses, as the conclusion. Minimal unsatisfiability en",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "a88fb10b364496220ac7",
-      "title": "Quantifying Local and Global Fidelity of Nonlinear Embeddings",
-      "url": "https://arxiv.org/abs/2611.00290",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00290v1 Announce Type: new \nAbstract: Dimension reduction methods are chosen by a common claim: t-SNE and UMAP preserve local structure, and PCA preserves global structure. Checking it on given data takes local and global scores on one scale and a test that compares two maps. Both scores come from one curve. The locality profile is the chance-corrected share of each point's k nearest neighbors that a map keeps, over all neighborhood sizes. Its value at k = 10 is the local fidelity L, and its mean over 30 to 50 percent of the data is the global fidelity G. We prove that at the midpoint the profile is the agreement on which half of t",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "61299ae013fb72c55db3",
-      "title": "Decentralized Multi-Agent Coordination and Communication in Shared Codebases",
-      "url": "https://arxiv.org/abs/2611.00314",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00314v1 Announce Type: new \nAbstract: Coding agents working in shared repositories may receive separate, independently-motivated requests from human developers, creating a setting that is multi-agent by necessity. When this scenario happens, their individual implementations may work separately but conflict when combined. To study this setting, we introduce ParallACT, a benchmark of orchestrator-free multi-agent coding tasks. ParallACT contains both complementary and contradictory tasks. In complementary tasks, each agent's task is separately useful and implementations must share an interface to be productively combined. In contradi",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "3ecfba529b8baac192af",
-      "title": "Beyond Semantic IDs: Atomic Creator Tokens for Large-Scale Generative Recommendation",
-      "url": "https://arxiv.org/abs/2611.00323",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00323v1 Announce Type: new \nAbstract: Recommending creators that a user does not yet follow is a cold-start problem: from hundreds of thousands of popular creators and only a short trail of prior engagements, the system must predict the next creator worth surfacing. The prevailing generative recommendation recipe tokenizes each creator into a \\emph{Semantic ID} (SID) by quantizing a frozen embedding and trains a language model to generate SIDs. We show that this SID layer, not the language model, is the binding constraint. The creator-to-SID map is many-to-one, so colliding creators must be resolved by a popularity tie-break that c",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "fa8128a3a5fd0cf406ee",
-      "title": "Efficient NPN Classification for Large Functions using Graph Neural Network",
-      "url": "https://arxiv.org/abs/2611.00339",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00339v1 Announce Type: new \nAbstract: Two Boolean functions are considered NPN equivalent if one can be transformed into the other by negating inputs, permuting inputs, or negating the output. Efficient NPN classification is valuable in fields such as logic synthesis, quantum computing, and information theory. However, exact NPN classification demands exhaustive enumeration of all possible input permutations and negations. Its complexity grows exponentially, making it impractical for larger functions with more inputs. In this paper, we introduce the first learning-based formulation for NPN classification by recasting it as NPN acti",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "acb47bba80d5017e77fc",
-      "title": "Dependence-Aware Risk Assessment and Optimal Design of AI-Agent Safeguard Systems",
-      "url": "https://arxiv.org/abs/2611.00386",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-03T05:00:00+00:00",
-      "summary": "arXiv:2611.00386v1 Announce Type: new \nAbstract: Large language model (LLM) agents increasingly rely on safeguards to prevent unauthorized actions while preserving legitimate service. However, existing risk assessments often focus on individual safeguard performance while overlooking dependence among safeguard decisions. This paper develops a dependence-aware framework for risk assessment and optimal design of multi-component AI safeguard systems, jointly selecting configurations and operating policies for sequential layered screening and selective verification. We establish stochastic comparisons of layered-screening error probabilities and ",
       "importance": 3,
       "status": "PREPRINT"
     }
