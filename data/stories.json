@@ -1,14 +1,36 @@
 {
-  "updated_at": "2026-11-20T21:09:30.226520+00:00",
+  "updated_at": "2026-11-21T02:20:35.099040+00:00",
   "stories": [
     {
-      "id": "b01afd6d4fc556922097",
+      "id": "c558cb54b4c1334c6653",
       "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-20T23:39:14+00:00",
+      "summary": "Inkling 2 Mini\nInkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active.\nIts looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified).\n  ollama run inkling-2-mini\n\nWhat's Changed\n\n\nollama launch claude supports Claude Code's deferred tool loading, so MCP tools are loaded when needed instead of all at\nonce\n\n\nOllama on Apple silicon now serves multiple requests at once.\n\n\nollama launch opencode sets thinking options from the model's metadata\n\n\nollama launch pi refreshes Pi",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "536d4386c711aad48fdf",
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-11-20T23:30:30+00:00",
+      "summary": "Generative AI",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "b01afd6d4fc556922097",
+      "title": "v0.40.17-rc3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
       "source": "Ollama",
       "source_type": "Release",
-      "published_at": "2026-11-20T20:46:13+00:00",
-      "summary": "What's Changed\n\nImprove ChatGPT CLI restore and graceful restart by @hoyyeva in #19583\ncmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409\nllm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640\nrpreslar4765/Ollama by @rpreslar4765 in #17163\nmlx: support concurrent generation by @dhiltgen in #19197\nllama.cpp: version bump b12257 by @dhiltgen in #19646\nMLX, MLX-C: version bump by @dhiltgen in #19647\n\nNew Contributors\n\n@rpreslar4765 made their first contribution in #17163\n\nFull Changelog: v0.40.16...v0.40.17-rc0",
+      "published_at": "2026-11-20T18:37:07+00:00",
+      "summary": "mlxrunner: add Inkling 2 Mini",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4927,28 +4949,6 @@
       "published_at": "2026-11-04T05:00:00+00:00",
       "summary": "arXiv:2611.03882v1 Announce Type: new \nAbstract: Students can use large language models to complete assignments, but a correct solution does not establish whether they understand the reasoning behind it. Individualized interviews can probe that understanding but require recurring staff effort. We introduce ProofPaths, an AI agentic framework that combines rubric-based grading with individualized and interactive interviews. Multiple grading agents assess a submission against instructor guidance, exchange critiques, and revise their judgments. Their scores determine which review supplies the grade and feedback. An interview agent asks students ",
       "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "818c50c40182e13b702f",
-      "title": "What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory",
-      "url": "https://arxiv.org/abs/2611.03930",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.03930v1 Announce Type: new \nAbstract: A stored experience may answer one future question and offer little help with another. We measure this task-conditioned utility rather than assigning each memory a single importance score. A task-blind writer stores a memory without seeing the later task; a frozen reader then answers that task with and without the memory, using identical filler. A cost ledger records the resources used to form, store and expose the memory.\n  On single-call factual-recall tasks built from LongMemEval-V2 web-agent memories, the same memory helps more when it contains information needed for the answer. Its mean pa",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "c2ea6d764a0a5f4ce644",
-      "title": "We Ran a Research Sprint With AI. The AI Worked. The Research Didn't",
-      "url": "https://arxiv.org/abs/2611.03946",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.03946v1 Announce Type: new \nAbstract: Generative AI tools for research are widely deployed, yet individual productivity gains do not guarantee better team research. We argue that how AI use is structured matters alongside access. Personal AI tools may amplify two failures under deadline pressure: a consumption bottleneck, in which generation outpaces team-visible evaluation, and AI-induced research silos, in which private human-AI loops displace shared decision-making. We motivate this position with a mechanism-generating pilot: a 100-minute research sprint with twelve researchers in three independently operating teams, within a se",
-      "importance": 2,
       "status": "PREPRINT"
     }
   ],
