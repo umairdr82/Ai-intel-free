@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-21T11:09:44.921162+00:00",
+  "updated_at": "2026-11-21T17:59:52.630515+00:00",
   "stories": [
+    {
+      "id": "4bdb6d39f683fd871529",
+      "title": "Release v5.24.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-11-21T12:43:39+00:00",
+      "summary": "Release v5.24.0\nNew Model additions\nInkling 2 Mini\n\nInkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism in which layers 6 to 17 run three times. A learned message-passing mechanism mixes the residuals of the previous pass into the attention and mixture-of-experts inputs of each loop layer. The decoder has a hidden size of 2304 and routes each token to 8 of 128 experts. The image encoder, tokenizer and processor are the same as I",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "ab2c14a0d266a4c96cc2",
       "title": "v0.40.17",
@@ -4938,17 +4949,6 @@
       "published_at": "2026-11-04T05:00:00+00:00",
       "summary": "arXiv:2611.03853v1 Announce Type: new \nAbstract: Healthcare information systems are fragmented, and retrieving data from legacy web portals is a recurrent need. Robotic Process Automation (RPA) is deterministic but sensitive to interface changes, whereas autonomous agents based on large language models (Agent Process Automation, APA) promise adaptability at a higher computational cost. Following Design Science Research, we developed and compared an RPA solution (Playwright) and an APA solution (browser-use, LangGraph and Gemini 2.5 Flash-lite) to retrieve mammography and breast ultrasound reports from a laboratory portal, treating reports sol",
       "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "57e5990c4390b4b176cd",
-      "title": "Predictive gains, causal losses: why interventional competence cannot be learned from data alone",
-      "url": "https://arxiv.org/abs/2611.03861",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.03861v1 Announce Type: new \nAbstract: Retaining predictive gains can require persistent errors in a model's response to interventions. For deterministic predictors with finite second moments under squared-error loss, any observational advantage over the best predictor using only an outcome's direct causes requires dependence on other inputs, regardless of the learning rule. When admissible interventions vary inputs while preserving the worldly outcome, this dependence yields a positive lower bound on root-mean-square intervention-response error. We identify conditions under which population gradient updates introduce this dependenc",
-      "importance": 2,
       "status": "PREPRINT"
     }
   ],
