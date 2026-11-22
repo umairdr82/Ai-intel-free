@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-22T15:22:13.275743+00:00",
+  "updated_at": "2026-11-22T21:49:08.196549+00:00",
   "stories": [
+    {
+      "id": "1a10f1676d46fc01a909",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-22T00:00:00+00:00",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "4bdb6d39f683fd871529",
       "title": "Release v5.24.0",
@@ -4938,17 +4949,6 @@
       "published_at": "2026-11-04T05:00:00+00:00",
       "summary": "arXiv:2611.03849v1 Announce Type: new \nAbstract: Identifying faulty components from sensor anomalies is difficult because fault effects can propagate through a plant and different faults can produce similar observations. Detailed component models and labeled fault examples may also be unavailable. We introduce LaplaceDiag, a data-driven method that uses changes in actuator effects to narrow the search for faulty equipment. Actuators act on specific devices and mechanisms, so their changed effects can provide clues to root causes. LaplaceDiag learns a healthy plant model with LaplaceNet, a neural network that operates in Laplace space. It sepa",
       "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "54fefb3acf156ddeaf4b",
-      "title": "Performance, Scalability and Maintenance: An Experimental Study of RPA vs. Autonomous Agents in the Healthcare Domain",
-      "url": "https://arxiv.org/abs/2611.03853",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2611.03853v1 Announce Type: new \nAbstract: Healthcare information systems are fragmented, and retrieving data from legacy web portals is a recurrent need. Robotic Process Automation (RPA) is deterministic but sensitive to interface changes, whereas autonomous agents based on large language models (Agent Process Automation, APA) promise adaptability at a higher computational cost. Following Design Science Research, we developed and compared an RPA solution (Playwright) and an APA solution (browser-use, LangGraph and Gemini 2.5 Flash-lite) to retrieve mammography and breast ultrasound reports from a laboratory portal, treating reports sol",
-      "importance": 3,
       "status": "PREPRINT"
     }
   ],
