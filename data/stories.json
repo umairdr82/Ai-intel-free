@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-11-24T10:58:34.756379+00:00",
+  "updated_at": "2026-11-24T21:15:36.893716+00:00",
   "stories": [
+    {
+      "id": "9d073debfa9f6067ff71",
+      "title": "v2.14.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-24T21:00:57+00:00",
+      "summary": "Features\n\napi: add Google-managed data controls for Google Cloud projects\napi: add Google-managed data controls for user profiles\napi: add support for compliance review cases, notices, and items\n\nBug Fixes\n\n\nclient: honor proxy and trust_env when proxy variables are set\nDefaultHttpxClient and DefaultAsyncHttpxClient read HTTP_PROXY, HTTPS_PROXY, ALL_PROXY and NO_PROXY even when the caller passed proxy= or trust_env=False, and the variables won. Now proxy= is used for every request and the variables are not read, and trust_env=False ignores them, as in plain httpx2.\nWhat you may notice: with proxy= set, a host listed in NO_PROXY used to be rea",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "137088c2e6efb531ccf0",
+      "title": "v3.59.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.59.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-24T19:18:59+00:00",
+      "summary": "3.59.0 (2026-11-24)\nFeatures\n\napi: add healthcare model IDs for Responses (#4327) (804a9af)\n\nBug Fixes\n\ncheck the agent upload directory after path resolution (#4323) (bc02da4)\nredact credential headers on API error requests (#4316) (9d7f58e)\nreject empty webhook signing keys (#4321) (dd69803)\nreject non-finite numbers in agent tool arguments (#4326) (abbd379)\nuse bearer authentication for beta Realtime sessions (#4317) (7596fb8)\n\nDocumentation\n\nexplain how to skip duplicate webhook events (#4325) (6805f05)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "6a28e842b3bf4bfd8400",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-24T16:34:13+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "417be228cec59f8a2ed9",
+      "title": "Patch release v5.24.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.1",
+      "source": "Transformers",
+      "source_type": "Release",
+      "published_at": "2026-11-24T16:13:08+00:00",
+      "summary": "Patch release v5.24.1\nA patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list\nvLLM related\n\nFix backward compatibility of the cache rename for remote code (#51085) by @hmellor\nRestore modeling_attn_mask_utils for remote code (one-off to unblock vLLM) (#51124) by @hmellor\nExpose past_key_values in MBartDecoderLayer.forward signature for remote code (#51177) by @hmellor\n[OmniASR] Support a padding_mask kept on the CPU in the audio encoder (#51100) by @El-euchidali\n\nModel fixes\n\nFix Llama4 forward crash on missing image_outputs (#51144) by @kylesayrs\nFix dory static cache (#50993",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "0d108e7b71c406494d2f",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-24T16:00:00+00:00",
+      "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "7758c04a629331bf9638",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-24T11:00:00+00:00",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "dbf3279a2f3448f95b8e",
       "title": "v0.40.18",
@@ -296,6 +362,28 @@
       "published_at": "2026-11-24T01:35:09+00:00",
       "summary": "inkling2: faster Metal decode, prefill and draft rounds\n\nAdd Inkling-only Metal kernels, each with a stock-graph fallback, gated\nby GPU generation and size class: short BF16 products, deduplicated\nNVFP4/MXFP8 expert gathers with fused SwiGLU, fused loop controllers and\nresidual mixing, relative-position split attention, fused short\nconvolutions, faster global prefill, an ordered window cache that\nappends in place, and an 8-bit draft with a 4-bit vocabulary head\n(proposals only; outputs stay exact).",
       "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "7e14b56be67443085907",
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "89a905d5eae9fa3ef5a8",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4862,94 +4950,6 @@
       "summary": "arXiv:2611.07541v1 Announce Type: new \nAbstract: Spatial reasoning is a fundamental capability of multimodal large language models (MLLMs), yet existing benchmarks mainly focus on static scene understanding. When objects are moved or swapped, models must infer not only spatial relations but also how interventions change the scene state. To address this problem, we introduce CST-Bench, a benchmark for counterfactual spatial reasoning. CST-Bench contains 7,082 examples covering 6 intervention types and 12 transformation operators, with dense causal annotations including intervention sources, affected relations, expected effects, invariant relat",
       "importance": 2,
       "status": "PREPRINT"
-    },
-    {
-      "id": "ff40942fae52f001eeb1",
-      "title": "FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving",
-      "url": "https://arxiv.org/abs/2611.07542",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07542v1 Announce Type: new \nAbstract: In large language model (LLM) serving systems, the key-value (KV) cache grows linearly with sequence length and concurrency, so long-context inference easily hits the high-bandwidth memory (HBM) capacity wall and results in low concurrency. Offloading the KV cache to host dynamic random-access memory (DRAM) frees HBM space and raises concurrency, but the additional cache management and host-to-device (H2D) load overhead inflates inference latency, higher concurrency fails to translate into effective throughput. We present FlashOffloading, a host-DRAM-centric inference architecture that fully of",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "4c20970a6e6b8279c388",
-      "title": "Align Before Aggregation: Basis-Consistent Federated LoRA under Heterogeneous Ranks",
-      "url": "https://arxiv.org/abs/2611.07598",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07598v1 Announce Type: new \nAbstract: Federated fine-tuning of large language models (LLMs) under heterogeneous client capacities is increasingly important, and low-rank adaptation (LoRA) with heterogeneous ranks makes it practical. Existing server-side aggregators compose local matrix updates $\\Delta W_i$ from client-specific LoRA factors $(A_i,B_i)$ before aggregating them. Although these matrix updates lie in the same weight space $\\mathbb{R}^{m\\times n}$ and can be averaged directly, the LoRA factors that generate them may expressed client-specific local basis. In the typical compose--aggregate--factorize--dispatch loop, this b",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "2f23e6948f988b400faf",
-      "title": "Embedding-Space Fingerprinting of LoRA Fine-Tunes: Recovering the Training-Data Domain from the Model Artifact Alone",
-      "url": "https://arxiv.org/abs/2611.07610",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07610v1 Announce Type: new \nAbstract: When a base language model is fine-tuned with Low-Rank Adaptation (LoRA), how much of the training data domain leaks into the resulting artifact? This paper studies whether a simple classifier can recover the domain of a fine-tune given only the model artifact (weight deltas, internal activations on a fixed probe set, or generated text) without ever observing the training data. Using one base model (Qwen3.5-0.8B), 36 LoRA fine-tunes are produced over 18 public datasets in five domains (medical, code, mathematics, non-English text, narrative prose), and three feature families are extracted at de",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "53eff4b4e1cfd4521d99",
-      "title": "v0.40.15",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-11-06T01:47:18+00:00",
-      "summary": "MiMo V2.6\nXiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows, is now supported in Ollama.\nollama run mimo-v2.6\nAutoTrust decision models\nAutoTrust decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read images.\nollama run autotrust-jev \"A customer says their card was charged twice.\" --ask \"Is this a billing issue?\"\nNote: autotrust-jev is supported on Apple silicon in this release.\nWhat's Changed\n\nollama launch now supports Kimi Code CLI — the successor to kimi-cli — and offers to m",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "13e4c95dcbaa6d34090e",
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-11-06T00:00:00+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "5f721228af3682c2417b",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-11-06T00:00:00+00:00",
-      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "importance": 4,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "dbe9554da67aea58adfe",
-      "title": "v0.40.15-rc2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-11-05T21:41:21+00:00",
-      "summary": "cmd/launch: add Kimi Code CLI support (#19506)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "bbd492caba72ca544b8b",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-11-05T20:00:00+00:00",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     }
   ],
   "sources_checked": 13
