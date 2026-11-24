@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-11-23T12:52:51.812762+00:00",
+  "updated_at": "2026-11-24T00:55:41.520629+00:00",
   "stories": [
+    {
+      "id": "b0689cf87ab570a441c8",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-23T21:20:00+00:00",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "4bdc51d30c7c5af08e38",
+      "title": "v3.58.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.58.0",
+      "source": "OpenAI SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-23T19:00:21+00:00",
+      "summary": "3.58.0 (2026-11-23)\nFeatures\n\napi: set and read agent session spending limits (#4315) (fc36aef)\n\nBug Fixes\n\napi: clarify when to omit completion choice count (#4298) (f63f14b)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "eb8d6c92b28dd998d009",
+      "title": "v2.13.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.13.0",
+      "source": "Anthropic SDK",
+      "source_type": "Release",
+      "published_at": "2026-11-23T18:34:26+00:00",
+      "summary": "Features\n\napi: add an error code to Message Batches creation\napi: add External Storage to the Admin API beta\napi: add webhook events for external storage failure and recovery\n\nBug Fixes\n\nclient: build the right class for tool results with unknown values\n\nChores\n\napi: mark Claude Opus 4.5 as deprecated (end-of-life January 22, 2027)\nclient: read deprecated models from generated data and stop warning on retired ones\ndocs: clarify when plugin archive downloads are recorded and who gave a share\ndocs: correct organization-type notes in usage and cost reports\ndocs: describe the user profile endpoints and link to the guide\ndocs: use realistic exampl",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "990f58ceeb055fd185ae",
+      "title": "Supercharging transformer residual connections",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-11-23T17:21:12+00:00",
+      "summary": "Algorithms & Theory",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "eb2701ff66febea27293",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-23T17:20:37+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "d6fdac3c20f42b84f430",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google AI",
+      "source_type": "Official",
+      "published_at": "2026-11-23T17:00:00+00:00",
+      "summary": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "3ffa5c39e01e3431aafb",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-23T16:59:40+00:00",
+      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "10878202550bbbf922d1",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-23T08:00:00+00:00",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "1259b534687dd8b31711",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-23T08:00:00+00:00",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "cd02a86f341630ad0633",
       "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
@@ -275,6 +374,17 @@
       "summary": "arXiv:2611.27046v1 Announce Type: new \nAbstract: LLM agents increasingly rely on Web interaction, issuing searches, following links, and reading pages, to complete complex user tasks. Since each action is driven by the agent's private context, including the user's prompt, dialogue history, memory, and connected data, it also opens a new privacy exposure surface. Prior attacks either passively analyze network traffic, which yields only coarse correlations, or hijack the agent through indirect prompt injection, which must place sensitive content in an outgoing field and is blocked by content-level defenses. Whether an attacker can actively reco",
       "importance": 3,
       "status": "PREPRINT"
+    },
+    {
+      "id": "00d52199bef25f9eda98",
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "1a10f1676d46fc01a909",
@@ -4840,116 +4950,6 @@
       "summary": "arXiv:2611.05590v1 Announce Type: new \nAbstract: What should ``verified'' mean when evaluating LLM-generated code? Many existing pipelines report a single verification number. We argue this collapses three distinct properties measured in a conditional audit sequence: verifier acceptance (Surface A), \\emph{syntactic specification binding (Surface B: does the proof obligation bind to the spec?), and \\emph{semantic specification fidelity} (Surface C: does the spec capture the informal requirement?). Two empirical demonstrations show the surfaces separate. \\textbf{First ($A \\neq B$), via Li@Opus (a same-model reproduction of \\citet{li2025dafny}'s",
       "importance": 2,
       "status": "PREPRINT"
-    },
-    {
-      "id": "2fdc2aed9b47c784c650",
-      "title": "Hybrid Spark: Adaptive Speculative Decoding That Lets the Content Choose the Drafter",
-      "url": "https://arxiv.org/abs/2611.05611",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "summary": "arXiv:2611.05611v1 Announce Type: new \nAbstract: Speculative decoding (SD) speeds up large language model (LLM) serving, but its gain depends on the workload's \\emph{shape}, such as batch size and context length, and on its \\emph{content}. A model-based drafter proposes a short block on any content, while a model-free drafter such as n-gram lookup proposes long copies at almost no cost when the output repeats its input, as in code editing. Adaptive verification spends a batch-wide verification budget on the draft tokens most likely to be accepted, but it supports only one model-based drafter. Model-free drafters provide no per-token confidenc",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "25294cd886a2e607d0e1",
-      "title": "ViBench 2.0: A Benchmark for Long-Horizon Software Building",
-      "url": "https://arxiv.org/abs/2611.05620",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "summary": "arXiv:2611.05620v1 Announce Type: new \nAbstract: On Replit, our agentic engineering platform, users now build entire products without writing code, through successive feature requests to an agent. Yet existing coding benchmarks evaluate single, fully specified tasks, and many are near saturation. We introduce ViBench 2.0, a benchmark for long-horizon software building that we use to select our platform's models. Its 17 full-stack web products, modeled on widely used software, grow over 241 feature requests and are judged only when finished, as a user would judge them: a browser agent runs 544 test plans, and a build passes only if every plan ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "82ddf8032505d140c1e0",
-      "title": "Assurance-Conditioned Continuous Authorization for Autonomous AI Agents",
-      "url": "https://arxiv.org/abs/2611.05632",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "summary": "arXiv:2611.05632v1 Announce Type: new \nAbstract: Autonomous software agents can act through tools, delegate work, and change their models or execution environments while earlier authorizations remain in flight. We present Assurance-Conditioned Continuous Authorization (ACCA), an approach designed to be harness-independent, for maintaining operational authority according to currently justified assurance. It distinguishes evidence validity from contextual applicability, derives assurance claims from eligible evidence, and resolves a multidimensional effective-authority envelope within a principal-declared ceiling and applicable policy. A typed ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "81e63e5f83366422d5ee",
-      "title": "Route to Remember: Adaptive Memory Selection for LLM Agents",
-      "url": "https://arxiv.org/abs/2611.05636",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "summary": "arXiv:2611.05636v1 Announce Type: new \nAbstract: The memory of production agents is increasingly becoming a bottleneck and is built almost exclusively from text: key points are extracted from out-of-limit context and retrieved into context at query time. Therefore, every new query incurs an additional cost that grows with the accumulated history. Weight memory is a complementary alternative that internalizes knowledge into model parameters and answers with no context at all, and has recently proven effective in self-evolving agents for internalizing skills and behaviors. However, its application in episodic and semantic memory, such as user-s",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "557400751b011523e6e1",
-      "title": "Attributing Agent Failures to Their History Needs an Executed Counterfactual: Toward a Reporting Standard",
-      "url": "https://arxiv.org/abs/2611.05650",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "summary": "arXiv:2611.05650v1 Announce Type: new \nAbstract: Published explanations of why long-horizon agents fail are commonly taxonomies labeled over completed trajectories: a judge reads a transcript and names the failure. We argue that a claim attributing an agent's behavior to its history should carry intervention-verified evidence, per instance or via a validated estimator: freeze an executable mid-trajectory state, alter only the history the agent sees, and continue - executed rather than inferred from the transcript, at a state whose restoration has been measured, with a replay certificate matched to the estimand. Each of the four manipulation c",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "8dffc68e1db4116b6cf4",
-      "title": "Quantifying Trait-State Hierarchy in EEG Foundation Model and Signal Processing Embeddings",
-      "url": "https://arxiv.org/abs/2611.05652",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "summary": "arXiv:2611.05652v1 Announce Type: new \nAbstract: Electroencephalography (EEG) measures brain activity through recording electrical potentials of the scalp. EEG recordings capture two distinct sets of characteristics in the signal: (1) \\emph{Traits} -- information that remains relatively constant over the course of a recording session, such as subject identity, age, and sex; (2) \\emph{States} -- signatures that encode responses to external stimuli, including visual, auditory, and motor information. There is limited understanding of how different EEG modeling features (signal processing and foundation models) encode state and trait characterist",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "9fdb6f74ae483d9b2394",
-      "title": "Grounded but Not Immune: Confirmation Bias in Agent-as-a-judge",
-      "url": "https://arxiv.org/abs/2611.05662",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "summary": "arXiv:2611.05662v1 Announce Type: new \nAbstract: Evaluating open-ended agent tasks increasingly falls to an Agent-as-a-Judge: an evaluator handed tools and the agent's full trajectory so it can verify a result against the environment. The premise is that a judge that gathers its own evidence should be grounded by it. We show that this grounding does not immunize the judge against confirmation bias: a single false pre-screening note, attributed to an authority and carrying no evidential bearing on the correct verdict, overturns up to 40% of a tool-using judge's correct verdicts across four judges and five datasets, even though the judge collec",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "8c394ca67cc2b9582ce4",
-      "title": "Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps",
-      "url": "https://arxiv.org/abs/2611.05664",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "summary": "arXiv:2611.05664v1 Announce Type: new \nAbstract: A neuro-symbolic system should combine only relevant answers from expert agents or other knowledge sources. Using only relevant experts for a given input query becomes ever more important for accuracy and scalability as the knowledge network grows and connects ever more knowledge sources. We extend the standard definition of relevance from the legal theory of evidence: An answer is relevant if and only if it is both probative and material for the matter at hand given the knowledge available. We apply this relevancy scheme to mixing the feedback fuzzy cognitive maps (FCMs) of real or artificial ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "25fa4dd18ec78a48a923",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "source": "OpenAI",
-      "source_type": "Official",
-      "published_at": "2026-11-05T02:00:00+00:00",
-      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "964c13ba54cd144f6787",
-      "title": "v0.40.15-rc1: llama.cpp: version bump b12111 (#19530)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-11-05T01:31:38+00:00",
-      "summary": "Drop 002-metal-unary-cast-constexpr.patch: superseded by upstream fix",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     }
   ],
   "sources_checked": 13
