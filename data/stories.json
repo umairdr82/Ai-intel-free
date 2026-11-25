@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T21:15:36.893716+00:00",
+  "updated_at": "2026-11-25T04:18:40.791591+00:00",
   "stories": [
     {
       "id": "9d073debfa9f6067ff71",
@@ -53,6 +53,17 @@
       "source_type": "Official",
       "published_at": "2026-11-24T16:00:00+00:00",
       "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "ac2f786b30f6d45772c4",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
@@ -383,6 +394,17 @@
       "source_type": "Official",
       "published_at": "2026-11-24T00:00:00+00:00",
       "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a3c9028eefd69cfd15ff",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI",
+      "source_type": "Official",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
       "importance": 4,
       "status": "PRIMARY SOURCE"
     },
@@ -4926,28 +4948,6 @@
       "source_type": "Preprint",
       "published_at": "2026-11-06T05:00:00+00:00",
       "summary": "arXiv:2611.07520v1 Announce Type: new \nAbstract: Uncertainty in resource reopening times complicates train holding and rerouting decisions when resource closures coincide with arrival delays and processing-time extensions. We develop a rolling-horizon distributionally robust model that updates predictions of the remaining closure duration as observations of disruption resolution become available. The model jointly optimizes train routes, sequences, and timings. It minimizes the worst-case expected total completion delay over an ambiguity set of scenario probabilities. The solution algorithm, GNN-LBBD, uses logic-based Benders decomposition to",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "418006ee56680f7cfe0e",
-      "title": "Goal-Branching LaCAM: Temporary Goals as Search Branches in Dense Multi-Agent Pathfinding",
-      "url": "https://arxiv.org/abs/2611.07528",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07528v1 Announce Type: new \nAbstract: LaCAM is a search-based solver for multi-agent pathfinding (MAPF) that runs a depth-first search over joint configurations, using PIBT to generate successors and lazily adding single-agent constraints to explore alternatives. Although LaCAM is complete, it can struggle on dense, corridor-heavy instances because extracting blocking agents from deadlocks requires coordinated moves of several agents, often away from their goals, which PIBT's greedy one-step successors rarely propose and which LaCAM can only reach by enumerating constraints one agent at a time. This paper proposes Goal-Branching, w",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "175ef865f46acc361d3f",
-      "title": "CST-Bench: Benchmarking Counterfactual Spatial Transition Reasoning with Causal Transition On-Policy Self-Distillation",
-      "url": "https://arxiv.org/abs/2611.07541",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07541v1 Announce Type: new \nAbstract: Spatial reasoning is a fundamental capability of multimodal large language models (MLLMs), yet existing benchmarks mainly focus on static scene understanding. When objects are moved or swapped, models must infer not only spatial relations but also how interventions change the scene state. To address this problem, we introduce CST-Bench, a benchmark for counterfactual spatial reasoning. CST-Bench contains 7,082 examples covering 6 intervention types and 12 transformation operators, with dense causal annotations including intervention sources, affected relations, expected effects, invariant relat",
       "importance": 2,
       "status": "PREPRINT"
     }
