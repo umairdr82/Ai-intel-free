@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-26T09:34:01.986007+00:00",
+  "updated_at": "2026-11-26T19:39:21.686175+00:00",
   "stories": [
+    {
+      "id": "a0f1ce00ad86158f95be",
+      "title": "v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-26T17:52:02+00:00",
+      "summary": "What's Changed\n\ninkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881\nmlxrunner: compact Engram history buffers by @pdevine in #19913\nbump llama-server by @pdevine in #19917\n\nFull Changelog: v0.40.18...v0.40.19-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a734da9d3a1d876054f8",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-26T11:37:17+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "9e0d0eeab0a50f4ec7e7",
       "title": "v3.60.0",
@@ -9,17 +31,6 @@
       "source_type": "Release",
       "published_at": "2026-11-26T07:09:55+00:00",
       "summary": "3.60.0 (2026-11-26)\nFeatures\n\napi: add spend alerts and response compaction fields (#4335) (4713afd)\napi: support updating session vaults (#4334) (c386f19)\n\nChores\n\napi: clarify message retries and Batch endpoints (#4333) (b5b55ab)\napi: clarify Realtime audio noise reduction (#4331) (6626656)\napi: correct metadata documentation (#4328) (aff223d)\napi: document inline skill upload limits (#4300) (621fd09)",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "a0f1ce00ad86158f95be",
-      "title": "v0.40.19-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-11-26T06:20:48+00:00",
-      "summary": "bump llama-server (#19917)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -308,6 +319,17 @@
       "summary": "arXiv:2611.33707v1 Announce Type: new \nAbstract: Skill learning has become an important way to improve agent performance. However, agent trajectories often contain sensitive information and cannot be shared across clients, hindering collaborative skill learning. To tackle this issue, federated skill learning (FSL) has emerged as a solution by distilling trajectories into compact skill representations and uploading them to a central server for sharing. However, existing FSL methods typically share skills based on skill similarity without considering their contributions to heterogeneous tasks across clients, thereby degrading agent performance.",
       "importance": 2,
       "status": "PREPRINT"
+    },
+    {
+      "id": "819f2bb8e324e5e7f3ab",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
     },
     {
       "id": "88bd06d7e0e9b82f43a3",
@@ -4926,28 +4948,6 @@
       "source_type": "Official",
       "published_at": "2026-11-10T00:00:00+00:00",
       "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "9e6aebddb26b309846fc",
-      "title": "v0.40.16",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-11-09T23:45:36+00:00",
-      "summary": "Ripple Preview\nRipple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding.\nollama run ripple-preview\nWhat's Changed\n\nQwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon\nollama launch claude always routes Claude Code to the selected model\nollama launch explains when a cloud model has been retired\n/v1/responses respects truncation and no longer silently truncates by default\n/v1/models returns an empty list instead of null when no models are installed\nCUDA 13.5 support for Windows on ARM\nUpdated llama.cpp\n\nFull Changelog: v0.40.15...v0.40.16",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "2dcdb6cee137def0a3a6",
-      "title": "Exploring the world's languages with Language Explorer",
-      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
-      "source": "Google Research",
-      "source_type": "Official",
-      "published_at": "2026-11-09T20:29:39+00:00",
-      "summary": "Natural Language Processing",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     }
