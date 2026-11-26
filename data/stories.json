@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-25T15:39:24.257747+00:00",
+  "updated_at": "2026-11-26T00:24:43.754773+00:00",
   "stories": [
+    {
+      "id": "88bd06d7e0e9b82f43a3",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-25T18:52:55+00:00",
+      "summary": "",
+      "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "c232ab95006f02e0b53c",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "source": "Google Research",
+      "source_type": "Official",
+      "published_at": "2026-11-25T17:10:27+00:00",
+      "summary": "Generative AI",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "7d5c43e3274406d0b126",
+      "title": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "source": "GitHub AI",
+      "source_type": "Official",
+      "published_at": "2026-11-25T15:00:00+00:00",
+      "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.\nThe post How to choose the next safe step in application modernization appeared first on The GitHub Blog.",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "0077e07924e43bf73f6b",
       "title": "An Indic Voice Agent with CUGA",
@@ -288,6 +321,17 @@
       "status": "PREPRINT"
     },
     {
+      "id": "df3be113c8aed13fbadf",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "source": "Hugging Face",
+      "source_type": "Official",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "summary": "",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
       "id": "9d073debfa9f6067ff71",
       "title": "v2.14.0",
       "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0",
@@ -340,6 +384,17 @@
       "published_at": "2026-11-24T16:00:00+00:00",
       "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
       "importance": 4,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "10ef75306f1db512480f",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "source_type": "Official",
+      "published_at": "2026-11-24T13:07:53+00:00",
+      "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+      "importance": 3,
       "status": "PRIMARY SOURCE"
     },
     {
@@ -4894,61 +4949,6 @@
       "published_at": "2026-11-09T05:00:00+00:00",
       "summary": "arXiv:2611.08834v1 Announce Type: new \nAbstract: Specialized prompt injection guards are deployed in front of document analysis systems, but no false positive rate has been published for any of them on legal contracts. We measure eleven open-weights guards on two corpora of legal contracts and find that existing guards struggle: document-level false positive rates are as high as 92.39%; two guards fall below chance on paired AUC; and a five-regex baseline is not Pareto-dominated by any guard in the panel. Controlled probes locate model-specific as well as general failure modes. Prompted LLMs resolve the tested failures, including a second thr",
       "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "3d0b7995b19735c8c495",
-      "title": "Solver-Admitted Metamorphic Testing of Learned Network Optimization Surrogates",
-      "url": "https://arxiv.org/abs/2611.08837",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.08837v1 Announce Type: new \nAbstract: Equivalent encodings of an optimization problem can produce different learned predictions. Interpreting these differences requires accounting for numerical error and multiple optima. We construct metamorphic tests for optimization solver surrogates with explicit eligibility conditions, output alignment, and numerical thresholds. Reference-solver agreement and independent constraint checks determine which sampled pairs enter the audit. We study alternating-current optimal power flow (AC-OPF), the traveling salesman problem (TSP), the capacitated vehicle routing problem (CVRP), and maximum indepe",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "314fee7ef1e2f051fde8",
-      "title": "When F1 Is Not Enough: Auditing Codebooks for LLM-Assisted Annotation",
-      "url": "https://arxiv.org/abs/2611.08846",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.08846v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used for text annotation in social science, but standard performance metrics do not explain why errors occur. Low F1 may reflect limitations of the annotation system, defects in the written codebook, or inconsistency in reference labels. We propose a pre-deployment codebook audit for LLM-assisted annotation. The audit uses class-specific metrics and confusion matrices to identify problematic classes and boundaries, structured document-level review to attribute error sources, and targeted codebook revision followed by held-out evaluation. We apply th",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "ac6c0c136a283624eed0",
-      "title": "Learning Whom to Trust About the Unseen: Source Credibility and Reliability Transfer in Language Models",
-      "url": "https://arxiv.org/abs/2611.08855",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.08855v1 Announce Type: new \nAbstract: A source who has been right before deserves attention, but about what? We ask how far a demonstrated record of reliability travels in language models when the new claim cannot be checked, and whether the answer depends on the kind of claim. Three behavioral studies across six models approach the question from three angles. Study 1 adapts the Einstein-effect paradigm and finds that models, unlike the human sample, favor a spiritual leader over a scientist for the same obscure statement, and that the preference largely reverses when the statement is reworded in the vocabulary of physics. Study 2 ",
-      "importance": 3,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "a57aacc0bac858e6b8b9",
-      "title": "Mind the Divergence: Divergence-Guided Reliability-Aware Fusion and Adaptive LLM Prompting for Conversational Emotion Recognition",
-      "url": "https://arxiv.org/abs/2611.08860",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.08860v1 Announce Type: new \nAbstract: Multimodal emotion recognition in conversations (MERC) integrates textual, acoustic, and visual cues to identify utterance-level emotions. However, existing approaches generally do not explicitly adapt multimodal processing to the degree of inter-modal predictive disagreement. In real conversations, semantic incongruity, concealed emotion, noisy observations, and ambiguity can affect modality-specific emotional evidence differently, while the reliability of individual modalities varies across samples. Rather than identifying each source of inconsistency separately, we model their common consequ",
-      "importance": 2,
-      "status": "PREPRINT"
-    },
-    {
-      "id": "3b62b660efe85c866eb1",
-      "title": "Rethinking Agent Trajectory Compression: A Workflow-Aware Perspective",
-      "url": "https://arxiv.org/abs/2611.08865",
-      "source": "arXiv AI",
-      "source_type": "Preprint",
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.08865v1 Announce Type: new \nAbstract: As long-horizon agents increasingly rely on multi-step tool interactions to accomplish complex tasks, their execution trajectories continuously accumulate structured outputs and intermediate artifacts, leading to growing context overhead. Existing compression methods primarily rely on text importance or fixed truncation rules, often overlooking cross-step dependencies within workflows and potentially discarding critical information required for subsequent task execution. To address this challenge, we propose WAAC, a workflow-aware framework for agent trajectory compression. WAAC structurally mo",
-      "importance": 3,
       "status": "PREPRINT"
     }
   ],
