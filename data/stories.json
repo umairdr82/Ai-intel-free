@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-27T12:28:54.029748+00:00",
+  "updated_at": "2026-11-27T21:59:24.801486+00:00",
   "stories": [
+    {
+      "id": "5e7004317a04e455b2d7",
+      "title": "v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-27T21:47:32+00:00",
+      "summary": "What's Changed\n\ninkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881\nmlxrunner: compact Engram history buffers by @pdevine in #19913\nbump llama-server by @pdevine in #19917\n\nFull Changelog: v0.40.18...v0.40.19-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
     {
       "id": "bb9da84a9c3c24b4f748",
       "title": "Context Scaling: A New Frontier of AI Scaling",
@@ -288,17 +299,6 @@
       "status": "PRIMARY SOURCE"
     },
     {
-      "id": "a0f1ce00ad86158f95be",
-      "title": "v0.40.19",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
-      "source": "Ollama",
-      "source_type": "Release",
-      "published_at": "2026-11-26T17:52:02+00:00",
-      "summary": "What's Changed\n\ninkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881\nmlxrunner: compact Engram history buffers by @pdevine in #19913\nbump llama-server by @pdevine in #19917\n\nFull Changelog: v0.40.18...v0.40.19-rc0",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
       "id": "a734da9d3a1d876054f8",
       "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
       "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
@@ -317,6 +317,17 @@
       "source_type": "Release",
       "published_at": "2026-11-26T07:09:55+00:00",
       "summary": "3.60.0 (2026-11-26)\nFeatures\n\napi: add spend alerts and response compaction fields (#4335) (4713afd)\napi: support updating session vaults (#4334) (c386f19)\n\nChores\n\napi: clarify message retries and Batch endpoints (#4333) (b5b55ab)\napi: clarify Realtime audio noise reduction (#4331) (6626656)\napi: correct metadata documentation (#4328) (aff223d)\napi: document inline skill upload limits (#4300) (621fd09)",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "a0f1ce00ad86158f95be",
+      "title": "v0.40.19-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-26T06:20:48+00:00",
+      "summary": "bump llama-server (#19917)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4938,17 +4949,6 @@
       "published_at": "2026-11-10T00:00:00+00:00",
       "summary": "",
       "importance": 3,
-      "status": "PRIMARY SOURCE"
-    },
-    {
-      "id": "5f3963726dbe36e6ccf9",
-      "title": "Decision Models in Hugging Face",
-      "url": "https://huggingface.co/blog/decision",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-11-10T00:00:00+00:00",
-      "summary": "",
-      "importance": 4,
       "status": "PRIMARY SOURCE"
     }
   ],
