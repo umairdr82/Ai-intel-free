@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T03:55:37.298544+00:00",
+  "updated_at": "2026-11-28T13:03:31.757965+00:00",
   "stories": [
     {
       "id": "5e7004317a04e455b2d7",
@@ -9,6 +9,17 @@
       "source_type": "Release",
       "published_at": "2026-11-27T21:47:32+00:00",
       "summary": "What's Changed\n\ninkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881\nmlxrunner: compact Engram history buffers by @pdevine in #19913\nbump llama-server by @pdevine in #19917\n\nFull Changelog: v0.40.18...v0.40.19-rc0",
+      "importance": 3,
+      "status": "PRIMARY SOURCE"
+    },
+    {
+      "id": "0aaac66dce9dd6761b33",
+      "title": "v0.40.20-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0",
+      "source": "Ollama",
+      "source_type": "Release",
+      "published_at": "2026-11-27T21:06:59+00:00",
+      "summary": "bump llama-server (#19953)",
       "importance": 3,
       "status": "PRIMARY SOURCE"
     },
@@ -4939,18 +4950,7 @@
       "summary": "arXiv:2611.10317v1 Announce Type: new \nAbstract: Knowledge graphs need validated relational triples, and gold benchmarks of such triples are often built by several annotators. Most text annotation platforms focus on span tagging and compute agreement on categorical labels. They are not designed for ordinal quality grading of triples that have already been extracted. We present TripleGrader, an open-source web platform for grading subject-predicate-object triples on a 0 to 10 ordinal scale. In TripleGrader, each triple is scored independently, and peer scores stay hidden until the grader has rated it. Graders then discuss entries in threaded c",
       "importance": 2,
       "status": "PREPRINT"
-    },
-    {
-      "id": "cb93d68b445c05b0e3dc",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "source": "Hugging Face",
-      "source_type": "Official",
-      "published_at": "2026-11-10T00:00:00+00:00",
-      "summary": "",
-      "importance": 3,
-      "status": "PRIMARY SOURCE"
     }
   ],
-  "sources_checked": 13
+  "sources_checked": 12
 }
